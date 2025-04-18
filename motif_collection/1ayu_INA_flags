@@ -1,0 +1,6 @@
+-extra_res_fa 1ayu.params 
+-ignore_unrecognized_res
+-hb_score_cutoff -0.3
+-water_score_cutoff -0.3
+-pack_score_cutoff -0.5
+-s 1ayu_INA.pdb

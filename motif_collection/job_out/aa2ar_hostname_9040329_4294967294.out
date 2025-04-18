@@ -1,0 +1,1361 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+856.LigandMotifLibraryAnalysis.87f8d92 87f8d9282f68fa82ef1fb0afec5995ea22732f7e https://github.com/RosettaCommons/main 2021-06-25T15:16:19
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/ligand_motifs.linuxgccrelease @/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/args/aa2ar_motif_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-1306425848 seed_offset=0 real_seed=-1306425848
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-1306425848 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/ligand_motifs.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+core.scoring.P_AA: shapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+Working on file: /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 981 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.9 seconds.
+core.import_pose.import_pose: File '/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb' automatically determined to be of type PDB
+core.chemical.GlobalResidueTypeSet: Loading (but possibly not actually using) 'ZMA' from the PDB components dictionary for residue type 'pdb_ZMA'
+core.io.pose_from_sfr.PoseFromSFRBuilder: Adding undetected upper terminus type to residue 288,  288  
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLN:CtermProteinFull 288
+core.conformation.Conformation: [ WARNING ] missing heavyatom: O4 on residue pdb_ZMA 289
+core.conformation.Conformation: Found disulfide between residues 69 150
+core.conformation.Conformation: current variant for 69 CYS
+core.conformation.Conformation: current variant for 150 CYS
+core.conformation.Conformation: current variant for 69 CYD
+core.conformation.Conformation: current variant for 150 CYD
+core.conformation.Conformation: Found disulfide between residues 72 144
+core.conformation.Conformation: current variant for 72 CYS
+core.conformation.Conformation: current variant for 144 CYS
+core.conformation.Conformation: current variant for 72 CYD
+core.conformation.Conformation: current variant for 144 CYD
+core.conformation.Conformation: Found disulfide between residues 75 157
+core.conformation.Conformation: current variant for 75 CYS
+core.conformation.Conformation: current variant for 157 CYS
+core.conformation.Conformation: current variant for 75 CYD
+core.conformation.Conformation: current variant for 157 CYD
+core.conformation.Conformation: Found disulfide between residues 237 240
+core.conformation.Conformation: current variant for 237 CYS
+core.conformation.Conformation: current variant for 240 CYS
+core.conformation.Conformation: current variant for 237 CYD
+core.conformation.Conformation: current variant for 240 CYD
+core.pack.pack_missing_sidechains: packing residue number 289 because of missing atom number 4 atom name O4
+core.pack.task: Packer task: initialize from command line() 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: ref2015
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/all.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+basic.io.database: Database file opened: scoring/score_functions/elec_cp_reps.dat
+core.scoring.elec.util: Read 40 countpair representative atoms
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib_fixes_enable option is true.
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+core.pack.dunbrack.RotamerLibrary: Binary rotamer library selected: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack 2010 library took 0.17 seconds to load from binary
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for pdb_ZMA
+core.pack.pack_rotamers: built 1 rotamers at 1 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+in ligand splitter block, found my ligand, lig_pos is 289
+in atom iterate block, atom num is1
+atom name is C1
+ATOM j: 2 Name: C2
+ATOM k: 1 Name: C1
+Connected triplet is: 1, type is aroC, 2, type is 7, 1, type is 7 
+ATOM k: 3 Name: C3
+Connected triplet is: 1, type is aroC, 2, type is 7, 3, type is 7 
+atom_i: 1
+atom_i to atom_j: 2
+atom_j to atom_k: 3
+ATOM j: 7 Name: C7
+ATOM k: 1 Name: C1
+Connected triplet is: 1, type is aroC, 7, type is 7, 1, type is 7 
+ATOM k: 6 Name: C6
+Connected triplet is: 1, type is aroC, 7, type is 7, 6, type is 7 
+atom_i: 1
+atom_i to atom_j: 7
+atom_j to atom_k: 6
+ATOM k: 8 Name: C8
+Connected triplet is: 1, type is aroC, 7, type is 7, 8, type is 5 
+atom_i: 1
+atom_i to atom_j: 7
+atom_j to atom_k: 8
+
+in atom iterate block, atom num is2
+atom name is C2
+ATOM j: 1 Name: C1
+ATOM k: 2 Name: C2
+Connected triplet is: 2, type is aroC, 1, type is 7, 2, type is 7 
+ATOM k: 7 Name: C7
+Connected triplet is: 2, type is aroC, 1, type is 7, 7, type is 7 
+atom_i: 2
+atom_i to atom_j: 1
+atom_j to atom_k: 7
+ATOM j: 3 Name: C3
+ATOM k: 2 Name: C2
+Connected triplet is: 2, type is aroC, 3, type is 7, 2, type is 7 
+ATOM k: 4 Name: O4
+Connected triplet is: 2, type is aroC, 3, type is 7, 4, type is 15 
+atom_i: 2
+atom_i to atom_j: 3
+atom_j to atom_k: 4
+ATOM k: 5 Name: C5
+Connected triplet is: 2, type is aroC, 3, type is 7, 5, type is 7 
+atom_i: 2
+atom_i to atom_j: 3
+atom_j to atom_k: 5
+
+in atom iterate block, atom num is3
+atom name is C3
+ATOM j: 2 Name: C2
+ATOM k: 1 Name: C1
+Connected triplet is: 3, type is aroC, 2, type is 7, 1, type is 7 
+atom_i: 3
+atom_i to atom_j: 2
+atom_j to atom_k: 1
+ATOM k: 3 Name: C3
+Connected triplet is: 3, type is aroC, 2, type is 7, 3, type is 7 
+ATOM j: 4 Name: O4
+ATOM k: 3 Name: C3
+Connected triplet is: 3, type is aroC, 4, type is 15, 3, type is 7 
+ATOM j: 5 Name: C5
+ATOM k: 3 Name: C3
+Connected triplet is: 3, type is aroC, 5, type is 7, 3, type is 7 
+ATOM k: 6 Name: C6
+Connected triplet is: 3, type is aroC, 5, type is 7, 6, type is 7 
+atom_i: 3
+atom_i to atom_j: 5
+atom_j to atom_k: 6
+
+in atom iterate block, atom num is4
+atom name is O4
+ATOM j: 3 Name: C3
+ATOM k: 2 Name: C2
+Connected triplet is: 4, type is OH, 3, type is 7, 2, type is 7 
+atom_i: 4
+atom_i to atom_j: 3
+atom_j to atom_k: 2
+ATOM k: 4 Name: O4
+Connected triplet is: 4, type is OH, 3, type is 7, 4, type is 15 
+ATOM k: 5 Name: C5
+Connected triplet is: 4, type is OH, 3, type is 7, 5, type is 7 
+atom_i: 4
+atom_i to atom_j: 3
+atom_j to atom_k: 5
+
+in atom iterate block, atom num is5
+atom name is C5
+ATOM j: 3 Name: C3
+ATOM k: 2 Name: C2
+Connected triplet is: 5, type is aroC, 3, type is 7, 2, type is 7 
+atom_i: 5
+atom_i to atom_j: 3
+atom_j to atom_k: 2
+ATOM k: 4 Name: O4
+Connected triplet is: 5, type is aroC, 3, type is 7, 4, type is 15 
+atom_i: 5
+atom_i to atom_j: 3
+atom_j to atom_k: 4
+ATOM k: 5 Name: C5
+Connected triplet is: 5, type is aroC, 3, type is 7, 5, type is 7 
+ATOM j: 6 Name: C6
+ATOM k: 5 Name: C5
+Connected triplet is: 5, type is aroC, 6, type is 7, 5, type is 7 
+ATOM k: 7 Name: C7
+Connected triplet is: 5, type is aroC, 6, type is 7, 7, type is 7 
+atom_i: 5
+atom_i to atom_j: 6
+atom_j to atom_k: 7
+
+in atom iterate block, atom num is6
+atom name is C6
+ATOM j: 5 Name: C5
+ATOM k: 3 Name: C3
+Connected triplet is: 6, type is aroC, 5, type is 7, 3, type is 7 
+atom_i: 6
+atom_i to atom_j: 5
+atom_j to atom_k: 3
+ATOM k: 6 Name: C6
+Connected triplet is: 6, type is aroC, 5, type is 7, 6, type is 7 
+ATOM j: 7 Name: C7
+ATOM k: 1 Name: C1
+Connected triplet is: 6, type is aroC, 7, type is 7, 1, type is 7 
+atom_i: 6
+atom_i to atom_j: 7
+atom_j to atom_k: 1
+ATOM k: 6 Name: C6
+Connected triplet is: 6, type is aroC, 7, type is 7, 6, type is 7 
+ATOM k: 8 Name: C8
+Connected triplet is: 6, type is aroC, 7, type is 7, 8, type is 5 
+atom_i: 6
+atom_i to atom_j: 7
+atom_j to atom_k: 8
+
+in atom iterate block, atom num is7
+atom name is C7
+ATOM j: 1 Name: C1
+ATOM k: 2 Name: C2
+Connected triplet is: 7, type is aroC, 1, type is 7, 2, type is 7 
+atom_i: 7
+atom_i to atom_j: 1
+atom_j to atom_k: 2
+ATOM k: 7 Name: C7
+Connected triplet is: 7, type is aroC, 1, type is 7, 7, type is 7 
+ATOM j: 6 Name: C6
+ATOM k: 5 Name: C5
+Connected triplet is: 7, type is aroC, 6, type is 7, 5, type is 7 
+atom_i: 7
+atom_i to atom_j: 6
+atom_j to atom_k: 5
+ATOM k: 7 Name: C7
+Connected triplet is: 7, type is aroC, 6, type is 7, 7, type is 7 
+ATOM j: 8 Name: C8
+ATOM k: 7 Name: C7
+Connected triplet is: 7, type is aroC, 8, type is 5, 7, type is 7 
+ATOM k: 9 Name: C9
+Connected triplet is: 7, type is aroC, 8, type is 5, 9, type is 5 
+atom_i: 7
+atom_i to atom_j: 8
+atom_j to atom_k: 9
+
+in atom iterate block, atom num is8
+atom name is C8
+ATOM j: 7 Name: C7
+ATOM k: 1 Name: C1
+Connected triplet is: 8, type is CH2, 7, type is 7, 1, type is 7 
+atom_i: 8
+atom_i to atom_j: 7
+atom_j to atom_k: 1
+ATOM k: 6 Name: C6
+Connected triplet is: 8, type is CH2, 7, type is 7, 6, type is 7 
+atom_i: 8
+atom_i to atom_j: 7
+atom_j to atom_k: 6
+ATOM k: 8 Name: C8
+Connected triplet is: 8, type is CH2, 7, type is 7, 8, type is 5 
+ATOM j: 9 Name: C9
+ATOM k: 8 Name: C8
+Connected triplet is: 8, type is CH2, 9, type is 5, 8, type is 5 
+ATOM k: 10 Name: N10
+Connected triplet is: 8, type is CH2, 9, type is 5, 10, type is 8 
+atom_i: 8
+atom_i to atom_j: 9
+atom_j to atom_k: 10
+
+in atom iterate block, atom num is9
+atom name is C9
+ATOM j: 8 Name: C8
+ATOM k: 7 Name: C7
+Connected triplet is: 9, type is CH2, 8, type is 5, 7, type is 7 
+atom_i: 9
+atom_i to atom_j: 8
+atom_j to atom_k: 7
+ATOM k: 9 Name: C9
+Connected triplet is: 9, type is CH2, 8, type is 5, 9, type is 5 
+ATOM j: 10 Name: N10
+ATOM k: 9 Name: C9
+Connected triplet is: 9, type is CH2, 10, type is 8, 9, type is 5 
+ATOM k: 11 Name: C11
+Connected triplet is: 9, type is CH2, 10, type is 8, 11, type is 7 
+atom_i: 9
+atom_i to atom_j: 10
+atom_j to atom_k: 11
+
+in atom iterate block, atom num is10
+atom name is N10
+ATOM j: 9 Name: C9
+ATOM k: 8 Name: C8
+Connected triplet is: 10, type is Ntrp, 9, type is 5, 8, type is 5 
+atom_i: 10
+atom_i to atom_j: 9
+atom_j to atom_k: 8
+ATOM k: 10 Name: N10
+Connected triplet is: 10, type is Ntrp, 9, type is 5, 10, type is 8 
+ATOM j: 11 Name: C11
+ATOM k: 10 Name: N10
+Connected triplet is: 10, type is Ntrp, 11, type is 7, 10, type is 8 
+ATOM k: 12 Name: N12
+Connected triplet is: 10, type is Ntrp, 11, type is 7, 12, type is 9 
+atom_i: 10
+atom_i to atom_j: 11
+atom_j to atom_k: 12
+ATOM k: 13 Name: N13
+Connected triplet is: 10, type is Ntrp, 11, type is 7, 13, type is 9 
+atom_i: 10
+atom_i to atom_j: 11
+atom_j to atom_k: 13
+
+in atom iterate block, atom num is11
+atom name is C11
+ATOM j: 10 Name: N10
+ATOM k: 9 Name: C9
+Connected triplet is: 11, type is aroC, 10, type is 8, 9, type is 5 
+atom_i: 11
+atom_i to atom_j: 10
+atom_j to atom_k: 9
+ATOM k: 11 Name: C11
+Connected triplet is: 11, type is aroC, 10, type is 8, 11, type is 7 
+ATOM j: 12 Name: N12
+ATOM k: 11 Name: C11
+Connected triplet is: 11, type is aroC, 12, type is 9, 11, type is 7 
+ATOM k: 18 Name: C18
+Connected triplet is: 11, type is aroC, 12, type is 9, 18, type is 7 
+atom_i: 11
+atom_i to atom_j: 12
+atom_j to atom_k: 18
+ATOM j: 13 Name: N13
+ATOM k: 11 Name: C11
+Connected triplet is: 11, type is aroC, 13, type is 9, 11, type is 7 
+ATOM k: 14 Name: C14
+Connected triplet is: 11, type is aroC, 13, type is 9, 14, type is 7 
+atom_i: 11
+atom_i to atom_j: 13
+atom_j to atom_k: 14
+
+in atom iterate block, atom num is12
+atom name is N12
+ATOM j: 11 Name: C11
+ATOM k: 10 Name: N10
+Connected triplet is: 12, type is Nhis, 11, type is 7, 10, type is 8 
+atom_i: 12
+atom_i to atom_j: 11
+atom_j to atom_k: 10
+ATOM k: 12 Name: N12
+Connected triplet is: 12, type is Nhis, 11, type is 7, 12, type is 9 
+ATOM k: 13 Name: N13
+Connected triplet is: 12, type is Nhis, 11, type is 7, 13, type is 9 
+atom_i: 12
+atom_i to atom_j: 11
+atom_j to atom_k: 13
+ATOM j: 18 Name: C18
+ATOM k: 12 Name: N12
+Connected triplet is: 12, type is Nhis, 18, type is 7, 12, type is 9 
+ATOM k: 16 Name: N16
+Connected triplet is: 12, type is Nhis, 18, type is 7, 16, type is 9 
+atom_i: 12
+atom_i to atom_j: 18
+atom_j to atom_k: 16
+ATOM k: 19 Name: N19
+Connected triplet is: 12, type is Nhis, 18, type is 7, 19, type is 9 
+atom_i: 12
+atom_i to atom_j: 18
+atom_j to atom_k: 19
+
+in atom iterate block, atom num is13
+atom name is N13
+ATOM j: 11 Name: C11
+ATOM k: 10 Name: N10
+Connected triplet is: 13, type is Nhis, 11, type is 7, 10, type is 8 
+atom_i: 13
+atom_i to atom_j: 11
+atom_j to atom_k: 10
+ATOM k: 12 Name: N12
+Connected triplet is: 13, type is Nhis, 11, type is 7, 12, type is 9 
+atom_i: 13
+atom_i to atom_j: 11
+atom_j to atom_k: 12
+ATOM k: 13 Name: N13
+Connected triplet is: 13, type is Nhis, 11, type is 7, 13, type is 9 
+ATOM j: 14 Name: C14
+ATOM k: 13 Name: N13
+Connected triplet is: 13, type is Nhis, 14, type is 7, 13, type is 9 
+ATOM k: 15 Name: N15
+Connected triplet is: 13, type is Nhis, 14, type is 7, 15, type is 11 
+atom_i: 13
+atom_i to atom_j: 14
+atom_j to atom_k: 15
+ATOM k: 16 Name: N16
+Connected triplet is: 13, type is Nhis, 14, type is 7, 16, type is 9 
+atom_i: 13
+atom_i to atom_j: 14
+atom_j to atom_k: 16
+
+in atom iterate block, atom num is14
+atom name is C14
+ATOM j: 13 Name: N13
+ATOM k: 11 Name: C11
+Connected triplet is: 14, type is aroC, 13, type is 9, 11, type is 7 
+atom_i: 14
+atom_i to atom_j: 13
+atom_j to atom_k: 11
+ATOM k: 14 Name: C14
+Connected triplet is: 14, type is aroC, 13, type is 9, 14, type is 7 
+ATOM j: 15 Name: N15
+ATOM k: 14 Name: C14
+Connected triplet is: 14, type is aroC, 15, type is 11, 14, type is 7 
+ATOM j: 16 Name: N16
+ATOM k: 14 Name: C14
+Connected triplet is: 14, type is aroC, 16, type is 9, 14, type is 7 
+ATOM k: 17 Name: N17
+Connected triplet is: 14, type is aroC, 16, type is 9, 17, type is 9 
+atom_i: 14
+atom_i to atom_j: 16
+atom_j to atom_k: 17
+ATOM k: 18 Name: C18
+Connected triplet is: 14, type is aroC, 16, type is 9, 18, type is 7 
+atom_i: 14
+atom_i to atom_j: 16
+atom_j to atom_k: 18
+
+in atom iterate block, atom num is15
+atom name is N15
+ATOM j: 14 Name: C14
+ATOM k: 13 Name: N13
+Connected triplet is: 15, type is NH2O, 14, type is 7, 13, type is 9 
+atom_i: 15
+atom_i to atom_j: 14
+atom_j to atom_k: 13
+ATOM k: 15 Name: N15
+Connected triplet is: 15, type is NH2O, 14, type is 7, 15, type is 11 
+ATOM k: 16 Name: N16
+Connected triplet is: 15, type is NH2O, 14, type is 7, 16, type is 9 
+atom_i: 15
+atom_i to atom_j: 14
+atom_j to atom_k: 16
+
+in atom iterate block, atom num is16
+atom name is N16
+ATOM j: 14 Name: C14
+ATOM k: 13 Name: N13
+Connected triplet is: 16, type is Nhis, 14, type is 7, 13, type is 9 
+atom_i: 16
+atom_i to atom_j: 14
+atom_j to atom_k: 13
+ATOM k: 15 Name: N15
+Connected triplet is: 16, type is Nhis, 14, type is 7, 15, type is 11 
+atom_i: 16
+atom_i to atom_j: 14
+atom_j to atom_k: 15
+ATOM k: 16 Name: N16
+Connected triplet is: 16, type is Nhis, 14, type is 7, 16, type is 9 
+ATOM j: 17 Name: N17
+ATOM k: 16 Name: N16
+Connected triplet is: 16, type is Nhis, 17, type is 9, 16, type is 9 
+ATOM k: 20 Name: C20
+Connected triplet is: 16, type is Nhis, 17, type is 9, 20, type is 7 
+atom_i: 16
+atom_i to atom_j: 17
+atom_j to atom_k: 20
+ATOM j: 18 Name: C18
+ATOM k: 12 Name: N12
+Connected triplet is: 16, type is Nhis, 18, type is 7, 12, type is 9 
+atom_i: 16
+atom_i to atom_j: 18
+atom_j to atom_k: 12
+ATOM k: 16 Name: N16
+Connected triplet is: 16, type is Nhis, 18, type is 7, 16, type is 9 
+ATOM k: 19 Name: N19
+Connected triplet is: 16, type is Nhis, 18, type is 7, 19, type is 9 
+atom_i: 16
+atom_i to atom_j: 18
+atom_j to atom_k: 19
+
+in atom iterate block, atom num is17
+atom name is N17
+ATOM j: 16 Name: N16
+ATOM k: 14 Name: C14
+Connected triplet is: 17, type is Nhis, 16, type is 9, 14, type is 7 
+atom_i: 17
+atom_i to atom_j: 16
+atom_j to atom_k: 14
+ATOM k: 17 Name: N17
+Connected triplet is: 17, type is Nhis, 16, type is 9, 17, type is 9 
+ATOM k: 18 Name: C18
+Connected triplet is: 17, type is Nhis, 16, type is 9, 18, type is 7 
+atom_i: 17
+atom_i to atom_j: 16
+atom_j to atom_k: 18
+ATOM j: 20 Name: C20
+ATOM k: 17 Name: N17
+Connected triplet is: 17, type is Nhis, 20, type is 7, 17, type is 9 
+ATOM k: 19 Name: N19
+Connected triplet is: 17, type is Nhis, 20, type is 7, 19, type is 9 
+atom_i: 17
+atom_i to atom_j: 20
+atom_j to atom_k: 19
+ATOM k: 21 Name: C21
+Connected triplet is: 17, type is Nhis, 20, type is 7, 21, type is 7 
+atom_i: 17
+atom_i to atom_j: 20
+atom_j to atom_k: 21
+
+in atom iterate block, atom num is18
+atom name is C18
+ATOM j: 12 Name: N12
+ATOM k: 11 Name: C11
+Connected triplet is: 18, type is aroC, 12, type is 9, 11, type is 7 
+atom_i: 18
+atom_i to atom_j: 12
+atom_j to atom_k: 11
+ATOM k: 18 Name: C18
+Connected triplet is: 18, type is aroC, 12, type is 9, 18, type is 7 
+ATOM j: 16 Name: N16
+ATOM k: 14 Name: C14
+Connected triplet is: 18, type is aroC, 16, type is 9, 14, type is 7 
+atom_i: 18
+atom_i to atom_j: 16
+atom_j to atom_k: 14
+ATOM k: 17 Name: N17
+Connected triplet is: 18, type is aroC, 16, type is 9, 17, type is 9 
+atom_i: 18
+atom_i to atom_j: 16
+atom_j to atom_k: 17
+ATOM k: 18 Name: C18
+Connected triplet is: 18, type is aroC, 16, type is 9, 18, type is 7 
+ATOM j: 19 Name: N19
+ATOM k: 18 Name: C18
+Connected triplet is: 18, type is aroC, 19, type is 9, 18, type is 7 
+ATOM k: 20 Name: C20
+Connected triplet is: 18, type is aroC, 19, type is 9, 20, type is 7 
+atom_i: 18
+atom_i to atom_j: 19
+atom_j to atom_k: 20
+
+in atom iterate block, atom num is19
+atom name is N19
+ATOM j: 18 Name: C18
+ATOM k: 12 Name: N12
+Connected triplet is: 19, type is Nhis, 18, type is 7, 12, type is 9 
+atom_i: 19
+atom_i to atom_j: 18
+atom_j to atom_k: 12
+ATOM k: 16 Name: N16
+Connected triplet is: 19, type is Nhis, 18, type is 7, 16, type is 9 
+atom_i: 19
+atom_i to atom_j: 18
+atom_j to atom_k: 16
+ATOM k: 19 Name: N19
+Connected triplet is: 19, type is Nhis, 18, type is 7, 19, type is 9 
+ATOM j: 20 Name: C20
+ATOM k: 17 Name: N17
+Connected triplet is: 19, type is Nhis, 20, type is 7, 17, type is 9 
+atom_i: 19
+atom_i to atom_j: 20
+atom_j to atom_k: 17
+ATOM k: 19 Name: N19
+Connected triplet is: 19, type is Nhis, 20, type is 7, 19, type is 9 
+ATOM k: 21 Name: C21
+Connected triplet is: 19, type is Nhis, 20, type is 7, 21, type is 7 
+atom_i: 19
+atom_i to atom_j: 20
+atom_j to atom_k: 21
+
+in atom iterate block, atom num is20
+atom name is C20
+ATOM j: 17 Name: N17
+ATOM k: 16 Name: N16
+Connected triplet is: 20, type is aroC, 17, type is 9, 16, type is 9 
+atom_i: 20
+atom_i to atom_j: 17
+atom_j to atom_k: 16
+ATOM k: 20 Name: C20
+Connected triplet is: 20, type is aroC, 17, type is 9, 20, type is 7 
+ATOM j: 19 Name: N19
+ATOM k: 18 Name: C18
+Connected triplet is: 20, type is aroC, 19, type is 9, 18, type is 7 
+atom_i: 20
+atom_i to atom_j: 19
+atom_j to atom_k: 18
+ATOM k: 20 Name: C20
+Connected triplet is: 20, type is aroC, 19, type is 9, 20, type is 7 
+ATOM j: 21 Name: C21
+ATOM k: 20 Name: C20
+Connected triplet is: 20, type is aroC, 21, type is 7, 20, type is 7 
+ATOM k: 22 Name: C22
+Connected triplet is: 20, type is aroC, 21, type is 7, 22, type is 7 
+atom_i: 20
+atom_i to atom_j: 21
+atom_j to atom_k: 22
+ATOM k: 25 Name: O25
+Connected triplet is: 20, type is aroC, 21, type is 7, 25, type is 19 
+atom_i: 20
+atom_i to atom_j: 21
+atom_j to atom_k: 25
+
+in atom iterate block, atom num is21
+atom name is C21
+ATOM j: 20 Name: C20
+ATOM k: 17 Name: N17
+Connected triplet is: 21, type is aroC, 20, type is 7, 17, type is 9 
+atom_i: 21
+atom_i to atom_j: 20
+atom_j to atom_k: 17
+ATOM k: 19 Name: N19
+Connected triplet is: 21, type is aroC, 20, type is 7, 19, type is 9 
+atom_i: 21
+atom_i to atom_j: 20
+atom_j to atom_k: 19
+ATOM k: 21 Name: C21
+Connected triplet is: 21, type is aroC, 20, type is 7, 21, type is 7 
+ATOM j: 22 Name: C22
+ATOM k: 21 Name: C21
+Connected triplet is: 21, type is aroC, 22, type is 7, 21, type is 7 
+ATOM k: 23 Name: C23
+Connected triplet is: 21, type is aroC, 22, type is 7, 23, type is 7 
+atom_i: 21
+atom_i to atom_j: 22
+atom_j to atom_k: 23
+ATOM j: 25 Name: O25
+ATOM k: 21 Name: C21
+Connected triplet is: 21, type is aroC, 25, type is 19, 21, type is 7 
+ATOM k: 24 Name: C24
+Connected triplet is: 21, type is aroC, 25, type is 19, 24, type is 7 
+atom_i: 21
+atom_i to atom_j: 25
+atom_j to atom_k: 24
+
+in atom iterate block, atom num is22
+atom name is C22
+ATOM j: 21 Name: C21
+ATOM k: 20 Name: C20
+Connected triplet is: 22, type is aroC, 21, type is 7, 20, type is 7 
+atom_i: 22
+atom_i to atom_j: 21
+atom_j to atom_k: 20
+ATOM k: 22 Name: C22
+Connected triplet is: 22, type is aroC, 21, type is 7, 22, type is 7 
+ATOM k: 25 Name: O25
+Connected triplet is: 22, type is aroC, 21, type is 7, 25, type is 19 
+atom_i: 22
+atom_i to atom_j: 21
+atom_j to atom_k: 25
+ATOM j: 23 Name: C23
+ATOM k: 22 Name: C22
+Connected triplet is: 22, type is aroC, 23, type is 7, 22, type is 7 
+ATOM k: 24 Name: C24
+Connected triplet is: 22, type is aroC, 23, type is 7, 24, type is 7 
+atom_i: 22
+atom_i to atom_j: 23
+atom_j to atom_k: 24
+
+in atom iterate block, atom num is23
+atom name is C23
+ATOM j: 22 Name: C22
+ATOM k: 21 Name: C21
+Connected triplet is: 23, type is aroC, 22, type is 7, 21, type is 7 
+atom_i: 23
+atom_i to atom_j: 22
+atom_j to atom_k: 21
+ATOM k: 23 Name: C23
+Connected triplet is: 23, type is aroC, 22, type is 7, 23, type is 7 
+ATOM j: 24 Name: C24
+ATOM k: 23 Name: C23
+Connected triplet is: 23, type is aroC, 24, type is 7, 23, type is 7 
+ATOM k: 25 Name: O25
+Connected triplet is: 23, type is aroC, 24, type is 7, 25, type is 19 
+atom_i: 23
+atom_i to atom_j: 24
+atom_j to atom_k: 25
+
+in atom iterate block, atom num is24
+atom name is C24
+ATOM j: 23 Name: C23
+ATOM k: 22 Name: C22
+Connected triplet is: 24, type is aroC, 23, type is 7, 22, type is 7 
+atom_i: 24
+atom_i to atom_j: 23
+atom_j to atom_k: 22
+ATOM k: 24 Name: C24
+Connected triplet is: 24, type is aroC, 23, type is 7, 24, type is 7 
+ATOM j: 25 Name: O25
+ATOM k: 21 Name: C21
+Connected triplet is: 24, type is aroC, 25, type is 19, 21, type is 7 
+atom_i: 24
+atom_i to atom_j: 25
+atom_j to atom_k: 21
+ATOM k: 24 Name: C24
+Connected triplet is: 24, type is aroC, 25, type is 19, 24, type is 7 
+
+in atom iterate block, atom num is25
+atom name is O25
+ATOM j: 21 Name: C21
+ATOM k: 20 Name: C20
+Connected triplet is: 25, type is Oaro, 21, type is 7, 20, type is 7 
+atom_i: 25
+atom_i to atom_j: 21
+atom_j to atom_k: 20
+ATOM k: 22 Name: C22
+Connected triplet is: 25, type is Oaro, 21, type is 7, 22, type is 7 
+atom_i: 25
+atom_i to atom_j: 21
+atom_j to atom_k: 22
+ATOM k: 25 Name: O25
+Connected triplet is: 25, type is Oaro, 21, type is 7, 25, type is 19 
+ATOM j: 24 Name: C24
+ATOM k: 23 Name: C23
+Connected triplet is: 25, type is Oaro, 24, type is 7, 23, type is 7 
+atom_i: 25
+atom_i to atom_j: 24
+atom_j to atom_k: 23
+ATOM k: 25 Name: O25
+Connected triplet is: 25, type is Oaro, 24, type is 7, 25, type is 19 
+
+Total 3 atoms in pruned indices list is: 39
+Total 3 atoms in unpruned indices list is: 78
+Residue 159 passed energy cut with pack score: -7.14678, hbond score: 0, for a total score of: -7.14678
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 11 items.
+Top triplets are: Size of top_triplets:  11
+Size of this_triplet:  3
+25: 15-14-16protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is NH2O
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+28: 17-16-18protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_17_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_17_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+15: 10-11-13protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Ntrp
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_10_11_13_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_10_11_13_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+18: 12-11-13protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_12_11_13_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_12_11_13_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+16: 11-12-18protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_11_12_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_11_12_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+30: 17-20-21protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_17_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_17_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+11: 7-8-9protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_7_8_9_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_7_8_9_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+20: 12-18-19protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_12_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_12_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+31: 18-19-20protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_18_19_20_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_18_19_20_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+32: 19-20-21protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_19_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_19_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  11
+Size of this_triplet:  3
+34: 20-21-25protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/PHE159 _Z401_Ligatoms_20_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE159 _Z401_Ligatoms_20_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 160 passed energy cut with pack score: -2.16214, hbond score: 0, for a total score of: -2.16214
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 1 items.
+Top triplets are: Size of top_triplets:  1
+Size of this_triplet:  3
+25: 15-14-16protocols.motifs.Motif: Res1 name is GLU
+protocols.motifs.Motif: atom1 name is NH2O
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/GLU160 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/GLU160 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 168 passed energy cut with pack score: -1.7848, hbond score: 0, for a total score of: -1.7848
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 3 items.
+Top triplets are: Size of top_triplets:  3
+Size of this_triplet:  3
+39: 23-24-25protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/MET168 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET168 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+38: 22-23-24protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/MET168 _Z401_Ligatoms_22_23_24_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET168 _Z401_Ligatoms_22_23_24_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+35: 21-22-23protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/MET168 _Z401_Ligatoms_21_22_23_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET168 _Z401_Ligatoms_21_22_23_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 224 passed energy cut with pack score: -1.08983, hbond score: 0, for a total score of: -1.08983
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+39: 23-24-25protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/TRP224 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TRP224 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+37: 22-21-25protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/TRP224 _Z401_Ligatoms_22_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TRP224 _Z401_Ligatoms_22_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 227 passed energy cut with pack score: -3.6822, hbond score: 0, for a total score of: -3.6822
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 6 items.
+Top triplets are: Size of top_triplets:  6
+Size of this_triplet:  3
+37: 22-21-25protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_22_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_22_21_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  6
+Size of this_triplet:  3
+31: 18-19-20protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_18_19_20_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_18_19_20_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  6
+Size of this_triplet:  3
+38: 22-23-24protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_22_23_24_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_22_23_24_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  6
+Size of this_triplet:  3
+27: 16-18-19protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_16_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_16_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  6
+Size of this_triplet:  3
+39: 23-24-25protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  6
+Size of this_triplet:  3
+28: 17-16-18protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/LEU227 _Z401_Ligatoms_17_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU227 _Z401_Ligatoms_17_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 228 passed energy cut with pack score: -1.03524, hbond score: 0, for a total score of: -1.03524
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 1 items.
+Top triplets are: Size of top_triplets:  1
+Size of this_triplet:  3
+39: 23-24-25protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/HIS228 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS228 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 231 passed energy cut with pack score: -1.67809, hbond score: 0, for a total score of: -1.67809
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 3 items.
+Top triplets are: Size of top_triplets:  3
+Size of this_triplet:  3
+25: 15-14-16protocols.motifs.Motif: Res1 name is ASN
+protocols.motifs.Motif: atom1 name is NH2O
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/ASN231 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASN231 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+39: 23-24-25protocols.motifs.Motif: Res1 name is ASN
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Oaro
+Writing Ligand_motif_dir/ASN231 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASN231 _Z401_Ligatoms_23_24_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+30: 17-20-21protocols.motifs.Motif: Res1 name is ASN
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/ASN231 _Z401_Ligatoms_17_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASN231 _Z401_Ligatoms_17_20_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 242 passed energy cut with pack score: -1.33071, hbond score: 0, for a total score of: -1.33071
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+9: 5-6-7protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/HIS242 _Z401_Ligatoms_5_6_7_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS242 _Z401_Ligatoms_5_6_7_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+10: 6-7-8protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/HIS242 _Z401_Ligatoms_6_7_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS242 _Z401_Ligatoms_6_7_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 248 passed energy cut with pack score: -3.26059, hbond score: 0, for a total score of: -3.26059
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 5 items.
+Top triplets are: Size of top_triplets:  5
+Size of this_triplet:  3
+10: 6-7-8protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/MET248 _Z401_Ligatoms_6_7_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET248 _Z401_Ligatoms_6_7_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  5
+Size of this_triplet:  3
+25: 15-14-16protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is NH2O
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/MET248 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET248 _Z401_Ligatoms_15_14_16_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  5
+Size of this_triplet:  3
+12: 8-9-10protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is Ntrp
+Writing Ligand_motif_dir/MET248 _Z401_Ligatoms_8_9_10_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET248 _Z401_Ligatoms_8_9_10_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  5
+Size of this_triplet:  3
+4: 2-1-7protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/MET248 _Z401_Ligatoms_2_1_7_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET248 _Z401_Ligatoms_2_1_7_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  5
+Size of this_triplet:  3
+8: 4-3-5protocols.motifs.Motif: Res1 name is MET
+protocols.motifs.Motif: atom1 name is OH
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/MET248 _Z401_Ligatoms_4_3_5_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/MET248 _Z401_Ligatoms_4_3_5_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 252 passed energy cut with pack score: -1.48076, hbond score: 0, for a total score of: -1.48076
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 1 items.
+Top triplets are: Size of top_triplets:  1
+Size of this_triplet:  3
+20: 12-18-19protocols.motifs.Motif: Res1 name is ILE
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/ILE252 _Z401_Ligatoms_12_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ILE252 _Z401_Ligatoms_12_18_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/aa2ar_pdb_lig.pdb.pdb for writing!!!
+
+
+Motif index contains: 1-2-3
+Motif index contains: 1-7-6
+Motif index contains: 1-7-8
+Motif index contains: 2-1-7
+Motif index contains: 2-3-4
+Motif index contains: 2-3-5
+Motif index contains: 3-5-6
+Motif index contains: 4-3-5
+Motif index contains: 5-6-7
+Motif index contains: 6-7-8
+Motif index contains: 7-8-9
+Motif index contains: 8-9-10
+Motif index contains: 9-10-11
+Motif index contains: 10-11-12
+Motif index contains: 10-11-13
+Motif index contains: 11-12-18
+Motif index contains: 11-13-14
+Motif index contains: 12-11-13
+Motif index contains: 12-18-16
+Motif index contains: 12-18-19
+Motif index contains: 13-14-15
+Motif index contains: 13-14-16
+Motif index contains: 14-16-17
+Motif index contains: 14-16-18
+Motif index contains: 15-14-16
+Motif index contains: 16-17-20
+Motif index contains: 16-18-19
+Motif index contains: 17-16-18
+Motif index contains: 17-20-19
+Motif index contains: 17-20-21
+Motif index contains: 18-19-20
+Motif index contains: 19-20-21
+Motif index contains: 20-21-22
+Motif index contains: 20-21-25
+Motif index contains: 21-22-23
+Motif index contains: 21-25-24
+Motif index contains: 22-21-25
+Motif index contains: 22-23-24
+Motif index contains: 23-24-25

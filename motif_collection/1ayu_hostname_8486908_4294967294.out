@@ -1,0 +1,1498 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+646.LigandMotifLibraryAnalysis.0f17275 0f1727545acc6b57d3d11da5e6d262b0273607bd https://github.com/RosettaCommons/main 2021-05-25T11:11:06
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/ligand_motifs.linuxgccrelease @/scratch/abgvg9/motif_library_work/1_new/1ayu/1ayu_INA_flags
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-694454190 seed_offset=0 real_seed=-694454190
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-694454190 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/ligand_motifs.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+core.scoring.P_AA: shapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+Working on file: 1ayu_INA.pdb
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 981 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 1.07 seconds.
+core.import_pose.import_pose: File '1ayu_INA.pdb' automatically determined to be of type PDB
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 20 atoms at position 216 in file 1ayu_INA.pdb. Best match rsd_type:  INA
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N2  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N1  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N3  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C8  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O1  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O2  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C10 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O3  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N5  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N4  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  N6  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O5  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C22 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C19 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C18 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C17 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  C20 on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O6  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O7  on residue INA 216
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  O4  on residue INA 216
+core.conformation.Conformation: [ WARNING ] Failed to find a residue connection for residue 25 with connection point 3
+core.conformation.Conformation: Found disulfide between residues 22 63
+core.conformation.Conformation: current variant for 22 CYS
+core.conformation.Conformation: current variant for 63 CYS
+core.conformation.Conformation: current variant for 22 CYD
+core.conformation.Conformation: current variant for 63 CYD
+core.conformation.Conformation: Found disulfide between residues 56 96
+core.conformation.Conformation: current variant for 56 CYS
+core.conformation.Conformation: current variant for 96 CYS
+core.conformation.Conformation: current variant for 56 CYD
+core.conformation.Conformation: current variant for 96 CYD
+core.conformation.Conformation: Found disulfide between residues 155 204
+core.conformation.Conformation: current variant for 155 CYS
+core.conformation.Conformation: current variant for 204 CYS
+core.conformation.Conformation: current variant for 155 CYD
+core.conformation.Conformation: current variant for 204 CYD
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C31 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C33 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C34 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C35 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C36 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C37 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  C38 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N18 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N19 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N20 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N40 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N41 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  N42 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O10 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O17 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O22 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O30 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O32 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O39 (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 216 atom  O8  (trying to store temperature in PDBInfo)
+core.pack.pack_missing_sidechains: packing residue number 216 because of missing atom number 2 atom name  N2 
+core.pack.task: Packer task: initialize from command line() 
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: ref2015
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/all.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+basic.io.database: Database file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+basic.io.database: Database file opened: scoring/score_functions/elec_cp_reps.dat
+core.scoring.elec.util: Read 40 countpair representative atoms
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib_fixes_enable option is true.
+core.pack.dunbrack.RotamerLibrary: shapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+core.pack.dunbrack.RotamerLibrary: Binary rotamer library selected: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack 2010 library took 0.2 seconds to load from binary
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for INA:MP-C21-connect
+core.pack.rotamer_set.RotamerSet_: [ WARNING ] including current in order to get at least 1 rotamer !!!!!! 216 INA:MP-C21-connect
+core.pack.pack_rotamers: built 1 rotamers at 1 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+in ligand splitter block, found my ligand, lig_pos is 216
+in atom iterate block, atom num is1
+atom name is  C15
+ATOM j: 2 Name:  N2 
+ATOM k: 1 Name:  C15
+Connected triplet is: 1, type is CH1, 2, type is 9, 1, type is 4 
+ATOM k: 3 Name:  N1 
+Connected triplet is: 1, type is CH1, 2, type is 9, 3, type is 9 
+atom_i: 1
+atom_i to atom_j: 2
+atom_j to atom_k: 3
+ATOM j: 22 Name:  N5 
+ATOM k: 1 Name:  C15
+Connected triplet is: 1, type is CH1, 22, type is 9, 1, type is 4 
+ATOM k: 23 Name:  N4 
+Connected triplet is: 1, type is CH1, 22, type is 9, 23, type is 9 
+atom_i: 1
+atom_i to atom_j: 22
+atom_j to atom_k: 23
+ATOM j: 42 Name:  O4 
+ATOM k: 1 Name:  C15
+Connected triplet is: 1, type is CH1, 42, type is 18, 1, type is 4 
+
+in atom iterate block, atom num is2
+atom name is  N2 
+ATOM j: 1 Name:  C15
+ATOM k: 2 Name:  N2 
+Connected triplet is: 2, type is Nhis, 1, type is 4, 2, type is 9 
+ATOM k: 22 Name:  N5 
+Connected triplet is: 2, type is Nhis, 1, type is 4, 22, type is 9 
+atom_i: 2
+atom_i to atom_j: 1
+atom_j to atom_k: 22
+ATOM k: 42 Name:  O4 
+Connected triplet is: 2, type is Nhis, 1, type is 4, 42, type is 18 
+atom_i: 2
+atom_i to atom_j: 1
+atom_j to atom_k: 42
+ATOM j: 3 Name:  N1 
+ATOM k: 2 Name:  N2 
+Connected triplet is: 2, type is Nhis, 3, type is 9, 2, type is 9 
+ATOM k: 4 Name:  C14
+Connected triplet is: 2, type is Nhis, 3, type is 9, 4, type is 2 
+atom_i: 2
+atom_i to atom_j: 3
+atom_j to atom_k: 4
+
+in atom iterate block, atom num is3
+atom name is  N1 
+ATOM j: 2 Name:  N2 
+ATOM k: 1 Name:  C15
+Connected triplet is: 3, type is Nhis, 2, type is 9, 1, type is 4 
+atom_i: 3
+atom_i to atom_j: 2
+atom_j to atom_k: 1
+ATOM k: 3 Name:  N1 
+Connected triplet is: 3, type is Nhis, 2, type is 9, 3, type is 9 
+ATOM j: 4 Name:  C14
+ATOM k: 3 Name:  N1 
+Connected triplet is: 3, type is Nhis, 4, type is 2, 3, type is 9 
+ATOM k: 5 Name:  C9 
+Connected triplet is: 3, type is Nhis, 4, type is 2, 5, type is 4 
+atom_i: 3
+atom_i to atom_j: 4
+atom_j to atom_k: 5
+ATOM k: 21 Name:  O3 
+Connected triplet is: 3, type is Nhis, 4, type is 2, 21, type is 17 
+atom_i: 3
+atom_i to atom_j: 4
+atom_j to atom_k: 21
+
+in atom iterate block, atom num is4
+atom name is  C14
+ATOM j: 3 Name:  N1 
+ATOM k: 2 Name:  N2 
+Connected triplet is: 4, type is COO, 3, type is 9, 2, type is 9 
+atom_i: 4
+atom_i to atom_j: 3
+atom_j to atom_k: 2
+ATOM k: 4 Name:  C14
+Connected triplet is: 4, type is COO, 3, type is 9, 4, type is 2 
+ATOM j: 5 Name:  C9 
+ATOM k: 4 Name:  C14
+Connected triplet is: 4, type is COO, 5, type is 4, 4, type is 2 
+ATOM k: 6 Name:  N3 
+Connected triplet is: 4, type is COO, 5, type is 4, 6, type is 9 
+atom_i: 4
+atom_i to atom_j: 5
+atom_j to atom_k: 6
+ATOM k: 17 Name:  C10
+Connected triplet is: 4, type is COO, 5, type is 4, 17, type is 4 
+atom_i: 4
+atom_i to atom_j: 5
+atom_j to atom_k: 17
+ATOM j: 21 Name:  O3 
+ATOM k: 4 Name:  C14
+Connected triplet is: 4, type is COO, 21, type is 17, 4, type is 2 
+
+in atom iterate block, atom num is5
+atom name is  C9 
+ATOM j: 4 Name:  C14
+ATOM k: 3 Name:  N1 
+Connected triplet is: 5, type is CH1, 4, type is 2, 3, type is 9 
+atom_i: 5
+atom_i to atom_j: 4
+atom_j to atom_k: 3
+ATOM k: 5 Name:  C9 
+Connected triplet is: 5, type is CH1, 4, type is 2, 5, type is 4 
+ATOM k: 21 Name:  O3 
+Connected triplet is: 5, type is CH1, 4, type is 2, 21, type is 17 
+atom_i: 5
+atom_i to atom_j: 4
+atom_j to atom_k: 21
+ATOM j: 6 Name:  N3 
+ATOM k: 5 Name:  C9 
+Connected triplet is: 5, type is CH1, 6, type is 9, 5, type is 4 
+ATOM k: 7 Name:  C8 
+Connected triplet is: 5, type is CH1, 6, type is 9, 7, type is 2 
+atom_i: 5
+atom_i to atom_j: 6
+atom_j to atom_k: 7
+ATOM j: 17 Name:  C10
+ATOM k: 5 Name:  C9 
+Connected triplet is: 5, type is CH1, 17, type is 4, 5, type is 4 
+ATOM k: 18 Name:  C11
+Connected triplet is: 5, type is CH1, 17, type is 4, 18, type is 4 
+atom_i: 5
+atom_i to atom_j: 17
+atom_j to atom_k: 18
+
+in atom iterate block, atom num is6
+atom name is  N3 
+ATOM j: 5 Name:  C9 
+ATOM k: 4 Name:  C14
+Connected triplet is: 6, type is Nhis, 5, type is 4, 4, type is 2 
+atom_i: 6
+atom_i to atom_j: 5
+atom_j to atom_k: 4
+ATOM k: 6 Name:  N3 
+Connected triplet is: 6, type is Nhis, 5, type is 4, 6, type is 9 
+ATOM k: 17 Name:  C10
+Connected triplet is: 6, type is Nhis, 5, type is 4, 17, type is 4 
+atom_i: 6
+atom_i to atom_j: 5
+atom_j to atom_k: 17
+ATOM j: 7 Name:  C8 
+ATOM k: 6 Name:  N3 
+Connected triplet is: 6, type is Nhis, 7, type is 2, 6, type is 9 
+ATOM k: 8 Name:  O1 
+Connected triplet is: 6, type is Nhis, 7, type is 2, 8, type is 15 
+atom_i: 6
+atom_i to atom_j: 7
+atom_j to atom_k: 8
+ATOM k: 16 Name:  O2 
+Connected triplet is: 6, type is Nhis, 7, type is 2, 16, type is 17 
+atom_i: 6
+atom_i to atom_j: 7
+atom_j to atom_k: 16
+
+in atom iterate block, atom num is7
+atom name is  C8 
+ATOM j: 6 Name:  N3 
+ATOM k: 5 Name:  C9 
+Connected triplet is: 7, type is COO, 6, type is 9, 5, type is 4 
+atom_i: 7
+atom_i to atom_j: 6
+atom_j to atom_k: 5
+ATOM k: 7 Name:  C8 
+Connected triplet is: 7, type is COO, 6, type is 9, 7, type is 2 
+ATOM j: 8 Name:  O1 
+ATOM k: 7 Name:  C8 
+Connected triplet is: 7, type is COO, 8, type is 15, 7, type is 2 
+ATOM k: 9 Name:  C7 
+Connected triplet is: 7, type is COO, 8, type is 15, 9, type is 4 
+atom_i: 7
+atom_i to atom_j: 8
+atom_j to atom_k: 9
+ATOM j: 16 Name:  O2 
+ATOM k: 7 Name:  C8 
+Connected triplet is: 7, type is COO, 16, type is 17, 7, type is 2 
+
+in atom iterate block, atom num is8
+atom name is  O1 
+ATOM j: 7 Name:  C8 
+ATOM k: 6 Name:  N3 
+Connected triplet is: 8, type is OH, 7, type is 2, 6, type is 9 
+atom_i: 8
+atom_i to atom_j: 7
+atom_j to atom_k: 6
+ATOM k: 8 Name:  O1 
+Connected triplet is: 8, type is OH, 7, type is 2, 8, type is 15 
+ATOM k: 16 Name:  O2 
+Connected triplet is: 8, type is OH, 7, type is 2, 16, type is 17 
+atom_i: 8
+atom_i to atom_j: 7
+atom_j to atom_k: 16
+ATOM j: 9 Name:  C7 
+ATOM k: 8 Name:  O1 
+Connected triplet is: 8, type is OH, 9, type is 4, 8, type is 15 
+ATOM k: 10 Name:  C4 
+Connected triplet is: 8, type is OH, 9, type is 4, 10, type is 7 
+atom_i: 8
+atom_i to atom_j: 9
+atom_j to atom_k: 10
+
+in atom iterate block, atom num is9
+atom name is  C7 
+ATOM j: 8 Name:  O1 
+ATOM k: 7 Name:  C8 
+Connected triplet is: 9, type is CH1, 8, type is 15, 7, type is 2 
+atom_i: 9
+atom_i to atom_j: 8
+atom_j to atom_k: 7
+ATOM k: 9 Name:  C7 
+Connected triplet is: 9, type is CH1, 8, type is 15, 9, type is 4 
+ATOM j: 10 Name:  C4 
+ATOM k: 9 Name:  C7 
+Connected triplet is: 9, type is CH1, 10, type is 7, 9, type is 4 
+ATOM k: 11 Name:  C3 
+Connected triplet is: 9, type is CH1, 10, type is 7, 11, type is 7 
+atom_i: 9
+atom_i to atom_j: 10
+atom_j to atom_k: 11
+ATOM k: 15 Name:  C5 
+Connected triplet is: 9, type is CH1, 10, type is 7, 15, type is 7 
+atom_i: 9
+atom_i to atom_j: 10
+atom_j to atom_k: 15
+
+in atom iterate block, atom num is10
+atom name is  C4 
+ATOM j: 9 Name:  C7 
+ATOM k: 8 Name:  O1 
+Connected triplet is: 10, type is aroC, 9, type is 4, 8, type is 15 
+atom_i: 10
+atom_i to atom_j: 9
+atom_j to atom_k: 8
+ATOM k: 10 Name:  C4 
+Connected triplet is: 10, type is aroC, 9, type is 4, 10, type is 7 
+ATOM j: 11 Name:  C3 
+ATOM k: 10 Name:  C4 
+Connected triplet is: 10, type is aroC, 11, type is 7, 10, type is 7 
+ATOM k: 12 Name:  C2 
+Connected triplet is: 10, type is aroC, 11, type is 7, 12, type is 7 
+atom_i: 10
+atom_i to atom_j: 11
+atom_j to atom_k: 12
+ATOM j: 15 Name:  C5 
+ATOM k: 10 Name:  C4 
+Connected triplet is: 10, type is aroC, 15, type is 7, 10, type is 7 
+ATOM k: 14 Name:  C6 
+Connected triplet is: 10, type is aroC, 15, type is 7, 14, type is 7 
+atom_i: 10
+atom_i to atom_j: 15
+atom_j to atom_k: 14
+
+in atom iterate block, atom num is11
+atom name is  C3 
+ATOM j: 10 Name:  C4 
+ATOM k: 9 Name:  C7 
+Connected triplet is: 11, type is aroC, 10, type is 7, 9, type is 4 
+atom_i: 11
+atom_i to atom_j: 10
+atom_j to atom_k: 9
+ATOM k: 11 Name:  C3 
+Connected triplet is: 11, type is aroC, 10, type is 7, 11, type is 7 
+ATOM k: 15 Name:  C5 
+Connected triplet is: 11, type is aroC, 10, type is 7, 15, type is 7 
+atom_i: 11
+atom_i to atom_j: 10
+atom_j to atom_k: 15
+ATOM j: 12 Name:  C2 
+ATOM k: 11 Name:  C3 
+Connected triplet is: 11, type is aroC, 12, type is 7, 11, type is 7 
+ATOM k: 13 Name:  C1 
+Connected triplet is: 11, type is aroC, 12, type is 7, 13, type is 7 
+atom_i: 11
+atom_i to atom_j: 12
+atom_j to atom_k: 13
+
+in atom iterate block, atom num is12
+atom name is  C2 
+ATOM j: 11 Name:  C3 
+ATOM k: 10 Name:  C4 
+Connected triplet is: 12, type is aroC, 11, type is 7, 10, type is 7 
+atom_i: 12
+atom_i to atom_j: 11
+atom_j to atom_k: 10
+ATOM k: 12 Name:  C2 
+Connected triplet is: 12, type is aroC, 11, type is 7, 12, type is 7 
+ATOM j: 13 Name:  C1 
+ATOM k: 12 Name:  C2 
+Connected triplet is: 12, type is aroC, 13, type is 7, 12, type is 7 
+ATOM k: 14 Name:  C6 
+Connected triplet is: 12, type is aroC, 13, type is 7, 14, type is 7 
+atom_i: 12
+atom_i to atom_j: 13
+atom_j to atom_k: 14
+
+in atom iterate block, atom num is13
+atom name is  C1 
+ATOM j: 12 Name:  C2 
+ATOM k: 11 Name:  C3 
+Connected triplet is: 13, type is aroC, 12, type is 7, 11, type is 7 
+atom_i: 13
+atom_i to atom_j: 12
+atom_j to atom_k: 11
+ATOM k: 13 Name:  C1 
+Connected triplet is: 13, type is aroC, 12, type is 7, 13, type is 7 
+ATOM j: 14 Name:  C6 
+ATOM k: 13 Name:  C1 
+Connected triplet is: 13, type is aroC, 14, type is 7, 13, type is 7 
+ATOM k: 15 Name:  C5 
+Connected triplet is: 13, type is aroC, 14, type is 7, 15, type is 7 
+atom_i: 13
+atom_i to atom_j: 14
+atom_j to atom_k: 15
+
+in atom iterate block, atom num is14
+atom name is  C6 
+ATOM j: 13 Name:  C1 
+ATOM k: 12 Name:  C2 
+Connected triplet is: 14, type is aroC, 13, type is 7, 12, type is 7 
+atom_i: 14
+atom_i to atom_j: 13
+atom_j to atom_k: 12
+ATOM k: 14 Name:  C6 
+Connected triplet is: 14, type is aroC, 13, type is 7, 14, type is 7 
+ATOM j: 15 Name:  C5 
+ATOM k: 10 Name:  C4 
+Connected triplet is: 14, type is aroC, 15, type is 7, 10, type is 7 
+atom_i: 14
+atom_i to atom_j: 15
+atom_j to atom_k: 10
+ATOM k: 14 Name:  C6 
+Connected triplet is: 14, type is aroC, 15, type is 7, 14, type is 7 
+
+in atom iterate block, atom num is15
+atom name is  C5 
+ATOM j: 10 Name:  C4 
+ATOM k: 9 Name:  C7 
+Connected triplet is: 15, type is aroC, 10, type is 7, 9, type is 4 
+atom_i: 15
+atom_i to atom_j: 10
+atom_j to atom_k: 9
+ATOM k: 11 Name:  C3 
+Connected triplet is: 15, type is aroC, 10, type is 7, 11, type is 7 
+atom_i: 15
+atom_i to atom_j: 10
+atom_j to atom_k: 11
+ATOM k: 15 Name:  C5 
+Connected triplet is: 15, type is aroC, 10, type is 7, 15, type is 7 
+ATOM j: 14 Name:  C6 
+ATOM k: 13 Name:  C1 
+Connected triplet is: 15, type is aroC, 14, type is 7, 13, type is 7 
+atom_i: 15
+atom_i to atom_j: 14
+atom_j to atom_k: 13
+ATOM k: 15 Name:  C5 
+Connected triplet is: 15, type is aroC, 14, type is 7, 15, type is 7 
+
+in atom iterate block, atom num is16
+atom name is  O2 
+ATOM j: 7 Name:  C8 
+ATOM k: 6 Name:  N3 
+Connected triplet is: 16, type is ONH2, 7, type is 2, 6, type is 9 
+atom_i: 16
+atom_i to atom_j: 7
+atom_j to atom_k: 6
+ATOM k: 8 Name:  O1 
+Connected triplet is: 16, type is ONH2, 7, type is 2, 8, type is 15 
+atom_i: 16
+atom_i to atom_j: 7
+atom_j to atom_k: 8
+ATOM k: 16 Name:  O2 
+Connected triplet is: 16, type is ONH2, 7, type is 2, 16, type is 17 
+
+in atom iterate block, atom num is17
+atom name is  C10
+ATOM j: 5 Name:  C9 
+ATOM k: 4 Name:  C14
+Connected triplet is: 17, type is CH1, 5, type is 4, 4, type is 2 
+atom_i: 17
+atom_i to atom_j: 5
+atom_j to atom_k: 4
+ATOM k: 6 Name:  N3 
+Connected triplet is: 17, type is CH1, 5, type is 4, 6, type is 9 
+atom_i: 17
+atom_i to atom_j: 5
+atom_j to atom_k: 6
+ATOM k: 17 Name:  C10
+Connected triplet is: 17, type is CH1, 5, type is 4, 17, type is 4 
+ATOM j: 18 Name:  C11
+ATOM k: 17 Name:  C10
+Connected triplet is: 17, type is CH1, 18, type is 4, 17, type is 4 
+ATOM k: 19 Name:  C12
+Connected triplet is: 17, type is CH1, 18, type is 4, 19, type is 4 
+atom_i: 17
+atom_i to atom_j: 18
+atom_j to atom_k: 19
+ATOM k: 20 Name:  C13
+Connected triplet is: 17, type is CH1, 18, type is 4, 20, type is 4 
+atom_i: 17
+atom_i to atom_j: 18
+atom_j to atom_k: 20
+
+in atom iterate block, atom num is18
+atom name is  C11
+ATOM j: 17 Name:  C10
+ATOM k: 5 Name:  C9 
+Connected triplet is: 18, type is CH1, 17, type is 4, 5, type is 4 
+atom_i: 18
+atom_i to atom_j: 17
+atom_j to atom_k: 5
+ATOM k: 18 Name:  C11
+Connected triplet is: 18, type is CH1, 17, type is 4, 18, type is 4 
+ATOM j: 19 Name:  C12
+ATOM k: 18 Name:  C11
+Connected triplet is: 18, type is CH1, 19, type is 4, 18, type is 4 
+ATOM j: 20 Name:  C13
+ATOM k: 18 Name:  C11
+Connected triplet is: 18, type is CH1, 20, type is 4, 18, type is 4 
+
+in atom iterate block, atom num is19
+atom name is  C12
+ATOM j: 18 Name:  C11
+ATOM k: 17 Name:  C10
+Connected triplet is: 19, type is CH1, 18, type is 4, 17, type is 4 
+atom_i: 19
+atom_i to atom_j: 18
+atom_j to atom_k: 17
+ATOM k: 19 Name:  C12
+Connected triplet is: 19, type is CH1, 18, type is 4, 19, type is 4 
+ATOM k: 20 Name:  C13
+Connected triplet is: 19, type is CH1, 18, type is 4, 20, type is 4 
+atom_i: 19
+atom_i to atom_j: 18
+atom_j to atom_k: 20
+
+in atom iterate block, atom num is20
+atom name is  C13
+ATOM j: 18 Name:  C11
+ATOM k: 17 Name:  C10
+Connected triplet is: 20, type is CH1, 18, type is 4, 17, type is 4 
+atom_i: 20
+atom_i to atom_j: 18
+atom_j to atom_k: 17
+ATOM k: 19 Name:  C12
+Connected triplet is: 20, type is CH1, 18, type is 4, 19, type is 4 
+atom_i: 20
+atom_i to atom_j: 18
+atom_j to atom_k: 19
+ATOM k: 20 Name:  C13
+Connected triplet is: 20, type is CH1, 18, type is 4, 20, type is 4 
+
+in atom iterate block, atom num is21
+atom name is  O3 
+ATOM j: 4 Name:  C14
+ATOM k: 3 Name:  N1 
+Connected triplet is: 21, type is ONH2, 4, type is 2, 3, type is 9 
+atom_i: 21
+atom_i to atom_j: 4
+atom_j to atom_k: 3
+ATOM k: 5 Name:  C9 
+Connected triplet is: 21, type is ONH2, 4, type is 2, 5, type is 4 
+atom_i: 21
+atom_i to atom_j: 4
+atom_j to atom_k: 5
+ATOM k: 21 Name:  O3 
+Connected triplet is: 21, type is ONH2, 4, type is 2, 21, type is 17 
+
+in atom iterate block, atom num is22
+atom name is  N5 
+ATOM j: 1 Name:  C15
+ATOM k: 2 Name:  N2 
+Connected triplet is: 22, type is Nhis, 1, type is 4, 2, type is 9 
+atom_i: 22
+atom_i to atom_j: 1
+atom_j to atom_k: 2
+ATOM k: 22 Name:  N5 
+Connected triplet is: 22, type is Nhis, 1, type is 4, 22, type is 9 
+ATOM k: 42 Name:  O4 
+Connected triplet is: 22, type is Nhis, 1, type is 4, 42, type is 18 
+atom_i: 22
+atom_i to atom_j: 1
+atom_j to atom_k: 42
+ATOM j: 23 Name:  N4 
+ATOM k: 22 Name:  N5 
+Connected triplet is: 22, type is Nhis, 23, type is 9, 22, type is 9 
+ATOM k: 24 Name:  C29
+Connected triplet is: 22, type is Nhis, 23, type is 9, 24, type is 2 
+atom_i: 22
+atom_i to atom_j: 23
+atom_j to atom_k: 24
+
+in atom iterate block, atom num is23
+atom name is  N4 
+ATOM j: 22 Name:  N5 
+ATOM k: 1 Name:  C15
+Connected triplet is: 23, type is Nhis, 22, type is 9, 1, type is 4 
+atom_i: 23
+atom_i to atom_j: 22
+atom_j to atom_k: 1
+ATOM k: 23 Name:  N4 
+Connected triplet is: 23, type is Nhis, 22, type is 9, 23, type is 9 
+ATOM j: 24 Name:  C29
+ATOM k: 23 Name:  N4 
+Connected triplet is: 23, type is Nhis, 24, type is 2, 23, type is 9 
+ATOM k: 25 Name:  C24
+Connected triplet is: 23, type is Nhis, 24, type is 2, 25, type is 4 
+atom_i: 23
+atom_i to atom_j: 24
+atom_j to atom_k: 25
+ATOM k: 41 Name:  O7 
+Connected triplet is: 23, type is Nhis, 24, type is 2, 41, type is 17 
+atom_i: 23
+atom_i to atom_j: 24
+atom_j to atom_k: 41
+
+in atom iterate block, atom num is24
+atom name is  C29
+ATOM j: 23 Name:  N4 
+ATOM k: 22 Name:  N5 
+Connected triplet is: 24, type is COO, 23, type is 9, 22, type is 9 
+atom_i: 24
+atom_i to atom_j: 23
+atom_j to atom_k: 22
+ATOM k: 24 Name:  C29
+Connected triplet is: 24, type is COO, 23, type is 9, 24, type is 2 
+ATOM j: 25 Name:  C24
+ATOM k: 24 Name:  C29
+Connected triplet is: 24, type is COO, 25, type is 4, 24, type is 2 
+ATOM k: 26 Name:  C25
+Connected triplet is: 24, type is COO, 25, type is 4, 26, type is 4 
+atom_i: 24
+atom_i to atom_j: 25
+atom_j to atom_k: 26
+ATOM k: 30 Name:  N6 
+Connected triplet is: 24, type is COO, 25, type is 4, 30, type is 9 
+atom_i: 24
+atom_i to atom_j: 25
+atom_j to atom_k: 30
+ATOM j: 41 Name:  O7 
+ATOM k: 24 Name:  C29
+Connected triplet is: 24, type is COO, 41, type is 17, 24, type is 2 
+
+in atom iterate block, atom num is25
+atom name is  C24
+ATOM j: 24 Name:  C29
+ATOM k: 23 Name:  N4 
+Connected triplet is: 25, type is CH1, 24, type is 2, 23, type is 9 
+atom_i: 25
+atom_i to atom_j: 24
+atom_j to atom_k: 23
+ATOM k: 25 Name:  C24
+Connected triplet is: 25, type is CH1, 24, type is 2, 25, type is 4 
+ATOM k: 41 Name:  O7 
+Connected triplet is: 25, type is CH1, 24, type is 2, 41, type is 17 
+atom_i: 25
+atom_i to atom_j: 24
+atom_j to atom_k: 41
+ATOM j: 26 Name:  C25
+ATOM k: 25 Name:  C24
+Connected triplet is: 25, type is CH1, 26, type is 4, 25, type is 4 
+ATOM k: 27 Name:  C26
+Connected triplet is: 25, type is CH1, 26, type is 4, 27, type is 4 
+atom_i: 25
+atom_i to atom_j: 26
+atom_j to atom_k: 27
+ATOM j: 30 Name:  N6 
+ATOM k: 25 Name:  C24
+Connected triplet is: 25, type is CH1, 30, type is 9, 25, type is 4 
+ATOM k: 31 Name:  C23
+Connected triplet is: 25, type is CH1, 30, type is 9, 31, type is 2 
+atom_i: 25
+atom_i to atom_j: 30
+atom_j to atom_k: 31
+
+in atom iterate block, atom num is26
+atom name is  C25
+ATOM j: 25 Name:  C24
+ATOM k: 24 Name:  C29
+Connected triplet is: 26, type is CH1, 25, type is 4, 24, type is 2 
+atom_i: 26
+atom_i to atom_j: 25
+atom_j to atom_k: 24
+ATOM k: 26 Name:  C25
+Connected triplet is: 26, type is CH1, 25, type is 4, 26, type is 4 
+ATOM k: 30 Name:  N6 
+Connected triplet is: 26, type is CH1, 25, type is 4, 30, type is 9 
+atom_i: 26
+atom_i to atom_j: 25
+atom_j to atom_k: 30
+ATOM j: 27 Name:  C26
+ATOM k: 26 Name:  C25
+Connected triplet is: 26, type is CH1, 27, type is 4, 26, type is 4 
+ATOM k: 28 Name:  C27
+Connected triplet is: 26, type is CH1, 27, type is 4, 28, type is 4 
+atom_i: 26
+atom_i to atom_j: 27
+atom_j to atom_k: 28
+ATOM k: 29 Name:  C28
+Connected triplet is: 26, type is CH1, 27, type is 4, 29, type is 4 
+atom_i: 26
+atom_i to atom_j: 27
+atom_j to atom_k: 29
+
+in atom iterate block, atom num is27
+atom name is  C26
+ATOM j: 26 Name:  C25
+ATOM k: 25 Name:  C24
+Connected triplet is: 27, type is CH1, 26, type is 4, 25, type is 4 
+atom_i: 27
+atom_i to atom_j: 26
+atom_j to atom_k: 25
+ATOM k: 27 Name:  C26
+Connected triplet is: 27, type is CH1, 26, type is 4, 27, type is 4 
+ATOM j: 28 Name:  C27
+ATOM k: 27 Name:  C26
+Connected triplet is: 27, type is CH1, 28, type is 4, 27, type is 4 
+ATOM j: 29 Name:  C28
+ATOM k: 27 Name:  C26
+Connected triplet is: 27, type is CH1, 29, type is 4, 27, type is 4 
+
+in atom iterate block, atom num is28
+atom name is  C27
+ATOM j: 27 Name:  C26
+ATOM k: 26 Name:  C25
+Connected triplet is: 28, type is CH1, 27, type is 4, 26, type is 4 
+atom_i: 28
+atom_i to atom_j: 27
+atom_j to atom_k: 26
+ATOM k: 28 Name:  C27
+Connected triplet is: 28, type is CH1, 27, type is 4, 28, type is 4 
+ATOM k: 29 Name:  C28
+Connected triplet is: 28, type is CH1, 27, type is 4, 29, type is 4 
+atom_i: 28
+atom_i to atom_j: 27
+atom_j to atom_k: 29
+
+in atom iterate block, atom num is29
+atom name is  C28
+ATOM j: 27 Name:  C26
+ATOM k: 26 Name:  C25
+Connected triplet is: 29, type is CH1, 27, type is 4, 26, type is 4 
+atom_i: 29
+atom_i to atom_j: 27
+atom_j to atom_k: 26
+ATOM k: 28 Name:  C27
+Connected triplet is: 29, type is CH1, 27, type is 4, 28, type is 4 
+atom_i: 29
+atom_i to atom_j: 27
+atom_j to atom_k: 28
+ATOM k: 29 Name:  C28
+Connected triplet is: 29, type is CH1, 27, type is 4, 29, type is 4 
+
+in atom iterate block, atom num is30
+atom name is  N6 
+ATOM j: 25 Name:  C24
+ATOM k: 24 Name:  C29
+Connected triplet is: 30, type is Nhis, 25, type is 4, 24, type is 2 
+atom_i: 30
+atom_i to atom_j: 25
+atom_j to atom_k: 24
+ATOM k: 26 Name:  C25
+Connected triplet is: 30, type is Nhis, 25, type is 4, 26, type is 4 
+atom_i: 30
+atom_i to atom_j: 25
+atom_j to atom_k: 26
+ATOM k: 30 Name:  N6 
+Connected triplet is: 30, type is Nhis, 25, type is 4, 30, type is 9 
+ATOM j: 31 Name:  C23
+ATOM k: 30 Name:  N6 
+Connected triplet is: 30, type is Nhis, 31, type is 2, 30, type is 9 
+ATOM k: 32 Name:  O5 
+Connected triplet is: 30, type is Nhis, 31, type is 2, 32, type is 15 
+atom_i: 30
+atom_i to atom_j: 31
+atom_j to atom_k: 32
+ATOM k: 40 Name:  O6 
+Connected triplet is: 30, type is Nhis, 31, type is 2, 40, type is 17 
+atom_i: 30
+atom_i to atom_j: 31
+atom_j to atom_k: 40
+
+in atom iterate block, atom num is31
+atom name is  C23
+ATOM j: 30 Name:  N6 
+ATOM k: 25 Name:  C24
+Connected triplet is: 31, type is COO, 30, type is 9, 25, type is 4 
+atom_i: 31
+atom_i to atom_j: 30
+atom_j to atom_k: 25
+ATOM k: 31 Name:  C23
+Connected triplet is: 31, type is COO, 30, type is 9, 31, type is 2 
+ATOM j: 32 Name:  O5 
+ATOM k: 31 Name:  C23
+Connected triplet is: 31, type is COO, 32, type is 15, 31, type is 2 
+ATOM k: 33 Name:  C22
+Connected triplet is: 31, type is COO, 32, type is 15, 33, type is 4 
+atom_i: 31
+atom_i to atom_j: 32
+atom_j to atom_k: 33
+ATOM j: 40 Name:  O6 
+ATOM k: 31 Name:  C23
+Connected triplet is: 31, type is COO, 40, type is 17, 31, type is 2 
+
+in atom iterate block, atom num is32
+atom name is  O5 
+ATOM j: 31 Name:  C23
+ATOM k: 30 Name:  N6 
+Connected triplet is: 32, type is OH, 31, type is 2, 30, type is 9 
+atom_i: 32
+atom_i to atom_j: 31
+atom_j to atom_k: 30
+ATOM k: 32 Name:  O5 
+Connected triplet is: 32, type is OH, 31, type is 2, 32, type is 15 
+ATOM k: 40 Name:  O6 
+Connected triplet is: 32, type is OH, 31, type is 2, 40, type is 17 
+atom_i: 32
+atom_i to atom_j: 31
+atom_j to atom_k: 40
+ATOM j: 33 Name:  C22
+ATOM k: 32 Name:  O5 
+Connected triplet is: 32, type is OH, 33, type is 4, 32, type is 15 
+ATOM k: 34 Name:  C19
+Connected triplet is: 32, type is OH, 33, type is 4, 34, type is 7 
+atom_i: 32
+atom_i to atom_j: 33
+atom_j to atom_k: 34
+
+in atom iterate block, atom num is33
+atom name is  C22
+ATOM j: 32 Name:  O5 
+ATOM k: 31 Name:  C23
+Connected triplet is: 33, type is CH1, 32, type is 15, 31, type is 2 
+atom_i: 33
+atom_i to atom_j: 32
+atom_j to atom_k: 31
+ATOM k: 33 Name:  C22
+Connected triplet is: 33, type is CH1, 32, type is 15, 33, type is 4 
+ATOM j: 34 Name:  C19
+ATOM k: 33 Name:  C22
+Connected triplet is: 33, type is CH1, 34, type is 7, 33, type is 4 
+ATOM k: 35 Name:  C18
+Connected triplet is: 33, type is CH1, 34, type is 7, 35, type is 7 
+atom_i: 33
+atom_i to atom_j: 34
+atom_j to atom_k: 35
+ATOM k: 39 Name:  C20
+Connected triplet is: 33, type is CH1, 34, type is 7, 39, type is 7 
+atom_i: 33
+atom_i to atom_j: 34
+atom_j to atom_k: 39
+
+in atom iterate block, atom num is34
+atom name is  C19
+ATOM j: 33 Name:  C22
+ATOM k: 32 Name:  O5 
+Connected triplet is: 34, type is aroC, 33, type is 4, 32, type is 15 
+atom_i: 34
+atom_i to atom_j: 33
+atom_j to atom_k: 32
+ATOM k: 34 Name:  C19
+Connected triplet is: 34, type is aroC, 33, type is 4, 34, type is 7 
+ATOM j: 35 Name:  C18
+ATOM k: 34 Name:  C19
+Connected triplet is: 34, type is aroC, 35, type is 7, 34, type is 7 
+ATOM k: 36 Name:  C17
+Connected triplet is: 34, type is aroC, 35, type is 7, 36, type is 7 
+atom_i: 34
+atom_i to atom_j: 35
+atom_j to atom_k: 36
+ATOM j: 39 Name:  C20
+ATOM k: 34 Name:  C19
+Connected triplet is: 34, type is aroC, 39, type is 7, 34, type is 7 
+ATOM k: 38 Name:  C21
+Connected triplet is: 34, type is aroC, 39, type is 7, 38, type is 7 
+atom_i: 34
+atom_i to atom_j: 39
+atom_j to atom_k: 38
+
+in atom iterate block, atom num is35
+atom name is  C18
+ATOM j: 34 Name:  C19
+ATOM k: 33 Name:  C22
+Connected triplet is: 35, type is aroC, 34, type is 7, 33, type is 4 
+atom_i: 35
+atom_i to atom_j: 34
+atom_j to atom_k: 33
+ATOM k: 35 Name:  C18
+Connected triplet is: 35, type is aroC, 34, type is 7, 35, type is 7 
+ATOM k: 39 Name:  C20
+Connected triplet is: 35, type is aroC, 34, type is 7, 39, type is 7 
+atom_i: 35
+atom_i to atom_j: 34
+atom_j to atom_k: 39
+ATOM j: 36 Name:  C17
+ATOM k: 35 Name:  C18
+Connected triplet is: 35, type is aroC, 36, type is 7, 35, type is 7 
+ATOM k: 37 Name:  C16
+Connected triplet is: 35, type is aroC, 36, type is 7, 37, type is 7 
+atom_i: 35
+atom_i to atom_j: 36
+atom_j to atom_k: 37
+
+in atom iterate block, atom num is36
+atom name is  C17
+ATOM j: 35 Name:  C18
+ATOM k: 34 Name:  C19
+Connected triplet is: 36, type is aroC, 35, type is 7, 34, type is 7 
+atom_i: 36
+atom_i to atom_j: 35
+atom_j to atom_k: 34
+ATOM k: 36 Name:  C17
+Connected triplet is: 36, type is aroC, 35, type is 7, 36, type is 7 
+ATOM j: 37 Name:  C16
+ATOM k: 36 Name:  C17
+Connected triplet is: 36, type is aroC, 37, type is 7, 36, type is 7 
+ATOM k: 38 Name:  C21
+Connected triplet is: 36, type is aroC, 37, type is 7, 38, type is 7 
+atom_i: 36
+atom_i to atom_j: 37
+atom_j to atom_k: 38
+
+in atom iterate block, atom num is37
+atom name is  C16
+ATOM j: 36 Name:  C17
+ATOM k: 35 Name:  C18
+Connected triplet is: 37, type is aroC, 36, type is 7, 35, type is 7 
+atom_i: 37
+atom_i to atom_j: 36
+atom_j to atom_k: 35
+ATOM k: 37 Name:  C16
+Connected triplet is: 37, type is aroC, 36, type is 7, 37, type is 7 
+ATOM j: 38 Name:  C21
+ATOM k: 37 Name:  C16
+Connected triplet is: 37, type is aroC, 38, type is 7, 37, type is 7 
+ATOM k: 39 Name:  C20
+Connected triplet is: 37, type is aroC, 38, type is 7, 39, type is 7 
+atom_i: 37
+atom_i to atom_j: 38
+atom_j to atom_k: 39
+
+in atom iterate block, atom num is38
+atom name is  C21
+ATOM j: 37 Name:  C16
+ATOM k: 36 Name:  C17
+Connected triplet is: 38, type is aroC, 37, type is 7, 36, type is 7 
+atom_i: 38
+atom_i to atom_j: 37
+atom_j to atom_k: 36
+ATOM k: 38 Name:  C21
+Connected triplet is: 38, type is aroC, 37, type is 7, 38, type is 7 
+ATOM j: 39 Name:  C20
+ATOM k: 34 Name:  C19
+Connected triplet is: 38, type is aroC, 39, type is 7, 34, type is 7 
+atom_i: 38
+atom_i to atom_j: 39
+atom_j to atom_k: 34
+ATOM k: 38 Name:  C21
+Connected triplet is: 38, type is aroC, 39, type is 7, 38, type is 7 
+
+in atom iterate block, atom num is39
+atom name is  C20
+ATOM j: 34 Name:  C19
+ATOM k: 33 Name:  C22
+Connected triplet is: 39, type is aroC, 34, type is 7, 33, type is 4 
+atom_i: 39
+atom_i to atom_j: 34
+atom_j to atom_k: 33
+ATOM k: 35 Name:  C18
+Connected triplet is: 39, type is aroC, 34, type is 7, 35, type is 7 
+atom_i: 39
+atom_i to atom_j: 34
+atom_j to atom_k: 35
+ATOM k: 39 Name:  C20
+Connected triplet is: 39, type is aroC, 34, type is 7, 39, type is 7 
+ATOM j: 38 Name:  C21
+ATOM k: 37 Name:  C16
+Connected triplet is: 39, type is aroC, 38, type is 7, 37, type is 7 
+atom_i: 39
+atom_i to atom_j: 38
+atom_j to atom_k: 37
+ATOM k: 39 Name:  C20
+Connected triplet is: 39, type is aroC, 38, type is 7, 39, type is 7 
+
+in atom iterate block, atom num is40
+atom name is  O6 
+ATOM j: 31 Name:  C23
+ATOM k: 30 Name:  N6 
+Connected triplet is: 40, type is ONH2, 31, type is 2, 30, type is 9 
+atom_i: 40
+atom_i to atom_j: 31
+atom_j to atom_k: 30
+ATOM k: 32 Name:  O5 
+Connected triplet is: 40, type is ONH2, 31, type is 2, 32, type is 15 
+atom_i: 40
+atom_i to atom_j: 31
+atom_j to atom_k: 32
+ATOM k: 40 Name:  O6 
+Connected triplet is: 40, type is ONH2, 31, type is 2, 40, type is 17 
+
+in atom iterate block, atom num is41
+atom name is  O7 
+ATOM j: 24 Name:  C29
+ATOM k: 23 Name:  N4 
+Connected triplet is: 41, type is ONH2, 24, type is 2, 23, type is 9 
+atom_i: 41
+atom_i to atom_j: 24
+atom_j to atom_k: 23
+ATOM k: 25 Name:  C24
+Connected triplet is: 41, type is ONH2, 24, type is 2, 25, type is 4 
+atom_i: 41
+atom_i to atom_j: 24
+atom_j to atom_k: 25
+ATOM k: 41 Name:  O7 
+Connected triplet is: 41, type is ONH2, 24, type is 2, 41, type is 17 
+
+in atom iterate block, atom num is42
+atom name is  O4 
+ATOM j: 1 Name:  C15
+ATOM k: 2 Name:  N2 
+Connected triplet is: 42, type is OOC, 1, type is 4, 2, type is 9 
+atom_i: 42
+atom_i to atom_j: 1
+atom_j to atom_k: 2
+ATOM k: 22 Name:  N5 
+Connected triplet is: 42, type is OOC, 1, type is 4, 22, type is 9 
+atom_i: 42
+atom_i to atom_j: 1
+atom_j to atom_k: 22
+ATOM k: 42 Name:  O4 
+Connected triplet is: 42, type is OOC, 1, type is 4, 42, type is 18 
+
+Total 3 atoms in pruned indices list is: 55
+Total 3 atoms in unpruned indices list is: 110
+Residue 19 passed energy cut with pack score: -2.30579, hbond score: 0, for a total score of: -2.30579
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 5 items.
+Top triplets are: Size of top_triplets:  5
+Size of this_triplet:  3
+28: 17-18-20protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/GLN19A_Z300_Ligatoms_17_18_20_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+55: 37-38-39protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/GLN19A_Z300_Ligatoms_37_38_39_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+11: 5-6-7protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is COO
+Writing Ligand_motif_dir/GLN19A_Z300_Ligatoms_5_6_7_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+20: 9-10-15protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/GLN19A_Z300_Ligatoms_9_10_15_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+29: 19-18-20protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/GLN19A_Z300_Ligatoms_19_18_20_A_1ayu_INA.pdb.pdb
+
+
+Residue 21 passed energy cut with pack score: -1.46697, hbond score: 0, for a total score of: -1.46697
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 4 items.
+Top triplets are: Size of top_triplets:  4
+Size of this_triplet:  3
+30: 22-1-42protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is OOC
+Writing Ligand_motif_dir/GLN21A_Z300_Ligatoms_22_1_42_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  4
+Size of this_triplet:  3
+10: 5-4-21protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/GLN21A_Z300_Ligatoms_5_4_21_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  4
+Size of this_triplet:  3
+3: 2-1-22protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is Nhis
+Writing Ligand_motif_dir/GLN21A_Z300_Ligatoms_2_1_22_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  4
+Size of this_triplet:  3
+9: 4-5-17protocols.motifs.Motif: Res1 name is GLN
+protocols.motifs.Motif: atom1 name is COO
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/GLN21A_Z300_Ligatoms_4_5_17_A_1ayu_INA.pdb.pdb
+
+
+Residue 61 passed energy cut with pack score: -2.22169, hbond score: 0, for a total score of: -2.22169
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 6 items.
+Top triplets are: Size of top_triplets:  6
+Size of this_triplet:  3
+42: 28-27-29protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_28_27_29_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+41: 26-27-29protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_26_27_29_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+44: 30-31-40protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is Nhis
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_30_31_40_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+34: 24-25-26protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is COO
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_24_25_26_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+36: 25-24-41protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_25_24_41_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+46: 32-31-40protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is OH
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/ASP61A_Z300_Ligatoms_32_31_40_A_1ayu_INA.pdb.pdb
+
+
+Residue 67 passed energy cut with pack score: -2.65611, hbond score: 0, for a total score of: -2.65611
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 5 items.
+Top triplets are: Size of top_triplets:  5
+Size of this_triplet:  3
+46: 32-31-40protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is OH
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/TYR67A_Z300_Ligatoms_32_31_40_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+36: 25-24-41protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/TYR67A_Z300_Ligatoms_25_24_41_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+41: 26-27-29protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/TYR67A_Z300_Ligatoms_26_27_29_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+42: 28-27-29protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/TYR67A_Z300_Ligatoms_28_27_29_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  5
+Size of this_triplet:  3
+38: 25-30-31protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is Nhis
+protocols.motifs.Motif: atom3 name is COO
+Writing Ligand_motif_dir/TYR67A_Z300_Ligatoms_25_30_31_A_1ayu_INA.pdb.pdb
+
+
+Residue 184 passed energy cut with pack score: -5.028, hbond score: 0, for a total score of: -5.028
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 6 items.
+Top triplets are: Size of top_triplets:  6
+Size of this_triplet:  3
+20: 9-10-15protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_9_10_15_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+28: 17-18-20protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_17_18_20_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+23: 11-10-15protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_11_10_15_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+25: 12-13-14protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_12_13_14_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+26: 13-14-15protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_13_14_15_A_1ayu_INA.pdb.pdb
+Size of top_triplets:  6
+Size of this_triplet:  3
+17: 8-7-16protocols.motifs.Motif: Res1 name is TRP
+protocols.motifs.Motif: atom1 name is OH
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/TRP184A_Z300_Ligatoms_8_7_16_A_1ayu_INA.pdb.pdb
+
+
+Motif index contains: 1-2-3
+Motif index contains: 1-22-23
+Motif index contains: 2-1-22
+Motif index contains: 2-1-42
+Motif index contains: 2-3-4
+Motif index contains: 3-4-5
+Motif index contains: 3-4-21
+Motif index contains: 4-5-6
+Motif index contains: 4-5-17
+Motif index contains: 5-4-21
+Motif index contains: 5-6-7
+Motif index contains: 5-17-18
+Motif index contains: 6-5-17
+Motif index contains: 6-7-8
+Motif index contains: 6-7-16
+Motif index contains: 7-8-9
+Motif index contains: 8-7-16
+Motif index contains: 8-9-10
+Motif index contains: 9-10-11
+Motif index contains: 9-10-15
+Motif index contains: 10-11-12
+Motif index contains: 10-15-14
+Motif index contains: 11-10-15
+Motif index contains: 11-12-13
+Motif index contains: 12-13-14
+Motif index contains: 13-14-15
+Motif index contains: 17-18-19
+Motif index contains: 17-18-20
+Motif index contains: 19-18-20
+Motif index contains: 22-1-42
+Motif index contains: 22-23-24
+Motif index contains: 23-24-25
+Motif index contains: 23-24-41
+Motif index contains: 24-25-26
+Motif index contains: 24-25-30
+Motif index contains: 25-24-41
+Motif index contains: 25-26-27
+Motif index contains: 25-30-31
+Motif index contains: 26-25-30
+Motif index contains: 26-27-28
+Motif index contains: 26-27-29
+Motif index contains: 28-27-29
+Motif index contains: 30-31-32
+Motif index contains: 30-31-40
+Motif index contains: 31-32-33
+Motif index contains: 32-31-40
+Motif index contains: 32-33-34
+Motif index contains: 33-34-35
+Motif index contains: 33-34-39
+Motif index contains: 34-35-36
+Motif index contains: 34-39-38
+Motif index contains: 35-34-39
+Motif index contains: 35-36-37
+Motif index contains: 36-37-38
+Motif index contains: 37-38-39

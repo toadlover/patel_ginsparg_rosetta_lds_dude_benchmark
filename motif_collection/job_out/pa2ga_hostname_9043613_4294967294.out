@@ -1,0 +1,2064 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+856.LigandMotifLibraryAnalysis.87f8d92 87f8d9282f68fa82ef1fb0afec5995ea22732f7e https://github.com/RosettaCommons/main 2021-06-25T15:16:19
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/ligand_motifs.linuxgccrelease @/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/args/pa2ga_motif_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-1973076290 seed_offset=0 real_seed=-1973076290
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-1973076290 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/ligand_motifs.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+core.scoring.P_AA: shapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+Working on file: /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 981 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 1.28 seconds.
+core.import_pose.import_pose: File '/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb' automatically determined to be of type PDB
+core.io.pose_from_sfr.PoseFromSFRBuilder: Adding undetected upper terminus type to residue 361,  361  
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 1 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN:NtermProteinFull
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 2 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 3 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 4 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 5 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 6 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 7 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 8 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  MET
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 9 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 10 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 11 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 12 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 13 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 14 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 15 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 16 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 17 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 18 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 19 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 20 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 21 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 22 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 23 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 24 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 25 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 26 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 27 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 28 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 29 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 30 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 31 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 32 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 33 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 34 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 35 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 37 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 38 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 39 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 40 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 41 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 42 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 43 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 44 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 45 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 46 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 47 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 48 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 49 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 50 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 51 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 52 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 53 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 54 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 55 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 56 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 57 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 58 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 59 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 60 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 61 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 62 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 63 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 64 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 65 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 66 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 67 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 68 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 69 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 70 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 71 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 72 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 73 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 74 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 75 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 76 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 77 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 78 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 79 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 80 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 81 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 82 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 83 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 84 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 85 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 86 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 87 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 88 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 89 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 90 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 91 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 92 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 93 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 94 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 95 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 96 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 97 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 98 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 99 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 100 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 101 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 102 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 103 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 104 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 105 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 106 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 107 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 108 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 109 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 110 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 111 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 112 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 113 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 114 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 115 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 116 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 117 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 118 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 119 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 120 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 121 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 123 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 124 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 125 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 126 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 127 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 128 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 129 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 130 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 131 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 132 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  MET
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 133 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 134 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 135 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 136 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 137 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 138 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 139 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 140 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 141 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 142 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 143 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 144 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 145 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 146 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 147 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 148 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 149 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 150 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 151 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 152 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 153 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 154 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 155 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 156 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 157 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 158 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 159 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 160 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 161 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 162 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 163 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 164 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 165 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 166 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 167 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 168 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 169 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 170 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 171 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 172 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 173 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 174 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 175 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 176 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 177 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 178 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 179 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 180 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 181 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 182 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 183 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 184 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 185 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 186 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 187 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 188 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 189 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 190 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 191 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 192 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 193 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 194 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 195 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 196 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 197 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 198 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 199 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 200 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 201 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 202 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 203 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 204 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 205 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 206 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 207 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 209 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 210 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 211 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 212 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 213 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 214 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 215 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 216 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 217 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 218 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 219 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 220 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 221 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 222 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 223 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 224 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 225 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 226 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 227 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 228 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 229 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 230 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 231 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 232 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 233 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 234 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 235 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 236 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 237 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 238 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 239 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 240 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 241 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 242 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 243 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 244 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 245 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 246 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 247 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 249 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 250 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 251 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 252 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 253 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 254 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 255 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 256 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 257 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 258 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  MET
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 259 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 260 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 261 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 262 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 263 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 264 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 265 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 266 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 267 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 268 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 269 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 270 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 271 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 272 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 273 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 274 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 275 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 276 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 277 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 278 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 279 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 280 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 281 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 282 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 283 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 284 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 285 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 286 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 287 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 288 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 289 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 290 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 291 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 292 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 293 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 294 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 295 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 296 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 297 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 298 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 299 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 300 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 301 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 302 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 303 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 304 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 305 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 306 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 307 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 308 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 309 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 310 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 311 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 312 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 313 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ILE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 314 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 315 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 316 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 317 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 318 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 319 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 320 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ALA
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 321 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LEU
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 322 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 323 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 324 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 325 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 326 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 327 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 328 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 329 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 330 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 331 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 332 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  VAL
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 333 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 334 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLY
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 335 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 336 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 337 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 338 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 339 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 340 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 341 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 342 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASP
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 343 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 344 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 345 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  PHE
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 346 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 347 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  THR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 348 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 349 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 350 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 351 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 352 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 353 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  GLN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 354 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 355 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  TYR
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 356 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  SER
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 3 atoms at position 357 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ASN
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 4 atoms at position 358 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  LYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 359 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 2 atoms at position 360 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  CYS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 6 atoms at position 361 in file /data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb. Best match rsd_type:  ARG:CtermProteinFull
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue ARG:CtermProteinFull 361
+core.conformation.Conformation: Found disulfide between residues 26 117
+core.conformation.Conformation: current variant for 26 CYS
+core.conformation.Conformation: current variant for 117 CYS
+core.conformation.Conformation: current variant for 26 CYD
+core.conformation.Conformation: current variant for 117 CYD
+core.conformation.Conformation: Found disulfide between residues 28 44
+core.conformation.Conformation: current variant for 28 CYS
+core.conformation.Conformation: current variant for 44 CYS
+core.conformation.Conformation: current variant for 28 CYD
+core.conformation.Conformation: current variant for 44 CYD
+core.conformation.Conformation: Found disulfide between residues 43 97
+core.conformation.Conformation: current variant for 43 CYS
+core.conformation.Conformation: current variant for 97 CYS
+core.conformation.Conformation: current variant for 43 CYD
+core.conformation.Conformation: current variant for 97 CYD
+core.conformation.Conformation: Found disulfide between residues 49 124
+core.conformation.Conformation: current variant for 49 CYS
+core.conformation.Conformation: current variant for 124 CYS
+core.conformation.Conformation: current variant for 49 CYD
+core.conformation.Conformation: current variant for 124 CYD
+core.conformation.Conformation: Found disulfide between residues 50 90
+core.conformation.Conformation: current variant for 50 CYS
+core.conformation.Conformation: current variant for 90 CYS
+core.conformation.Conformation: current variant for 50 CYD
+core.conformation.Conformation: current variant for 90 CYD
+core.conformation.Conformation: Found disulfide between residues 59 83
+core.conformation.Conformation: current variant for 59 CYS
+core.conformation.Conformation: current variant for 83 CYS
+core.conformation.Conformation: current variant for 59 CYD
+core.conformation.Conformation: current variant for 83 CYD
+core.conformation.Conformation: Found disulfide between residues 77 88
+core.conformation.Conformation: current variant for 77 CYS
+core.conformation.Conformation: current variant for 88 CYS
+core.conformation.Conformation: current variant for 77 CYD
+core.conformation.Conformation: current variant for 88 CYD
+core.conformation.Conformation: Found disulfide between residues 150 182
+core.conformation.Conformation: current variant for 150 CYS
+core.conformation.Conformation: current variant for 182 CYS
+core.conformation.Conformation: current variant for 150 CYD
+core.conformation.Conformation: current variant for 182 CYD
+core.conformation.Conformation: Found disulfide between residues 159 175
+core.conformation.Conformation: current variant for 159 CYS
+core.conformation.Conformation: current variant for 175 CYS
+core.conformation.Conformation: current variant for 159 CYD
+core.conformation.Conformation: current variant for 175 CYD
+core.conformation.Conformation: Found disulfide between residues 169 180
+core.conformation.Conformation: current variant for 169 CYS
+core.conformation.Conformation: current variant for 180 CYS
+core.conformation.Conformation: current variant for 169 CYD
+core.conformation.Conformation: current variant for 180 CYD
+core.conformation.Conformation: Found disulfide between residues 198 243
+core.conformation.Conformation: current variant for 198 CYS
+core.conformation.Conformation: current variant for 243 CYS
+core.conformation.Conformation: current variant for 198 CYD
+core.conformation.Conformation: current variant for 243 CYD
+core.conformation.Conformation: Found disulfide between residues 200 215
+core.conformation.Conformation: current variant for 200 CYS
+core.conformation.Conformation: current variant for 215 CYS
+core.conformation.Conformation: current variant for 200 CYD
+core.conformation.Conformation: current variant for 215 CYD
+core.conformation.Conformation: Found disulfide between residues 220 250
+core.conformation.Conformation: current variant for 220 CYS
+core.conformation.Conformation: current variant for 250 CYS
+core.conformation.Conformation: current variant for 220 CYD
+core.conformation.Conformation: current variant for 250 CYD
+core.conformation.Conformation: Found disulfide between residues 328 360
+core.conformation.Conformation: current variant for 328 CYS
+core.conformation.Conformation: current variant for 360 CYS
+core.conformation.Conformation: current variant for 328 CYD
+core.conformation.Conformation: current variant for 360 CYD
+core.conformation.Conformation: Found disulfide between residues 330 341
+core.conformation.Conformation: current variant for 330 CYS
+core.conformation.Conformation: current variant for 341 CYS
+core.conformation.Conformation: current variant for 330 CYD
+core.conformation.Conformation: current variant for 341 CYD
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 124 atom  OXT (trying to store temperature in PDBInfo)
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] can't find pose atom for file-residue 250 atom  OXT (trying to store temperature in PDBInfo)
+in ligand splitter block, found my ligand, lig_pos is 362
+in atom iterate block, atom num is1
+atom name is  C1 
+ATOM j: 3 Name:  C3 
+ATOM k: 1 Name:  C1 
+Connected triplet is: 1, type is aroC, 3, type is 7, 1, type is 7 
+ATOM k: 7 Name:  C7 
+Connected triplet is: 1, type is aroC, 3, type is 7, 7, type is 7 
+atom_i: 1
+atom_i to atom_j: 3
+atom_j to atom_k: 7
+ATOM j: 4 Name:  C4 
+ATOM k: 1 Name:  C1 
+Connected triplet is: 1, type is aroC, 4, type is 7, 1, type is 7 
+ATOM k: 8 Name:  C8 
+Connected triplet is: 1, type is aroC, 4, type is 7, 8, type is 7 
+atom_i: 1
+atom_i to atom_j: 4
+atom_j to atom_k: 8
+
+in atom iterate block, atom num is2
+atom name is  C2 
+ATOM j: 5 Name:  C5 
+ATOM k: 2 Name:  C2 
+Connected triplet is: 2, type is aroC, 5, type is 7, 2, type is 7 
+ATOM k: 9 Name:  C9 
+Connected triplet is: 2, type is aroC, 5, type is 7, 9, type is 7 
+atom_i: 2
+atom_i to atom_j: 5
+atom_j to atom_k: 9
+ATOM j: 6 Name:  C6 
+ATOM k: 2 Name:  C2 
+Connected triplet is: 2, type is aroC, 6, type is 7, 2, type is 7 
+ATOM k: 10 Name:  C10
+Connected triplet is: 2, type is aroC, 6, type is 7, 10, type is 7 
+atom_i: 2
+atom_i to atom_j: 6
+atom_j to atom_k: 10
+
+in atom iterate block, atom num is3
+atom name is  C3 
+ATOM j: 1 Name:  C1 
+ATOM k: 3 Name:  C3 
+Connected triplet is: 3, type is aroC, 1, type is 7, 3, type is 7 
+ATOM k: 4 Name:  C4 
+Connected triplet is: 3, type is aroC, 1, type is 7, 4, type is 7 
+atom_i: 3
+atom_i to atom_j: 1
+atom_j to atom_k: 4
+ATOM j: 7 Name:  C7 
+ATOM k: 3 Name:  C3 
+Connected triplet is: 3, type is aroC, 7, type is 7, 3, type is 7 
+ATOM k: 25 Name:  C25
+Connected triplet is: 3, type is aroC, 7, type is 7, 25, type is 7 
+atom_i: 3
+atom_i to atom_j: 7
+atom_j to atom_k: 25
+
+in atom iterate block, atom num is4
+atom name is  C4 
+ATOM j: 1 Name:  C1 
+ATOM k: 3 Name:  C3 
+Connected triplet is: 4, type is aroC, 1, type is 7, 3, type is 7 
+atom_i: 4
+atom_i to atom_j: 1
+atom_j to atom_k: 3
+ATOM k: 4 Name:  C4 
+Connected triplet is: 4, type is aroC, 1, type is 7, 4, type is 7 
+ATOM j: 8 Name:  C8 
+ATOM k: 4 Name:  C4 
+Connected triplet is: 4, type is aroC, 8, type is 7, 4, type is 7 
+ATOM k: 25 Name:  C25
+Connected triplet is: 4, type is aroC, 8, type is 7, 25, type is 7 
+atom_i: 4
+atom_i to atom_j: 8
+atom_j to atom_k: 25
+
+in atom iterate block, atom num is5
+atom name is  C5 
+ATOM j: 2 Name:  C2 
+ATOM k: 5 Name:  C5 
+Connected triplet is: 5, type is aroC, 2, type is 7, 5, type is 7 
+ATOM k: 6 Name:  C6 
+Connected triplet is: 5, type is aroC, 2, type is 7, 6, type is 7 
+atom_i: 5
+atom_i to atom_j: 2
+atom_j to atom_k: 6
+ATOM j: 9 Name:  C9 
+ATOM k: 5 Name:  C5 
+Connected triplet is: 5, type is aroC, 9, type is 7, 5, type is 7 
+ATOM k: 26 Name:  C26
+Connected triplet is: 5, type is aroC, 9, type is 7, 26, type is 7 
+atom_i: 5
+atom_i to atom_j: 9
+atom_j to atom_k: 26
+
+in atom iterate block, atom num is6
+atom name is  C6 
+ATOM j: 2 Name:  C2 
+ATOM k: 5 Name:  C5 
+Connected triplet is: 6, type is aroC, 2, type is 7, 5, type is 7 
+atom_i: 6
+atom_i to atom_j: 2
+atom_j to atom_k: 5
+ATOM k: 6 Name:  C6 
+Connected triplet is: 6, type is aroC, 2, type is 7, 6, type is 7 
+ATOM j: 10 Name:  C10
+ATOM k: 6 Name:  C6 
+Connected triplet is: 6, type is aroC, 10, type is 7, 6, type is 7 
+ATOM k: 26 Name:  C26
+Connected triplet is: 6, type is aroC, 10, type is 7, 26, type is 7 
+atom_i: 6
+atom_i to atom_j: 10
+atom_j to atom_k: 26
+
+in atom iterate block, atom num is7
+atom name is  C7 
+ATOM j: 3 Name:  C3 
+ATOM k: 1 Name:  C1 
+Connected triplet is: 7, type is aroC, 3, type is 7, 1, type is 7 
+atom_i: 7
+atom_i to atom_j: 3
+atom_j to atom_k: 1
+ATOM k: 7 Name:  C7 
+Connected triplet is: 7, type is aroC, 3, type is 7, 7, type is 7 
+ATOM j: 25 Name:  C25
+ATOM k: 7 Name:  C7 
+Connected triplet is: 7, type is aroC, 25, type is 7, 7, type is 7 
+ATOM k: 8 Name:  C8 
+Connected triplet is: 7, type is aroC, 25, type is 7, 8, type is 7 
+atom_i: 7
+atom_i to atom_j: 25
+atom_j to atom_k: 8
+ATOM k: 19 Name:  C19
+Connected triplet is: 7, type is aroC, 25, type is 7, 19, type is 5 
+atom_i: 7
+atom_i to atom_j: 25
+atom_j to atom_k: 19
+
+in atom iterate block, atom num is8
+atom name is  C8 
+ATOM j: 4 Name:  C4 
+ATOM k: 1 Name:  C1 
+Connected triplet is: 8, type is aroC, 4, type is 7, 1, type is 7 
+atom_i: 8
+atom_i to atom_j: 4
+atom_j to atom_k: 1
+ATOM k: 8 Name:  C8 
+Connected triplet is: 8, type is aroC, 4, type is 7, 8, type is 7 
+ATOM j: 25 Name:  C25
+ATOM k: 7 Name:  C7 
+Connected triplet is: 8, type is aroC, 25, type is 7, 7, type is 7 
+atom_i: 8
+atom_i to atom_j: 25
+atom_j to atom_k: 7
+ATOM k: 8 Name:  C8 
+Connected triplet is: 8, type is aroC, 25, type is 7, 8, type is 7 
+ATOM k: 19 Name:  C19
+Connected triplet is: 8, type is aroC, 25, type is 7, 19, type is 5 
+atom_i: 8
+atom_i to atom_j: 25
+atom_j to atom_k: 19
+
+in atom iterate block, atom num is9
+atom name is  C9 
+ATOM j: 5 Name:  C5 
+ATOM k: 2 Name:  C2 
+Connected triplet is: 9, type is aroC, 5, type is 7, 2, type is 7 
+atom_i: 9
+atom_i to atom_j: 5
+atom_j to atom_k: 2
+ATOM k: 9 Name:  C9 
+Connected triplet is: 9, type is aroC, 5, type is 7, 9, type is 7 
+ATOM j: 26 Name:  C26
+ATOM k: 9 Name:  C9 
+Connected triplet is: 9, type is aroC, 26, type is 7, 9, type is 7 
+ATOM k: 10 Name:  C10
+Connected triplet is: 9, type is aroC, 26, type is 7, 10, type is 7 
+atom_i: 9
+atom_i to atom_j: 26
+atom_j to atom_k: 10
+ATOM k: 23 Name:  C23
+Connected triplet is: 9, type is aroC, 26, type is 7, 23, type is 5 
+atom_i: 9
+atom_i to atom_j: 26
+atom_j to atom_k: 23
+
+in atom iterate block, atom num is10
+atom name is  C10
+ATOM j: 6 Name:  C6 
+ATOM k: 2 Name:  C2 
+Connected triplet is: 10, type is aroC, 6, type is 7, 2, type is 7 
+atom_i: 10
+atom_i to atom_j: 6
+atom_j to atom_k: 2
+ATOM k: 10 Name:  C10
+Connected triplet is: 10, type is aroC, 6, type is 7, 10, type is 7 
+ATOM j: 26 Name:  C26
+ATOM k: 9 Name:  C9 
+Connected triplet is: 10, type is aroC, 26, type is 7, 9, type is 7 
+atom_i: 10
+atom_i to atom_j: 26
+atom_j to atom_k: 9
+ATOM k: 10 Name:  C10
+Connected triplet is: 10, type is aroC, 26, type is 7, 10, type is 7 
+ATOM k: 23 Name:  C23
+Connected triplet is: 10, type is aroC, 26, type is 7, 23, type is 5 
+atom_i: 10
+atom_i to atom_j: 26
+atom_j to atom_k: 23
+
+in atom iterate block, atom num is11
+atom name is  C11
+ATOM j: 13 Name:  C13
+ATOM k: 11 Name:  C11
+Connected triplet is: 11, type is aroC, 13, type is 7, 11, type is 7 
+ATOM k: 28 Name:  C28
+Connected triplet is: 11, type is aroC, 13, type is 7, 28, type is 7 
+atom_i: 11
+atom_i to atom_j: 13
+atom_j to atom_k: 28
+ATOM j: 27 Name:  C27
+ATOM k: 11 Name:  C11
+Connected triplet is: 11, type is aroC, 27, type is 7, 11, type is 7 
+ATOM k: 12 Name:  C12
+Connected triplet is: 11, type is aroC, 27, type is 7, 12, type is 7 
+atom_i: 11
+atom_i to atom_j: 27
+atom_j to atom_k: 12
+ATOM k: 23 Name:  C23
+Connected triplet is: 11, type is aroC, 27, type is 7, 23, type is 5 
+atom_i: 11
+atom_i to atom_j: 27
+atom_j to atom_k: 23
+
+in atom iterate block, atom num is12
+atom name is  C12
+ATOM j: 14 Name:  C14
+ATOM k: 12 Name:  C12
+Connected triplet is: 12, type is aroC, 14, type is 7, 12, type is 7 
+ATOM k: 28 Name:  C28
+Connected triplet is: 12, type is aroC, 14, type is 7, 28, type is 7 
+atom_i: 12
+atom_i to atom_j: 14
+atom_j to atom_k: 28
+ATOM j: 27 Name:  C27
+ATOM k: 11 Name:  C11
+Connected triplet is: 12, type is aroC, 27, type is 7, 11, type is 7 
+atom_i: 12
+atom_i to atom_j: 27
+atom_j to atom_k: 11
+ATOM k: 12 Name:  C12
+Connected triplet is: 12, type is aroC, 27, type is 7, 12, type is 7 
+ATOM k: 23 Name:  C23
+Connected triplet is: 12, type is aroC, 27, type is 7, 23, type is 5 
+atom_i: 12
+atom_i to atom_j: 27
+atom_j to atom_k: 23
+
+in atom iterate block, atom num is13
+atom name is  C13
+ATOM j: 11 Name:  C11
+ATOM k: 13 Name:  C13
+Connected triplet is: 13, type is aroC, 11, type is 7, 13, type is 7 
+ATOM k: 27 Name:  C27
+Connected triplet is: 13, type is aroC, 11, type is 7, 27, type is 7 
+atom_i: 13
+atom_i to atom_j: 11
+atom_j to atom_k: 27
+ATOM j: 28 Name:  C28
+ATOM k: 13 Name:  C13
+Connected triplet is: 13, type is aroC, 28, type is 7, 13, type is 7 
+ATOM k: 14 Name:  C14
+Connected triplet is: 13, type is aroC, 28, type is 7, 14, type is 7 
+atom_i: 13
+atom_i to atom_j: 28
+atom_j to atom_k: 14
+ATOM k: 36 Name:  S1 
+Connected triplet is: 13, type is aroC, 28, type is 7, 36, type is 22 
+atom_i: 13
+atom_i to atom_j: 28
+atom_j to atom_k: 36
+
+in atom iterate block, atom num is14
+atom name is  C14
+ATOM j: 12 Name:  C12
+ATOM k: 14 Name:  C14
+Connected triplet is: 14, type is aroC, 12, type is 7, 14, type is 7 
+ATOM k: 27 Name:  C27
+Connected triplet is: 14, type is aroC, 12, type is 7, 27, type is 7 
+atom_i: 14
+atom_i to atom_j: 12
+atom_j to atom_k: 27
+ATOM j: 28 Name:  C28
+ATOM k: 13 Name:  C13
+Connected triplet is: 14, type is aroC, 28, type is 7, 13, type is 7 
+atom_i: 14
+atom_i to atom_j: 28
+atom_j to atom_k: 13
+ATOM k: 14 Name:  C14
+Connected triplet is: 14, type is aroC, 28, type is 7, 14, type is 7 
+ATOM k: 36 Name:  S1 
+Connected triplet is: 14, type is aroC, 28, type is 7, 36, type is 22 
+atom_i: 14
+atom_i to atom_j: 28
+atom_j to atom_k: 36
+
+in atom iterate block, atom num is15
+atom name is  C15
+ATOM j: 16 Name:  C16
+ATOM k: 15 Name:  C15
+Connected triplet is: 15, type is CH2, 16, type is 5, 15, type is 5 
+ATOM k: 18 Name:  C18
+Connected triplet is: 15, type is CH2, 16, type is 5, 18, type is 5 
+atom_i: 15
+atom_i to atom_j: 16
+atom_j to atom_k: 18
+ATOM j: 17 Name:  C17
+ATOM k: 15 Name:  C15
+Connected triplet is: 15, type is CH2, 17, type is 5, 15, type is 5 
+ATOM k: 19 Name:  C19
+Connected triplet is: 15, type is CH2, 17, type is 5, 19, type is 5 
+atom_i: 15
+atom_i to atom_j: 17
+atom_j to atom_k: 19
+
+in atom iterate block, atom num is16
+atom name is  C16
+ATOM j: 15 Name:  C15
+ATOM k: 16 Name:  C16
+Connected triplet is: 16, type is CH2, 15, type is 5, 16, type is 5 
+ATOM k: 17 Name:  C17
+Connected triplet is: 16, type is CH2, 15, type is 5, 17, type is 5 
+atom_i: 16
+atom_i to atom_j: 15
+atom_j to atom_k: 17
+ATOM j: 18 Name:  C18
+ATOM k: 16 Name:  C16
+Connected triplet is: 16, type is CH2, 18, type is 5, 16, type is 5 
+ATOM k: 21 Name:  C21
+Connected triplet is: 16, type is CH2, 18, type is 5, 21, type is 5 
+atom_i: 16
+atom_i to atom_j: 18
+atom_j to atom_k: 21
+
+in atom iterate block, atom num is17
+atom name is  C17
+ATOM j: 15 Name:  C15
+ATOM k: 16 Name:  C16
+Connected triplet is: 17, type is CH2, 15, type is 5, 16, type is 5 
+atom_i: 17
+atom_i to atom_j: 15
+atom_j to atom_k: 16
+ATOM k: 17 Name:  C17
+Connected triplet is: 17, type is CH2, 15, type is 5, 17, type is 5 
+ATOM j: 19 Name:  C19
+ATOM k: 17 Name:  C17
+Connected triplet is: 17, type is CH2, 19, type is 5, 17, type is 5 
+ATOM k: 25 Name:  C25
+Connected triplet is: 17, type is CH2, 19, type is 5, 25, type is 7 
+atom_i: 17
+atom_i to atom_j: 19
+atom_j to atom_k: 25
+
+in atom iterate block, atom num is18
+atom name is  C18
+ATOM j: 16 Name:  C16
+ATOM k: 15 Name:  C15
+Connected triplet is: 18, type is CH2, 16, type is 5, 15, type is 5 
+atom_i: 18
+atom_i to atom_j: 16
+atom_j to atom_k: 15
+ATOM k: 18 Name:  C18
+Connected triplet is: 18, type is CH2, 16, type is 5, 18, type is 5 
+ATOM j: 21 Name:  C21
+ATOM k: 18 Name:  C18
+Connected triplet is: 18, type is CH2, 21, type is 5, 18, type is 5 
+ATOM k: 30 Name:  C30
+Connected triplet is: 18, type is CH2, 21, type is 5, 30, type is 2 
+atom_i: 18
+atom_i to atom_j: 21
+atom_j to atom_k: 30
+
+in atom iterate block, atom num is19
+atom name is  C19
+ATOM j: 17 Name:  C17
+ATOM k: 15 Name:  C15
+Connected triplet is: 19, type is CH2, 17, type is 5, 15, type is 5 
+atom_i: 19
+atom_i to atom_j: 17
+atom_j to atom_k: 15
+ATOM k: 19 Name:  C19
+Connected triplet is: 19, type is CH2, 17, type is 5, 19, type is 5 
+ATOM j: 25 Name:  C25
+ATOM k: 7 Name:  C7 
+Connected triplet is: 19, type is CH2, 25, type is 7, 7, type is 7 
+atom_i: 19
+atom_i to atom_j: 25
+atom_j to atom_k: 7
+ATOM k: 8 Name:  C8 
+Connected triplet is: 19, type is CH2, 25, type is 7, 8, type is 7 
+atom_i: 19
+atom_i to atom_j: 25
+atom_j to atom_k: 8
+ATOM k: 19 Name:  C19
+Connected triplet is: 19, type is CH2, 25, type is 7, 19, type is 5 
+
+in atom iterate block, atom num is20
+atom name is  C20
+ATOM j: 22 Name:  C22
+ATOM k: 20 Name:  C20
+Connected triplet is: 20, type is CH2, 22, type is 5, 20, type is 5 
+ATOM k: 31 Name:  C31
+Connected triplet is: 20, type is CH2, 22, type is 5, 31, type is 2 
+atom_i: 20
+atom_i to atom_j: 22
+atom_j to atom_k: 31
+ATOM j: 29 Name:  C29
+ATOM k: 20 Name:  C20
+Connected triplet is: 20, type is CH2, 29, type is 4, 20, type is 5 
+ATOM k: 24 Name:  C24
+Connected triplet is: 20, type is CH2, 29, type is 4, 24, type is 5 
+atom_i: 20
+atom_i to atom_j: 29
+atom_j to atom_k: 24
+ATOM k: 32 Name:  N1 
+Connected triplet is: 20, type is CH2, 29, type is 4, 32, type is 8 
+atom_i: 20
+atom_i to atom_j: 29
+atom_j to atom_k: 32
+
+in atom iterate block, atom num is21
+atom name is  C21
+ATOM j: 18 Name:  C18
+ATOM k: 16 Name:  C16
+Connected triplet is: 21, type is CH2, 18, type is 5, 16, type is 5 
+atom_i: 21
+atom_i to atom_j: 18
+atom_j to atom_k: 16
+ATOM k: 21 Name:  C21
+Connected triplet is: 21, type is CH2, 18, type is 5, 21, type is 5 
+ATOM j: 30 Name:  C30
+ATOM k: 21 Name:  C21
+Connected triplet is: 21, type is CH2, 30, type is 2, 21, type is 5 
+ATOM k: 32 Name:  N1 
+Connected triplet is: 21, type is CH2, 30, type is 2, 32, type is 8 
+atom_i: 21
+atom_i to atom_j: 30
+atom_j to atom_k: 32
+ATOM k: 34 Name:  O2 
+Connected triplet is: 21, type is CH2, 30, type is 2, 34, type is 17 
+atom_i: 21
+atom_i to atom_j: 30
+atom_j to atom_k: 34
+
+in atom iterate block, atom num is22
+atom name is  C22
+ATOM j: 20 Name:  C20
+ATOM k: 22 Name:  C22
+Connected triplet is: 22, type is CH2, 20, type is 5, 22, type is 5 
+ATOM k: 29 Name:  C29
+Connected triplet is: 22, type is CH2, 20, type is 5, 29, type is 4 
+atom_i: 22
+atom_i to atom_j: 20
+atom_j to atom_k: 29
+ATOM j: 31 Name:  C31
+ATOM k: 22 Name:  C22
+Connected triplet is: 22, type is CH2, 31, type is 2, 22, type is 5 
+ATOM k: 33 Name:  O1 
+Connected triplet is: 22, type is CH2, 31, type is 2, 33, type is 18 
+atom_i: 22
+atom_i to atom_j: 31
+atom_j to atom_k: 33
+ATOM k: 35 Name:  O3 
+Connected triplet is: 22, type is CH2, 31, type is 2, 35, type is 18 
+atom_i: 22
+atom_i to atom_j: 31
+atom_j to atom_k: 35
+
+in atom iterate block, atom num is23
+atom name is  C23
+ATOM j: 26 Name:  C26
+ATOM k: 9 Name:  C9 
+Connected triplet is: 23, type is CH2, 26, type is 7, 9, type is 7 
+atom_i: 23
+atom_i to atom_j: 26
+atom_j to atom_k: 9
+ATOM k: 10 Name:  C10
+Connected triplet is: 23, type is CH2, 26, type is 7, 10, type is 7 
+atom_i: 23
+atom_i to atom_j: 26
+atom_j to atom_k: 10
+ATOM k: 23 Name:  C23
+Connected triplet is: 23, type is CH2, 26, type is 7, 23, type is 5 
+ATOM j: 27 Name:  C27
+ATOM k: 11 Name:  C11
+Connected triplet is: 23, type is CH2, 27, type is 7, 11, type is 7 
+atom_i: 23
+atom_i to atom_j: 27
+atom_j to atom_k: 11
+ATOM k: 12 Name:  C12
+Connected triplet is: 23, type is CH2, 27, type is 7, 12, type is 7 
+atom_i: 23
+atom_i to atom_j: 27
+atom_j to atom_k: 12
+ATOM k: 23 Name:  C23
+Connected triplet is: 23, type is CH2, 27, type is 7, 23, type is 5 
+
+in atom iterate block, atom num is24
+atom name is  C24
+ATOM j: 29 Name:  C29
+ATOM k: 20 Name:  C20
+Connected triplet is: 24, type is CH2, 29, type is 4, 20, type is 5 
+atom_i: 24
+atom_i to atom_j: 29
+atom_j to atom_k: 20
+ATOM k: 24 Name:  C24
+Connected triplet is: 24, type is CH2, 29, type is 4, 24, type is 5 
+ATOM k: 32 Name:  N1 
+Connected triplet is: 24, type is CH2, 29, type is 4, 32, type is 8 
+atom_i: 24
+atom_i to atom_j: 29
+atom_j to atom_k: 32
+ATOM j: 36 Name:  S1 
+ATOM k: 24 Name:  C24
+Connected triplet is: 24, type is CH2, 36, type is 22, 24, type is 5 
+ATOM k: 28 Name:  C28
+Connected triplet is: 24, type is CH2, 36, type is 22, 28, type is 7 
+atom_i: 24
+atom_i to atom_j: 36
+atom_j to atom_k: 28
+
+in atom iterate block, atom num is25
+atom name is  C25
+ATOM j: 7 Name:  C7 
+ATOM k: 3 Name:  C3 
+Connected triplet is: 25, type is aroC, 7, type is 7, 3, type is 7 
+atom_i: 25
+atom_i to atom_j: 7
+atom_j to atom_k: 3
+ATOM k: 25 Name:  C25
+Connected triplet is: 25, type is aroC, 7, type is 7, 25, type is 7 
+ATOM j: 8 Name:  C8 
+ATOM k: 4 Name:  C4 
+Connected triplet is: 25, type is aroC, 8, type is 7, 4, type is 7 
+atom_i: 25
+atom_i to atom_j: 8
+atom_j to atom_k: 4
+ATOM k: 25 Name:  C25
+Connected triplet is: 25, type is aroC, 8, type is 7, 25, type is 7 
+ATOM j: 19 Name:  C19
+ATOM k: 17 Name:  C17
+Connected triplet is: 25, type is aroC, 19, type is 5, 17, type is 5 
+atom_i: 25
+atom_i to atom_j: 19
+atom_j to atom_k: 17
+ATOM k: 25 Name:  C25
+Connected triplet is: 25, type is aroC, 19, type is 5, 25, type is 7 
+
+in atom iterate block, atom num is26
+atom name is  C26
+ATOM j: 9 Name:  C9 
+ATOM k: 5 Name:  C5 
+Connected triplet is: 26, type is aroC, 9, type is 7, 5, type is 7 
+atom_i: 26
+atom_i to atom_j: 9
+atom_j to atom_k: 5
+ATOM k: 26 Name:  C26
+Connected triplet is: 26, type is aroC, 9, type is 7, 26, type is 7 
+ATOM j: 10 Name:  C10
+ATOM k: 6 Name:  C6 
+Connected triplet is: 26, type is aroC, 10, type is 7, 6, type is 7 
+atom_i: 26
+atom_i to atom_j: 10
+atom_j to atom_k: 6
+ATOM k: 26 Name:  C26
+Connected triplet is: 26, type is aroC, 10, type is 7, 26, type is 7 
+ATOM j: 23 Name:  C23
+ATOM k: 26 Name:  C26
+Connected triplet is: 26, type is aroC, 23, type is 5, 26, type is 7 
+ATOM k: 27 Name:  C27
+Connected triplet is: 26, type is aroC, 23, type is 5, 27, type is 7 
+atom_i: 26
+atom_i to atom_j: 23
+atom_j to atom_k: 27
+
+in atom iterate block, atom num is27
+atom name is  C27
+ATOM j: 11 Name:  C11
+ATOM k: 13 Name:  C13
+Connected triplet is: 27, type is aroC, 11, type is 7, 13, type is 7 
+atom_i: 27
+atom_i to atom_j: 11
+atom_j to atom_k: 13
+ATOM k: 27 Name:  C27
+Connected triplet is: 27, type is aroC, 11, type is 7, 27, type is 7 
+ATOM j: 12 Name:  C12
+ATOM k: 14 Name:  C14
+Connected triplet is: 27, type is aroC, 12, type is 7, 14, type is 7 
+atom_i: 27
+atom_i to atom_j: 12
+atom_j to atom_k: 14
+ATOM k: 27 Name:  C27
+Connected triplet is: 27, type is aroC, 12, type is 7, 27, type is 7 
+ATOM j: 23 Name:  C23
+ATOM k: 26 Name:  C26
+Connected triplet is: 27, type is aroC, 23, type is 5, 26, type is 7 
+atom_i: 27
+atom_i to atom_j: 23
+atom_j to atom_k: 26
+ATOM k: 27 Name:  C27
+Connected triplet is: 27, type is aroC, 23, type is 5, 27, type is 7 
+
+in atom iterate block, atom num is28
+atom name is  C28
+ATOM j: 13 Name:  C13
+ATOM k: 11 Name:  C11
+Connected triplet is: 28, type is aroC, 13, type is 7, 11, type is 7 
+atom_i: 28
+atom_i to atom_j: 13
+atom_j to atom_k: 11
+ATOM k: 28 Name:  C28
+Connected triplet is: 28, type is aroC, 13, type is 7, 28, type is 7 
+ATOM j: 14 Name:  C14
+ATOM k: 12 Name:  C12
+Connected triplet is: 28, type is aroC, 14, type is 7, 12, type is 7 
+atom_i: 28
+atom_i to atom_j: 14
+atom_j to atom_k: 12
+ATOM k: 28 Name:  C28
+Connected triplet is: 28, type is aroC, 14, type is 7, 28, type is 7 
+ATOM j: 36 Name:  S1 
+ATOM k: 24 Name:  C24
+Connected triplet is: 28, type is aroC, 36, type is 22, 24, type is 5 
+atom_i: 28
+atom_i to atom_j: 36
+atom_j to atom_k: 24
+ATOM k: 28 Name:  C28
+Connected triplet is: 28, type is aroC, 36, type is 22, 28, type is 7 
+
+in atom iterate block, atom num is29
+atom name is  C29
+ATOM j: 20 Name:  C20
+ATOM k: 22 Name:  C22
+Connected triplet is: 29, type is CH1, 20, type is 5, 22, type is 5 
+atom_i: 29
+atom_i to atom_j: 20
+atom_j to atom_k: 22
+ATOM k: 29 Name:  C29
+Connected triplet is: 29, type is CH1, 20, type is 5, 29, type is 4 
+ATOM j: 24 Name:  C24
+ATOM k: 29 Name:  C29
+Connected triplet is: 29, type is CH1, 24, type is 5, 29, type is 4 
+ATOM k: 36 Name:  S1 
+Connected triplet is: 29, type is CH1, 24, type is 5, 36, type is 22 
+atom_i: 29
+atom_i to atom_j: 24
+atom_j to atom_k: 36
+ATOM j: 32 Name:  N1 
+ATOM k: 29 Name:  C29
+Connected triplet is: 29, type is CH1, 32, type is 8, 29, type is 4 
+ATOM k: 30 Name:  C30
+Connected triplet is: 29, type is CH1, 32, type is 8, 30, type is 2 
+atom_i: 29
+atom_i to atom_j: 32
+atom_j to atom_k: 30
+
+in atom iterate block, atom num is30
+atom name is  C30
+ATOM j: 21 Name:  C21
+ATOM k: 18 Name:  C18
+Connected triplet is: 30, type is COO, 21, type is 5, 18, type is 5 
+atom_i: 30
+atom_i to atom_j: 21
+atom_j to atom_k: 18
+ATOM k: 30 Name:  C30
+Connected triplet is: 30, type is COO, 21, type is 5, 30, type is 2 
+ATOM j: 32 Name:  N1 
+ATOM k: 29 Name:  C29
+Connected triplet is: 30, type is COO, 32, type is 8, 29, type is 4 
+atom_i: 30
+atom_i to atom_j: 32
+atom_j to atom_k: 29
+ATOM k: 30 Name:  C30
+Connected triplet is: 30, type is COO, 32, type is 8, 30, type is 2 
+ATOM j: 34 Name:  O2 
+ATOM k: 30 Name:  C30
+Connected triplet is: 30, type is COO, 34, type is 17, 30, type is 2 
+
+in atom iterate block, atom num is31
+atom name is  C31
+ATOM j: 22 Name:  C22
+ATOM k: 20 Name:  C20
+Connected triplet is: 31, type is COO, 22, type is 5, 20, type is 5 
+atom_i: 31
+atom_i to atom_j: 22
+atom_j to atom_k: 20
+ATOM k: 31 Name:  C31
+Connected triplet is: 31, type is COO, 22, type is 5, 31, type is 2 
+ATOM j: 33 Name:  O1 
+ATOM k: 31 Name:  C31
+Connected triplet is: 31, type is COO, 33, type is 18, 31, type is 2 
+ATOM j: 35 Name:  O3 
+ATOM k: 31 Name:  C31
+Connected triplet is: 31, type is COO, 35, type is 18, 31, type is 2 
+
+in atom iterate block, atom num is32
+atom name is  N1 
+ATOM j: 29 Name:  C29
+ATOM k: 20 Name:  C20
+Connected triplet is: 32, type is Ntrp, 29, type is 4, 20, type is 5 
+atom_i: 32
+atom_i to atom_j: 29
+atom_j to atom_k: 20
+ATOM k: 24 Name:  C24
+Connected triplet is: 32, type is Ntrp, 29, type is 4, 24, type is 5 
+atom_i: 32
+atom_i to atom_j: 29
+atom_j to atom_k: 24
+ATOM k: 32 Name:  N1 
+Connected triplet is: 32, type is Ntrp, 29, type is 4, 32, type is 8 
+ATOM j: 30 Name:  C30
+ATOM k: 21 Name:  C21
+Connected triplet is: 32, type is Ntrp, 30, type is 2, 21, type is 5 
+atom_i: 32
+atom_i to atom_j: 30
+atom_j to atom_k: 21
+ATOM k: 32 Name:  N1 
+Connected triplet is: 32, type is Ntrp, 30, type is 2, 32, type is 8 
+ATOM k: 34 Name:  O2 
+Connected triplet is: 32, type is Ntrp, 30, type is 2, 34, type is 17 
+atom_i: 32
+atom_i to atom_j: 30
+atom_j to atom_k: 34
+
+in atom iterate block, atom num is33
+atom name is  O1 
+ATOM j: 31 Name:  C31
+ATOM k: 22 Name:  C22
+Connected triplet is: 33, type is OOC, 31, type is 2, 22, type is 5 
+atom_i: 33
+atom_i to atom_j: 31
+atom_j to atom_k: 22
+ATOM k: 33 Name:  O1 
+Connected triplet is: 33, type is OOC, 31, type is 2, 33, type is 18 
+ATOM k: 35 Name:  O3 
+Connected triplet is: 33, type is OOC, 31, type is 2, 35, type is 18 
+atom_i: 33
+atom_i to atom_j: 31
+atom_j to atom_k: 35
+
+in atom iterate block, atom num is34
+atom name is  O2 
+ATOM j: 30 Name:  C30
+ATOM k: 21 Name:  C21
+Connected triplet is: 34, type is ONH2, 30, type is 2, 21, type is 5 
+atom_i: 34
+atom_i to atom_j: 30
+atom_j to atom_k: 21
+ATOM k: 32 Name:  N1 
+Connected triplet is: 34, type is ONH2, 30, type is 2, 32, type is 8 
+atom_i: 34
+atom_i to atom_j: 30
+atom_j to atom_k: 32
+ATOM k: 34 Name:  O2 
+Connected triplet is: 34, type is ONH2, 30, type is 2, 34, type is 17 
+
+in atom iterate block, atom num is35
+atom name is  O3 
+ATOM j: 31 Name:  C31
+ATOM k: 22 Name:  C22
+Connected triplet is: 35, type is OOC, 31, type is 2, 22, type is 5 
+atom_i: 35
+atom_i to atom_j: 31
+atom_j to atom_k: 22
+ATOM k: 33 Name:  O1 
+Connected triplet is: 35, type is OOC, 31, type is 2, 33, type is 18 
+atom_i: 35
+atom_i to atom_j: 31
+atom_j to atom_k: 33
+ATOM k: 35 Name:  O3 
+Connected triplet is: 35, type is OOC, 31, type is 2, 35, type is 18 
+
+in atom iterate block, atom num is36
+atom name is  S1 
+ATOM j: 24 Name:  C24
+ATOM k: 29 Name:  C29
+Connected triplet is: 36, type is S, 24, type is 5, 29, type is 4 
+atom_i: 36
+atom_i to atom_j: 24
+atom_j to atom_k: 29
+ATOM k: 36 Name:  S1 
+Connected triplet is: 36, type is S, 24, type is 5, 36, type is 22 
+ATOM j: 28 Name:  C28
+ATOM k: 13 Name:  C13
+Connected triplet is: 36, type is S, 28, type is 7, 13, type is 7 
+atom_i: 36
+atom_i to atom_j: 28
+atom_j to atom_k: 13
+ATOM k: 14 Name:  C14
+Connected triplet is: 36, type is S, 28, type is 7, 14, type is 7 
+atom_i: 36
+atom_i to atom_j: 28
+atom_j to atom_k: 14
+ATOM k: 36 Name:  S1 
+Connected triplet is: 36, type is S, 28, type is 7, 36, type is 22 
+
+Total 3 atoms in pruned indices list is: 47
+Total 3 atoms in unpruned indices list is: 94
+Residue 2 passed energy cut with pack score: -3.01059, hbond score: 0, for a total score of: -3.01059
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+7: 4-8-25protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/LEU2 _Z1_Ligatoms_4_8_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU2 _Z1_Ligatoms_4_8_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+44: 29-24-36protocols.motifs.Motif: Res1 name is LEU
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is S
+Writing Ligand_motif_dir/LEU2 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/LEU2 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 5 passed energy cut with pack score: -2.91024, hbond score: 0, for a total score of: -2.91024
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+13: 8-25-19protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/PHE5 _Z1_Ligatoms_8_25_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE5 _Z1_Ligatoms_8_25_19_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+29: 16-15-17protocols.motifs.Motif: Res1 name is PHE
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/PHE5 _Z1_Ligatoms_16_15_17_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/PHE5 _Z1_Ligatoms_16_15_17_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 6 passed energy cut with pack score: -1.04728, hbond score: 0, for a total score of: -1.04728
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 0 items.
+Top triplets are: 
+
+Residue 9 passed energy cut with pack score: -1.17101, hbond score: 0, for a total score of: -1.17101
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+31: 17-19-25protocols.motifs.Motif: Res1 name is ILE
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/ILE9 _Z1_Ligatoms_17_19_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ILE9 _Z1_Ligatoms_17_19_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+11: 7-25-8protocols.motifs.Motif: Res1 name is ILE
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/ILE9 _Z1_Ligatoms_7_25_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ILE9 _Z1_Ligatoms_7_25_8_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 21 passed energy cut with pack score: -1.14487, hbond score: 0, for a total score of: -1.14487
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+31: 17-19-25protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/TYR21 _Z1_Ligatoms_17_19_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TYR21 _Z1_Ligatoms_17_19_25_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+29: 16-15-17protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/TYR21 _Z1_Ligatoms_16_15_17_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TYR21 _Z1_Ligatoms_16_15_17_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 30 passed energy cut with pack score: -1.17477, hbond score: 0, for a total score of: -1.17477
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 3 items.
+Top triplets are: Size of top_triplets:  3
+Size of this_triplet:  3
+47: 33-31-35protocols.motifs.Motif: Res1 name is VAL
+protocols.motifs.Motif: atom1 name is OOC
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is OOC
+Writing Ligand_motif_dir/VAL30 _Z1_Ligatoms_33_31_35_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/VAL30 _Z1_Ligatoms_33_31_35_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+25: 14-12-27protocols.motifs.Motif: Res1 name is VAL
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is aroC
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/VAL30 _Z1_Ligatoms_14_12_27_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/VAL30 _Z1_Ligatoms_14_12_27_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  3
+Size of this_triplet:  3
+43: 26-23-27protocols.motifs.Motif: Res1 name is VAL
+protocols.motifs.Motif: atom1 name is aroC
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is aroC
+Writing Ligand_motif_dir/VAL30 _Z1_Ligatoms_26_23_27_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/VAL30 _Z1_Ligatoms_26_23_27_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 44 passed energy cut with pack score: -1.68189, hbond score: 0, for a total score of: -1.68189
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+37: 21-30-34protocols.motifs.Motif: Res1 name is CYS
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/CYS44 _Z1_Ligatoms_21_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/CYS44 _Z1_Ligatoms_21_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+27: 15-16-18protocols.motifs.Motif: Res1 name is CYS
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/CYS44 _Z1_Ligatoms_15_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/CYS44 _Z1_Ligatoms_15_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 47 passed energy cut with pack score: -3.97046, hbond score: 0, for a total score of: -3.97046
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 4 items.
+Top triplets are: Size of top_triplets:  4
+Size of this_triplet:  3
+46: 32-30-34protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is Ntrp
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/HIS47 _Z1_Ligatoms_32_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS47 _Z1_Ligatoms_32_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  4
+Size of this_triplet:  3
+37: 21-30-34protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/HIS47 _Z1_Ligatoms_21_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS47 _Z1_Ligatoms_21_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  4
+Size of this_triplet:  3
+27: 15-16-18protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/HIS47 _Z1_Ligatoms_15_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS47 _Z1_Ligatoms_15_16_18_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  4
+Size of this_triplet:  3
+44: 29-24-36protocols.motifs.Motif: Res1 name is HIS
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is S
+Writing Ligand_motif_dir/HIS47 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/HIS47 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 48 passed energy cut with pack score: -2.56936, hbond score: 0, for a total score of: -2.56936
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 7 items.
+Top triplets are: Size of top_triplets:  7
+Size of this_triplet:  3
+46: 32-30-34protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is Ntrp
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is ONH2
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_32_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_32_30_34_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+45: 29-32-30protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is Ntrp
+protocols.motifs.Motif: atom3 name is COO
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_29_32_30_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_29_32_30_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+47: 33-31-35protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is OOC
+protocols.motifs.Motif: atom2 name is COO
+protocols.motifs.Motif: atom3 name is OOC
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_33_31_35_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_33_31_35_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+41: 24-29-32protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH1
+protocols.motifs.Motif: atom3 name is Ntrp
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_24_29_32_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_24_29_32_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+30: 16-18-21protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH2
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_16_18_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_16_18_21_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+38: 22-20-29protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_22_20_29_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_22_20_29_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  7
+Size of this_triplet:  3
+44: 29-24-36protocols.motifs.Motif: Res1 name is ASP
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is S
+Writing Ligand_motif_dir/ASP48 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/ASP48 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 51 passed energy cut with pack score: -2.50334, hbond score: 0, for a total score of: -2.50334
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 2 items.
+Top triplets are: Size of top_triplets:  2
+Size of this_triplet:  3
+44: 29-24-36protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH1
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is S
+Writing Ligand_motif_dir/TYR51 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TYR51 _Z1_Ligatoms_29_24_36_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+Size of top_triplets:  2
+Size of this_triplet:  3
+38: 22-20-29protocols.motifs.Motif: Res1 name is TYR
+protocols.motifs.Motif: atom1 name is CH2
+protocols.motifs.Motif: atom2 name is CH2
+protocols.motifs.Motif: atom3 name is CH1
+Writing Ligand_motif_dir/TYR51 _Z1_Ligatoms_22_20_29_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb
+core.io.pdb.pdb_writer: [ ERROR ] StructFileRep::dump_pdb: Unable to open file:Ligand_motif_dir/TYR51 _Z1_Ligatoms_22_20_29_ _/data/project/thymelab/running_Rosetta/ari_work/REU_shared_space/motif_collection/files/pdb/pa2ga_pdb_lig.pdb.pdb for writing!!!
+
+
+Residue 62 passed energy cut with pack score: -1.51387, hbond score: 0, for a total score of: -1.51387
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 0 items.
+Top triplets are: 
+
+Residue 98 passed energy cut with pack score: -1.179, hbond score: 0, for a total score of: -1.179
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Skipping motif whose closest atom-atom distance is no closer than 5.0 angstroms
+Top triplets contains 0 items.
+Top triplets are: 
+
+Motif index contains: 1-3-7
+Motif index contains: 1-4-8
+Motif index contains: 2-5-9
+Motif index contains: 2-6-10
+Motif index contains: 3-1-4
+Motif index contains: 3-7-25
+Motif index contains: 4-8-25
+Motif index contains: 5-2-6
+Motif index contains: 5-9-26
+Motif index contains: 6-10-26
+Motif index contains: 7-25-8
+Motif index contains: 7-25-19
+Motif index contains: 8-25-19
+Motif index contains: 9-26-10
+Motif index contains: 9-26-23
+Motif index contains: 10-26-23
+Motif index contains: 11-13-28
+Motif index contains: 11-27-12
+Motif index contains: 11-27-23
+Motif index contains: 12-14-28
+Motif index contains: 12-27-23
+Motif index contains: 13-11-27
+Motif index contains: 13-28-14
+Motif index contains: 13-28-36
+Motif index contains: 14-12-27
+Motif index contains: 14-28-36
+Motif index contains: 15-16-18
+Motif index contains: 15-17-19
+Motif index contains: 16-15-17
+Motif index contains: 16-18-21
+Motif index contains: 17-19-25
+Motif index contains: 18-21-30
+Motif index contains: 20-22-31
+Motif index contains: 20-29-24
+Motif index contains: 20-29-32
+Motif index contains: 21-30-32
+Motif index contains: 21-30-34
+Motif index contains: 22-20-29
+Motif index contains: 22-31-33
+Motif index contains: 22-31-35
+Motif index contains: 24-29-32
+Motif index contains: 24-36-28
+Motif index contains: 26-23-27
+Motif index contains: 29-24-36
+Motif index contains: 29-32-30
+Motif index contains: 32-30-34
+Motif index contains: 33-31-35
