@@ -1,0 +1,64 @@
+-parser:protocol /data/user/abgvg9/benchmark/discovery_files/lite_enzdes.xml
+
+#CHANGE THIS
+-s /data/user/ishaanp@sas.upenn.edu/all/ace/ace.pdb
+
+-motif_filename /data/user/abgvg9/benchmark/discovery_files/updated_discovery_motif_list.motifs
+
+#CHANGE THIS
+-protein_discovery_locus 459
+
+#CHANGE THIS (path to test_params directory for receptor system)
+-params_directory_path /data/user/ishaanp@sas.upenn.edu/all/ace/test_params/
+
+
+-score::weights /data/user/abgvg9/benchmark/discovery_files/enzdes_2.5.wts
+-dtest 7.5
+-r2 1.1
+-r1 4.5
+-z1 0.1
+-z2 1.0
+-dump_motifs true
+-output_file output.file
+-motifs::data_file data.file
+-motifs::minimize false
+-minimize_dna false
+-enzdes::run_ligand_motifs true
+-patch_selectors SPECIAL_ROT
+-special_rotweight -20.0
+-rotlevel 8
+-enzdes::detect_design_interface
+-enzdes::cut1 4.0
+-enzdes::cut2 6.0
+-enzdes::cut3 6.0
+-enzdes::cut4 6.0
+-enzdes::design_min_cycles 1
+-enzdes::chi_min
+-in::ignore_unrecognized_res true
+-enzdes::cstfile null.cst
+-ex1
+-ex2
+-ex3
+-ex4
+-extrachi_cutoff 1
+-out::file::o ./enz_score.out
+-jd2:enzdes_out true
+-soft_rep_design
+-ex1aro
+-ex1aro:level 6
+-ex2aro
+-ex2aro:level 6
+-extrachi_cutoff 1
+-soft_rep_design
+-flip_HNQ
+-nstruct 1
+-enzdes::no_unconstrained_repack
+-linmem_ig 10
+-enzdes::lig_packer_weight 2.5
+-num_repacks 4
+-patch_selectors SPECIAL_ROT
+-output_residue_energies
+-run_motifs
+-ignore_unrecognized_res
+-ndruns 1
+-out:prefix test_
