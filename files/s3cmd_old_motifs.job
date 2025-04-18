@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -p short # Partition to submit to
+#SBATCH -n 1 # Number of cores requested
+#SBATCH -N 1 # Ensure that all cores are on one machine
+#SBATCH -t 720 # Runtime in minutes
+#SBATCH --mem=10000 # Memory per cpu in MB (see also --mem-per-cpu)
+#SBATCH -o rem_hom.out # Standard out goes to this file
+#SBATCH -e rem_hom.err # Standard err goes to this filehostname
+s3cmd put old_motifs_files.tar.gz s3://ariosg/benchmark/files/
