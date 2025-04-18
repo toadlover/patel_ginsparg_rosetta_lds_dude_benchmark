@@ -1,0 +1,6 @@
+-extra_res_fa /data/user/abgvg9/benchmark/files/all/cxcr4/test_params/cxcr4_lig.params
+-ignore_unrecognized_res
+-hb_score_cutoff -0.3
+-water_score_cutoff -0.3
+-pack_score_cutoff -0.5
+-s /data/user/abgvg9/benchmark/motif_collection/files/pdb/cxcr4_pdb_lig.pdb
