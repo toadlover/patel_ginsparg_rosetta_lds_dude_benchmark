@@ -1,0 +1,2 @@
+tryb1.pdb 
+tryb1-lig.pdb

@@ -1,0 +1,156 @@
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.22.post.dev+908.LigandMotifLibraryAnalysis.f6e1058
+[COMMIT_DATE]: 2021-07-12T11:25:36
+[APPLICATION]: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: GNU/Linux
+[COMPILER]: GCC version "4.8.5 20150623 (Red Hat 4.8.5-44)"
+[STDLIB]: libstdc++ version 20150623
+[START_OPTIONS]
+ -motifs:mol2_file=crystal_ligand.mol2 -motifs:params_custom_file_name=gria2_lig.params -motifs:ligand_full_name= + d + "_lig" +  -motifs:write_param_to_pdb
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::save_crash_report(char const*, std::string const&, int)+0x25) [0x2aaaba18a7c5]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::signal_handler(int)+0xaa) [0x2aaaba18a8fa]
+/lib64/libc.so.6(+0x36400) [0x2aaabc282400]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease(utility::io::ozstream& utility::io::ozstream::operator<< <std::string>(std::string const&)+0x47) [0x41a537]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x40cb09]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaabc26e555]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x410269]
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.22.post.dev+910.LigandMotifLibraryAnalysis.7c3322d
+[COMMIT_DATE]: 2021-07-12T13:07:45
+[APPLICATION]: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: GNU/Linux
+[COMPILER]: GCC version "4.8.5 20150623 (Red Hat 4.8.5-44)"
+[STDLIB]: libstdc++ version 20150623
+[START_OPTIONS]
+ -motifs:mol2_file=crystal_ligand.mol2 -motifs:params_custom_file_name=gria2_lig.params -motifs:ligand_full_name= + d + "_lig" +  -motifs:write_param_to_pdb
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::save_crash_report(char const*, std::string const&, int)+0x25) [0x2aaaba18a7c5]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::signal_handler(int)+0xaa) [0x2aaaba18a8fa]
+/lib64/libc.so.6(+0x36400) [0x2aaabc282400]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease(utility::io::ozstream& utility::io::ozstream::operator<< <std::string>(std::string const&)+0x47) [0x41bae7]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x40eae2]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaabc26e555]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x4117c2]
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.22.post.dev+911.LigandMotifLibraryAnalysis.92b8799
+[COMMIT_DATE]: 2021-07-12T13:14:59
+[APPLICATION]: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: GNU/Linux
+[COMPILER]: GCC version "4.8.5 20150623 (Red Hat 4.8.5-44)"
+[STDLIB]: libstdc++ version 20150623
+[START_OPTIONS]
+ -motifs:mol2_file=crystal_ligand.mol2 -motifs:params_custom_file_name=gria2_lig.params -motifs:ligand_full_name= + d + "_lig" +  -motifs:write_param_to_pdb
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::save_crash_report(char const*, std::string const&, int)+0x25) [0x2aaaba18a7c5]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::signal_handler(int)+0xaa) [0x2aaaba18a8fa]
+/lib64/libc.so.6(+0x36400) [0x2aaabc282400]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease(utility::io::ozstream& utility::io::ozstream::operator<< <std::string>(std::string const&)+0x47) [0x41bb07]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x40d978]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaabc26e555]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x411792]
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.22.post.dev+912.LigandMotifLibraryAnalysis.4bddad6
+[COMMIT_DATE]: 2021-07-12T13:44:28
+[APPLICATION]: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: GNU/Linux
+[COMPILER]: GCC version "4.8.5 20150623 (Red Hat 4.8.5-44)"
+[STDLIB]: libstdc++ version 20150623
+[START_OPTIONS]
+ -motifs:mol2_file=crystal_ligand.mol2 -motifs:params_custom_file_name=gria2_lig.params -motifs:ligand_full_name= + d + "_lig" +  -motifs:write_param_to_pdb
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::save_crash_report(char const*, std::string const&, int)+0x25) [0x2aaaba18a7c5]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/libutility.so(utility::signal_handler(int)+0xaa) [0x2aaaba18a8fa]
+/lib64/libc.so.6(+0x36400) [0x2aaabc282400]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease(utility::io::ozstream& utility::io::ozstream::operator<< <std::string>(std::string const&)+0x47) [0x41bac7]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x40d97a]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaabc26e555]
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease() [0x4117a2]
+
+[END_BACKTRACE]
+
+[FILE]: SIGSEGV
+[LINE]: 11
+[START_MESSAGE]
+Segmentation Fault
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+

@@ -1,0 +1,10 @@
+Dist 2.02605 ROS 37 Res SER 
+ 
+Dist 1.97147 ROS 218 Res GLY 
+ 
+Dist 1.82698 ROS 220 Res THR 
+ 
+Dist 1.78841 ROS 105 Res ILE 
+ 
+Dist 1.74304 ROS 220 Res THR 
+ 

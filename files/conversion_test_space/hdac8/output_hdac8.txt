@@ -1,0 +1,10 @@
+Dist 2.08039 ROS 18 Res LYS 
+ 
+Dist 2.00889 ROS 121 Res HIS 
+ 
+Dist 1.87734 ROS 245 Res MET 
+ 
+Dist 1.75348 ROS 121 Res HIS 
+ 
+Dist 1.31521 ROS 122 Res HIS 
+ 

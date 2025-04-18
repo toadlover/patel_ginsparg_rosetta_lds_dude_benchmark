@@ -1,0 +1,223 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+925.LigandMotifLibraryAnalysis.bb98867 bb988678067eab4254c21f4f9e155c40e47cc56c https://github.com/RosettaCommons/main 2021-07-16T13:23:00
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease @cdk2_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=1818081309 seed_offset=0 real_seed=1818081309
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=1818081309 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/mol2_to_params.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+Getting input filename(s)
+Loading mol2 file: crystal_ligand.mol2
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+C11
+C12
+C13
+C14
+C15
+C16
+C17
+C18
+C19
+C20
+C21
+N1
+N2
+N3
+N4
+N5
+O1
+O2
+F1
+F2
+H1
+H2
+H3
+H4
+H5
+H6
+H7
+H8
+H9
+H10
+H11
+H12
+H13
+H14
+H15
+H16
+H17
+H18
+H19
+H20
+H21
+H22
+H23
+H24
+After atom quartet assembly
+C15, [9, 28]
+C9, [7, 43]
+C7, [14, 41]
+We have data on C14
+H11, []
+H13, []
+O2, [13]
+C13, [21, 48, 49]
+C21, [12, 27, 50]
+C12, [26, 46, 47]
+N5, [1, 2, 53]
+C1, [31, 32, 33]
+H1, []
+H2, []
+H3, []
+C2, [34, 35, 36]
+H4, []
+H5, []
+H6, []
+H23, []
+H16, []
+H17, []
+O1, [54]
+H24, []
+H20, []
+H18, []
+H19, []
+H12, []
+H10, []
+N3, [18, 51]
+C18, [10, 22]
+C10, [19, 44]
+C19, [23, 25]
+N2, [11]
+C11, [22, 45]
+N1, [18]
+We have data on C18
+H15, []
+N4, [20, 52]
+C20, [16, 17]
+C16, [4, 29]
+C4, [3, 38]
+C3, [5, 37]
+C5, [17, 39]
+C17, [20, 30]
+We have data on C20
+F2, []
+H9, []
+H7, []
+H8, []
+F1, []
+We have data on C17
+H22, []
+H14, []
+We have data on N1
+H21, []
+[26, 12, 21, 13, 0]
+Fourth 10
+Third 11
+Second 12
+First 13
+match
+match
+match
+match
+[21, 12, 26, 1, 0]
+First 11
+Second 12
+Third 13
+Fourth 14
+match
+match
+match
+match
+[28, 13, 21, 12, 0]
+First 9
+Second 10
+Third 11
+Fourth 12
+match
+match
+match
+match
+[21, 13, 28, 15, 0]
+Fourth 4
+Third 9
+Second 10
+First 11
+match
+match
+match
+match
+[6, 14, 24, 18, 0]
+Second 1
+First 2
+Third 32
+Fourth 33
+match
+match
+match
+match
+[8, 15, 28, 13, 0]
+First 3
+Second 4
+Third 9
+Fourth 10
+match
+match
+match
+match
+[10, 18, 24, 14, 0]
+Fourth 1
+Third 32
+Second 33
+First 34
+match
+match
+match
+match
+[10, 19, 25, 20, 0]
+First 34
+Second 35
+Third 40
+Fourth 41
+match
+match
+match
+match
+[16, 20, 25, 19, 0]
+Fourth 35
+Third 40
+Second 41
+First 42
+match
+match
+match
+match
+After run of rotatable bond and reordering
+1, 9
+[13, 21, 12, 26, 0]
+2, 9
+[21, 12, 26, 1, 0]
+3, 9
+[28, 13, 21, 12, 0]
+4, 9
+[15, 28, 13, 21, 0]
+5, 9
+[14, 6, 24, 18, 0]
+6, 9
+[8, 15, 28, 13, 0]
+7, 9
+[14, 24, 18, 10, 0]
+8, 9
+[10, 19, 25, 20, 0]
+9, 9
+[19, 25, 20, 16, 0]
+After rotatable bond print
+Program runtime is: 1.24
+SUCCESSFUL COMPLETION

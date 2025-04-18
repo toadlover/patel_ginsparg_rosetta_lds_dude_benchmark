@@ -1,0 +1,10 @@
+Dist 2.6055 ROS 135 Res LYS 
+ 
+Dist 2.57257 ROS 134 Res TRP 
+ 
+Dist 2.52389 ROS 186 Res GLU 
+ 
+Dist 1.72241 ROS 135 Res LYS 
+ 
+Dist 1.60723 ROS 135 Res LYS 
+ 

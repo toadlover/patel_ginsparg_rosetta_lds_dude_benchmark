@@ -1,0 +1,10 @@
+Dist 2.25648 ROS 35 Res SER 
+ 
+Dist 2.15419 ROS 77 Res TYR 
+ 
+Dist 2.04809 ROS 210 Res ASP 
+ 
+Dist 1.9583 ROS 116 Res ALA 
+ 
+Dist 1.89725 ROS 32 Res ASP 
+ 

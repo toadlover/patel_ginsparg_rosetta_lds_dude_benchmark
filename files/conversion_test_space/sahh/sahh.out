@@ -1,0 +1,91 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+925.LigandMotifLibraryAnalysis.bb98867 bb988678067eab4254c21f4f9e155c40e47cc56c https://github.com/RosettaCommons/main 2021-07-16T13:23:00
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease @sahh_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=1969130447 seed_offset=0 real_seed=1969130447
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=1969130447 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/mol2_to_params.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+Getting input filename(s)
+Loading mol2 file: crystal_ligand.mol2
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+C11
+N1
+N2
+N3
+N4
+N5
+O1
+O2
+O3
+H1
+H2
+H3
+H4
+H5
+H6
+H7
+H8
+H9
+H10
+H11
+H12
+H13
+After atom quartet assembly
+C8, [4, 11, 26]
+C4, [17, 24, 25]
+O1, [31]
+H12, []
+H5, []
+H6, []
+C11, [10, 19]
+C10, [9, 18, 28]
+We have data on C9
+O2, [32]
+H13, []
+H9, []
+O3, []
+H7, []
+H3, []
+H4, []
+N5, [2, 7]
+C2, [15, 21]
+N4, [5]
+C5, [6, 7]
+C6, [12, 13]
+N1, [29, 30]
+H10, []
+H11, []
+N2, [1]
+C1, [14, 20]
+N3, [7]
+C7, [5, 16]
+We have data on C5
+We have data on N5
+H1, []
+We have data on C7
+H2, []
+We have data on C7
+[17, 4, 8, 3, 0]
+Fourth 3
+Third 4
+Second 5
+First 6
+match
+match
+match
+match
+After run of rotatable bond and reordering
+1, 1
+[3, 8, 4, 17, 0]
+After rotatable bond print
+Program runtime is: 0.16
+SUCCESSFUL COMPLETION

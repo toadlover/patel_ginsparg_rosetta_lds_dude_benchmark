@@ -1,0 +1,116 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+925.LigandMotifLibraryAnalysis.bb98867 bb988678067eab4254c21f4f9e155c40e47cc56c https://github.com/RosettaCommons/main 2021-07-16T13:23:00
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease @pygm_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-554365567 seed_offset=0 real_seed=-554365567
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-554365567 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/mol2_to_params.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+Getting input filename(s)
+Loading mol2 file: crystal_ligand.mol2
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+C11
+C12
+C13
+C14
+C15
+C16
+C17
+C18
+C19
+C20
+C21
+N1
+O1
+O2
+O3
+O4
+O5
+Cl1
+H1
+H2
+H3
+H4
+H5
+H6
+H7
+H8
+H9
+H10
+H11
+H12
+H13
+H14
+H15
+H16
+H17
+H18
+H19
+H20
+H21
+After atom quartet assembly
+C9, [22, 40, 41]
+N1, [1, 10, 46]
+C1, [29, 30, 31]
+H1, []
+H2, []
+H3, []
+C10, [21, 42, 43]
+C21, [20, 25, 45]
+We have data on C20
+O3, [49]
+H21, []
+H17, []
+H14, []
+H15, []
+H18, []
+H12, []
+H13, []
+H10, []
+H11, []
+C18, [14, 19]
+C14, [6, 24]
+C6, [13, 36]
+C13, [17, 23]
+C17, [15, 19]
+C15, [7, 26]
+C7, [16, 37]
+C16, [11, 27]
+C11, [4, 12]
+C4, [2, 34]
+C2, [3, 32]
+C3, [5, 33]
+C5, [12, 35]
+C12, [11, 28]
+We have data on C11
+Cl1, []
+H7, []
+H5, []
+H4, []
+H6, []
+We have data on C12
+O5, [19]
+C19, [17, 18]
+We have data on C17
+We have data on C18
+H9, []
+O4, []
+We have data on C19
+O1, [47]
+H19, []
+H8, []
+O2, [48]
+H20, []
+We have data on C19
+After run of rotatable bond and reordering
+After rotatable bond print
+Program runtime is: 1.07
+SUCCESSFUL COMPLETION

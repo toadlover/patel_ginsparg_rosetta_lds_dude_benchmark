@@ -1,0 +1,10 @@
+Dist 2.01997 ROS 141 Res PHE 
+ 
+Dist 1.97002 ROS 151 Res SER 
+ 
+Dist 1.82726 ROS 141 Res PHE 
+ 
+Dist 1.79314 ROS 212 Res ASN 
+ 
+Dist 1.73434 ROS 155 Res SER 
+ 

@@ -1,0 +1,398 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2020.22.post.dev+925.LigandMotifLibraryAnalysis.bb98867 bb988678067eab4254c21f4f9e155c40e47cc56c https://github.com/RosettaCommons/main 2021-07-16T13:23:00
+core.init: command: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease @cp3a4_args
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-202094262 seed_offset=0 real_seed=-202094262
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-202094262 RG_type=mt19937
+core.init: Resolved executable path: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/build/src/release/linux/3.10/64/x86/gcc/8.2/default/mol2_to_params.default.linuxgccrelease
+core.init: Looking for database based on location of executable: /data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/database/
+Getting input filename(s)
+Loading mol2 file: crystal_ligand.mol2
+C1
+C2
+C3
+C4
+C5
+C6
+C7
+C8
+C9
+C10
+C11
+C12
+C13
+C14
+C15
+C16
+C17
+C18
+C19
+C20
+C21
+C22
+C23
+C24
+C25
+C26
+C27
+C28
+C29
+C30
+C31
+C32
+C33
+C34
+C35
+C36
+C37
+N1
+N2
+N3
+N4
+N5
+N6
+O1
+O2
+O3
+O4
+O5
+S1
+S2
+H1
+H2
+H3
+H4
+H5
+H6
+H7
+H8
+H9
+H10
+H11
+H12
+H13
+H14
+H15
+H16
+H17
+H18
+H19
+H20
+H21
+H22
+H23
+H24
+H25
+H26
+H27
+H28
+H29
+H30
+H31
+H32
+H33
+H34
+H35
+H36
+H37
+H38
+H39
+H40
+H41
+H42
+H43
+H44
+H45
+H46
+After atom quartet assembly
+C25, [14, 15]
+C14, [10, 74]
+C10, [7, 70]
+C7, [11, 67]
+C11, [15, 71]
+C15, [25, 75]
+We have data on C25
+H25, []
+H21, []
+H17, []
+H20, []
+H24, []
+We have data on C15
+H31, []
+H32, []
+C23, [32, 87]
+C32, [31, 44, 91]
+C31, [19, 40, 90]
+C19, [24, 79, 80]
+C24, [12, 13]
+C12, [8, 72]
+C8, [6, 68]
+C6, [9, 66]
+C9, [13, 69]
+C13, [24, 73]
+We have data on C24
+H23, []
+H19, []
+H16, []
+H18, []
+H22, []
+We have data on C13
+H29, []
+H30, []
+N3, [37, 93]
+C37, [47, 48]
+O4, []
+O5, [22]
+C22, [26, 85, 86]
+C26, [16, 50]
+C16, [38, 76]
+N1, [18]
+C18, [50, 78]
+S2, [26]
+We have data on C26
+H28, []
+H26, []
+We have data on S2
+H35, []
+H36, []
+H43, []
+H40, []
+O1, [96]
+H46, []
+H41, []
+H37, []
+C35, [33, 45]
+C33, [30, 41, 92]
+C30, [3, 4, 89]
+C3, [57, 58, 59]
+H7, []
+H8, []
+H9, []
+C4, [60, 61, 62]
+H10, []
+H11, []
+H12, []
+H39, []
+N4, [36, 94]
+C36, [43, 46]
+N6, [5, 21]
+C5, [63, 64, 65]
+H13, []
+H14, []
+H15, []
+C21, [27, 83, 84]
+C27, [17, 39]
+C17, [49, 77]
+S1, [28]
+C28, [29, 39]
+C29, [1, 2, 88]
+C1, [51, 52, 53]
+H1, []
+H2, []
+H3, []
+C2, [54, 55, 56]
+H4, []
+H5, []
+H6, []
+H38, []
+N2, [27]
+We have data on C27
+H27, []
+We have data on N2
+H33, []
+H34, []
+O3, []
+H44, []
+H42, []
+O2, []
+H45, []
+[31, 19, 24, 12, 0]
+First 19
+Second 20
+Third 21
+Fourth 22
+match
+match
+match
+match
+[24, 19, 31, 32, 0]
+Fourth 18
+Third 19
+Second 20
+First 21
+match
+match
+match
+match
+[34, 20, 25, 14, 0]
+First 2
+Second 3
+Third 4
+Fourth 5
+match
+match
+match
+match
+[25, 20, 34, 23, 0]
+Third 2
+Second 3
+First 4
+Fourth 17
+match
+match
+match
+match
+[43, 21, 27, 17, 0]
+First 68
+Second 73
+Third 74
+Fourth 75
+match
+match
+match
+match
+[27, 21, 43, 5, 0]
+Third 68
+Fourth 69
+Second 73
+First 74
+match
+match
+match
+match
+[48, 22, 26, 16, 0]
+First 37
+Second 38
+Third 39
+Fourth 40
+match
+match
+match
+match
+[26, 22, 48, 37, 0]
+Fourth 35
+Third 37
+Second 38
+First 39
+match
+match
+match
+match
+[34, 23, 32, 31, 0]
+First 2
+Second 17
+Third 18
+Fourth 19
+match
+match
+match
+match
+[39, 28, 29, 1, 0]
+Second 77
+Third 78
+Fourth 79
+First 88
+match
+match
+match
+match
+[3, 30, 33, 35, 0]
+Fourth 54
+Third 55
+Second 56
+First 57
+match
+match
+match
+match
+[19, 31, 32, 23, 0]
+Fourth 17
+Third 18
+Second 19
+First 20
+match
+match
+match
+match
+[19, 31, 40, 37, 0]
+Second 19
+First 20
+Third 34
+Fourth 35
+match
+match
+match
+match
+[30, 33, 35, 42, 0]
+Fourth 1
+Third 54
+Second 55
+First 56
+match
+match
+match
+match
+[30, 33, 41, 36, 0]
+Second 55
+First 56
+Third 66
+Fourth 67
+match
+match
+match
+match
+[20, 34, 42, 35, 0]
+Third 1
+Second 2
+First 3
+Fourth 54
+match
+match
+match
+match
+[40, 37, 48, 22, 0]
+First 34
+Second 35
+Third 37
+Fourth 38
+match
+match
+match
+match
+After run of rotatable bond and reordering
+1, 17
+[31, 19, 24, 12, 0]
+2, 17
+[32, 31, 19, 24, 0]
+3, 17
+[34, 20, 25, 14, 0]
+4, 17
+[34, 20, 25, 23, 0]
+5, 17
+[43, 21, 27, 17, 0]
+6, 17
+[43, 5, 21, 27, 0]
+7, 17
+[48, 22, 26, 16, 0]
+8, 17
+[37, 48, 22, 26, 0]
+9, 17
+[34, 23, 32, 31, 0]
+10, 17
+[28, 29, 1, 39, 0]
+11, 17
+[35, 33, 30, 3, 0]
+12, 17
+[23, 32, 31, 19, 0]
+13, 17
+[31, 19, 40, 37, 0]
+14, 17
+[42, 35, 33, 30, 0]
+15, 17
+[33, 30, 41, 36, 0]
+16, 17
+[42, 34, 20, 35, 0]
+17, 17
+[40, 37, 48, 22, 0]
+After rotatable bond print
+Program runtime is: 7
+SUCCESSFUL COMPLETION

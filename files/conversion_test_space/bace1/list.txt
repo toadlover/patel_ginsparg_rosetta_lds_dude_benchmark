@@ -1,0 +1,2 @@
+bace1.pdb 
+bace1-lig.pdb

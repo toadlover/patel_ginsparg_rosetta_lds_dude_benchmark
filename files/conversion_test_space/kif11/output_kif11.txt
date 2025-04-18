@@ -1,0 +1,10 @@
+Dist 2.15459 ROS 94 Res PRO 
+ 
+Dist 2.05229 ROS 73 Res GLU 
+ 
+Dist 2.04953 ROS 116 Res LEU 
+ 
+Dist 1.91344 ROS 168 Res GLU 
+ 
+Dist 1.61874 ROS 75 Res GLU 
+ 

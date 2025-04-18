@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -p express # Partition to submit to
+#SBATCH -n 1 # Number of cores requested
+#SBATCH -N 1 # Ensure that all cores are on one machine
+#SBATCH -t 10 # Runtime in minutes
+#SBATCH --mem=10000 # Memory per cpu in MB (see also --mem-per-cpu)
+#SBATCH -o rock1.out # Standard out goes to this file
+#SBATCH -e rock1.err # Standard err goes to this filehostname
+/data/project/thymelab/running_Rosetta/ari_work/Rosetta_Code_copy/main/source/bin/mol2_to_params.linuxgccrelease @rock1_args

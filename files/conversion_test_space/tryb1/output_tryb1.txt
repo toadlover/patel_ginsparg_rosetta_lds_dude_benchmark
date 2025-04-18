@@ -1,0 +1,10 @@
+Dist 2.05746 ROS 87 Res GLN 
+ 
+Dist 2.02584 ROS 181 Res ASP 
+ 
+Dist 1.97722 ROS 182 Res SER 
+ 
+Dist 1.9043 ROS 184 Res GLN 
+ 
+Dist 1.83089 ROS 187 Res SER 
+ 

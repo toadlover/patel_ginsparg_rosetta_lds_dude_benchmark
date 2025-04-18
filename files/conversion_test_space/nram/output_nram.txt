@@ -1,0 +1,10 @@
+Dist 2.23113 ROS 180 Res GLU 
+ 
+Dist 2.06311 ROS 84 Res TRP 
+ 
+Dist 1.96653 ROS 57 Res ARG 
+ 
+Dist 1.87675 ROS 24 Res ARG 
+ 
+Dist 1.71613 ROS 85 Res SER 
+ 

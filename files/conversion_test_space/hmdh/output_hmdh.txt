@@ -1,0 +1,10 @@
+Dist 2.20798 ROS 301 Res ARG 
+ 
+Dist 2.18533 ROS 121 Res HIS 
+ 
+Dist 2.0873 ROS 32 Res CYS 
+ 
+Dist 1.96419 ROS 124 Res ASN 
+ 
+Dist 1.37405 ROS 400 Res LYS 
+ 
