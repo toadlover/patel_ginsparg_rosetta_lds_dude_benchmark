@@ -1,0 +1,9 @@
+
+xiap_+_0.pdb_lig
+8.130208225118453
+
+xiap_+_1.pdb_lig
+9.06833322239718
+
+BEST RMSD: 8.130208225118453
+BEST LIG: xiap_+_0.pdb_lig

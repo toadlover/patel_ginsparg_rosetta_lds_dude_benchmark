@@ -1,0 +1,9 @@
+
+csf1r_+_1.pdb_lig
+0.9183104828200228
+
+csf1r_+_0.pdb_lig
+8.188584654435536
+
+BEST RMSD: 0.9183104828200228
+BEST LIG: csf1r_+_1.pdb_lig

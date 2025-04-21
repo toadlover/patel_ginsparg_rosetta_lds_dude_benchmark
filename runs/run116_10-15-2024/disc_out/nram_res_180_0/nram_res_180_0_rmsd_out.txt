@@ -1,0 +1,9 @@
+
+nram_+_1.pdb_lig
+7.084924917033349
+
+nram_+_0.pdb_lig
+4.836586213436084
+
+BEST RMSD: 4.836586213436084
+BEST LIG: nram_+_0.pdb_lig

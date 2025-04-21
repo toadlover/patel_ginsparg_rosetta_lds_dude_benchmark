@@ -1,0 +1,6 @@
+
+ace_+_0.pdb_lig
+0.5838758649242369
+
+BEST RMSD: 0.5838758649242369
+BEST LIG: ace_+_0.pdb_lig

@@ -1,0 +1,6 @@
+
+akt1_+_0.pdb_lig
+6.683612283630368
+
+BEST RMSD: 6.683612283630368
+BEST LIG: akt1_+_0.pdb_lig

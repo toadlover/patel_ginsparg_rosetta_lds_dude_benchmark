@@ -1,0 +1,18 @@
+
+parp1_parpl_3.pdb_lig
+6.5780099452646015
+
+parp1_parpl_1.pdb_lig
+6.0659761324950825
+
+parp1_parpl_0.pdb_lig
+6.822528765787652
+
+parp1_parpl_2.pdb_lig
+6.274821068365218
+
+parp1_parpl_4.pdb_lig
+6.356902906290138
+
+BEST RMSD: 6.0659761324950825
+BEST LIG: parp1_parpl_1.pdb_lig

@@ -1,0 +1,6 @@
+
+plk1_+_0.pdb_lig
+5.761840756759075
+
+BEST RMSD: 5.761840756759075
+BEST LIG: plk1_+_0.pdb_lig

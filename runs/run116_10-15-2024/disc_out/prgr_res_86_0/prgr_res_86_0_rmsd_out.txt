@@ -1,0 +1,9 @@
+
+prgr_+_0.pdb_lig
+0.2982375389343699
+
+prgr_+_1.pdb_lig
+0.3497635709383636
+
+BEST RMSD: 0.2982375389343699
+BEST LIG: prgr_+_0.pdb_lig

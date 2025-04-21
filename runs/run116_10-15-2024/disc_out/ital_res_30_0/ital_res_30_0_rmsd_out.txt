@@ -1,0 +1,6 @@
+
+ital_+_0.pdb_lig
+9.575719031643159
+
+BEST RMSD: 9.575719031643159
+BEST LIG: ital_+_0.pdb_lig

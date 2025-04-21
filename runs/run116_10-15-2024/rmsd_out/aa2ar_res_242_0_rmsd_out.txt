@@ -1,0 +1,6 @@
+
+aa2ar_+_0.pdb_lig
+4.794239373108801
+
+BEST RMSD: 4.794239373108801
+BEST LIG: aa2ar_+_0.pdb_lig

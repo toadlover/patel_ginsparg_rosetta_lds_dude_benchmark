@@ -1,0 +1,9 @@
+
+dhi1_+_0.pdb_lig
+0.4033279915279871
+
+dhi1_+_1.pdb_lig
+0.257892358843762
+
+BEST RMSD: 0.257892358843762
+BEST LIG: dhi1_+_1.pdb_lig

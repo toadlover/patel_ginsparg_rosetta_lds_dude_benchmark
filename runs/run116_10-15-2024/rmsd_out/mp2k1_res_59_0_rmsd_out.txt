@@ -1,0 +1,6 @@
+
+mp2k1_+_0.pdb_lig
+8.814390366807087
+
+BEST RMSD: 8.814390366807087
+BEST LIG: mp2k1_+_0.pdb_lig

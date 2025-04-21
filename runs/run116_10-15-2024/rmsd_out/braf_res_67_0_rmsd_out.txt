@@ -1,0 +1,18 @@
+
+braf_+_3.pdb_lig
+1.8242119923016478
+
+braf_+_2.pdb_lig
+2.07289148465202
+
+braf_+_1.pdb_lig
+5.638657334482587
+
+braf_+_4.pdb_lig
+5.4169818395486615
+
+braf_+_0.pdb_lig
+5.498468173046016
+
+BEST RMSD: 1.8242119923016478
+BEST LIG: braf_+_3.pdb_lig

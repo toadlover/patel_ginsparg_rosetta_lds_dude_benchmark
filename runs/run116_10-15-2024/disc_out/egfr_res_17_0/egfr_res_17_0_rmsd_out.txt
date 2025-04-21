@@ -1,0 +1,9 @@
+
+egfr_+_0.pdb_lig
+0.34213987924487377
+
+egfr_+_1.pdb_lig
+0.2762940901330029
+
+BEST RMSD: 0.2762940901330029
+BEST LIG: egfr_+_1.pdb_lig

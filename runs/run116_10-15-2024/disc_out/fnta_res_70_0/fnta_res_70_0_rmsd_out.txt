@@ -1,0 +1,6 @@
+
+fnta_+_0.pdb_lig
+0.10171448868918509
+
+BEST RMSD: 0.10171448868918509
+BEST LIG: fnta_+_0.pdb_lig

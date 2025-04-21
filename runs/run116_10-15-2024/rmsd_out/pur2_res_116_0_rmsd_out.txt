@@ -1,0 +1,6 @@
+
+pur2_+_0.pdb_lig
+10.480069020965967
+
+BEST RMSD: 10.480069020965967
+BEST LIG: pur2_+_0.pdb_lig

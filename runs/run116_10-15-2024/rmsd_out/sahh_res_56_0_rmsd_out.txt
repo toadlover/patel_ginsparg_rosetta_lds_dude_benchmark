@@ -1,0 +1,9 @@
+
+sahh_+_1.pdb_lig
+0.23409118781049038
+
+sahh_+_0.pdb_lig
+0.23939034408702647
+
+BEST RMSD: 0.23409118781049038
+BEST LIG: sahh_+_1.pdb_lig

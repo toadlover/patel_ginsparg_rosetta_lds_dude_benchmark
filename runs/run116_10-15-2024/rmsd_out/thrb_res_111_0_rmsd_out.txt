@@ -1,0 +1,12 @@
+
+thrb_+_1.pdb_lig
+0.2033295578387688
+
+thrb_+_2.pdb_lig
+0.18300529881383062
+
+thrb_+_0.pdb_lig
+0.15493762185688387
+
+BEST RMSD: 0.15493762185688387
+BEST LIG: thrb_+_0.pdb_lig

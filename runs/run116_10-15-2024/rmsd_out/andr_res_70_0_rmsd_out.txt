@@ -1,0 +1,6 @@
+
+andr_+_0.pdb_lig
+0.19824756048460013
+
+BEST RMSD: 0.19824756048460013
+BEST LIG: andr_+_0.pdb_lig

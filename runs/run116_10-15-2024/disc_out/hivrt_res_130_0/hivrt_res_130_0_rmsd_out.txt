@@ -1,0 +1,6 @@
+
+hivrt_+_0.pdb_lig
+0.3614872590583775
+
+BEST RMSD: 0.3614872590583775
+BEST LIG: hivrt_+_0.pdb_lig

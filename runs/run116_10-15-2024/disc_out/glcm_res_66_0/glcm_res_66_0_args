@@ -1,0 +1,106 @@
+-parser:protocol /data/user/abgvg9/benchmark/files/discovery_files/lite_enzdes.xml 
+
+#CHANGE THIS
+-s /data/user/abgvg9/benchmark/files/all/glcm/glcm.pdb
+
+#used constant seed for the sake of consistency
+-constant_seed 1
+
+#optional flags to collect motifs off of placed ligands and see if the motifs resemble real ones
+-collect_motifs_from_placed_ligand true
+-check_if_ligand_motifs_match_real true
+-duplicate_dist_cutoff 0.8
+-duplicate_angle_cutoff 0.3
+
+#do not keep motifs of placements to help save on space
+-output_motifs_as_pdb false
+
+#use the whole score function for ligand docking
+-highresdock_with_whole_score_fxn false
+
+#use whole ligand.wts score function filter
+#-score_with_ligand_wts_function true
+-fa_atr_rep_cutoff 10000000
+#-ligand_wts_fxn_cutoff 10000
+
+#3_22_2022, now using motif lists that remove homologous pdb motifs
+#these files are now located in /data/user/abgvg9/benchmark/files named "d"_ignorechain_condensed_motif_list_08_06_21.motifs
+
+#using 2022 motif list
+-motif_filename /data/user/abgvg9/benchmark/files/glcm_ignorechain_FINAL_motifs_list_filtered_2_3_2023.motifs
+#using 2021 motif list
+#-motif_filename /data/user/abgvg9/benchmark/files/glcm_ignorechain_condensed_motif_list_08_06_21.motifs
+#old
+#-motif_filename /data/user/abgvg9/FINAL_motifs_list_filtered_2_3_2023.motifs
+
+#CHANGE THIS
+-protein_discovery_locus 66
+
+#space fill positions and score cutoff for sub-area
+#-target_residues_sf  66,114,169,180,244,271,312,327
+-binding_pocket_center_sf 35,31,0
+#-binding_pocket_radius_sf 7.700000000000001
+-binding_pocket_dimensions_sf 3,3,2
+-space_fill_cutoff_score_sub 0.8
+-space_fill_cutoff_differential_score_sub 0.3
+#output the space fill matrix (probably won't always want this, as it slows things down and uses up extra memory)
+-output_space_fill_matrix_pdbs false
+
+#CHANGE THIS (path to test_params directory for receptor system)
+-params_directory_path /data/user/abgvg9/benchmark/files/all/glcm/test_params/
+
+#-mute "Code tracing" core.init basic.random.init_random_generator core.chemical.GlobalResidueTypeSet protocols.motifs.motif_utils core.scoring.etable core.import_pose.import_pose core.conformation.Conformation core.pack.pack_missing_sidechains core.pack.task core.scoring.ScoreFunctionFactory basic.io.database core.pack.dunbrack.RotamerLibrary core.pack.pack_rotamers core.pack.interaction_graph.interaction_graph_factory core.io.pose_from_sfr.PoseFromSFRBuilder
+
+
+-score::weights /data/user/abgvg9/benchmark/files/discovery_files/enzdes_2.5.wts
+-dtest 7.5
+-r2 1.1
+-r1 4.5
+-z1 0.1
+-z2 1.0
+-dump_motifs true
+-output_file output.file
+-motifs::data_file data.file
+-motifs::minimize false
+-minimize_dna false
+-enzdes::run_ligand_motifs true
+-patch_selectors SPECIAL_ROT
+-special_rotweight -20.0
+-rotlevel 8
+-enzdes::detect_design_interface
+-enzdes::cut1 4.0
+-enzdes::cut2 6.0
+-enzdes::cut3 6.0
+-enzdes::cut4 6.0
+-enzdes::design_min_cycles 1
+-enzdes::chi_min
+-in::ignore_unrecognized_res true
+-enzdes::cstfile null.cst
+-ex1
+-ex2
+-ex3
+-ex4
+-extrachi_cutoff 1
+-out::file::o ./enz_score.out
+-jd2:enzdes_out true
+-soft_rep_design
+-ex1aro
+-ex1aro:level 6
+-ex2aro
+-ex2aro:level 6
+-extrachi_cutoff 1
+-soft_rep_design
+-flip_HNQ
+-nstruct 1
+-enzdes::no_unconstrained_repack
+-linmem_ig 10
+-enzdes::lig_packer_weight 2.5
+-num_repacks 4
+-patch_selectors SPECIAL_ROT
+-output_residue_energies
+-run_motifs
+-ignore_unrecognized_res
+-ndruns 1
+-fa_rep_cutoff 100
+-fa_atr_cutoff -5
+-out:prefix test_

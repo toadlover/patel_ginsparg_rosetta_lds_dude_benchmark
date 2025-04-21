@@ -1,0 +1,6 @@
+
+fabp4_+_0.pdb_lig
+1.369630556431591
+
+BEST RMSD: 1.369630556431591
+BEST LIG: fabp4_+_0.pdb_lig
