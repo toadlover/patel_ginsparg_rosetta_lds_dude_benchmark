@@ -1,0 +1,10 @@
+Dist 1.89708 ROS 78 Res LEU 
+ 
+Dist 1.86622 ROS 79 Res LEU 
+ 
+Dist 1.85806 ROS 126 Res HIS 
+ 
+Dist 1.64554 ROS 120 Res HIS 
+ 
+Dist 1.39817 ROS 116 Res HIS 
+ 

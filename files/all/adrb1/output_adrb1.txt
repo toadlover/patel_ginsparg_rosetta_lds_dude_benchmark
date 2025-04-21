@@ -1,0 +1,10 @@
+Dist 2.26462 ROS 39 Res ASN 
+ 
+Dist 2.17656 ROS 227 Res ASN 
+ 
+Dist 2.17311 ROS 43 Res THR 
+ 
+Dist 1.94875 ROS 40 Res LEU 
+ 
+Dist 0.593156 ROS 40 Res LEU 
+ 

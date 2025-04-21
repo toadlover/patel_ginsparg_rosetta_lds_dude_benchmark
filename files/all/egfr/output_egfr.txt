@@ -1,0 +1,10 @@
+Dist 1.98306 ROS 86 Res GLY 
+ 
+Dist 1.93108 ROS 18 Res GLY 
+ 
+Dist 1.90677 ROS 83 Res GLY 
+ 
+Dist 1.69687 ROS 17 Res LEU 
+ 
+Dist 1.69363 ROS 17 Res LEU 
+ 

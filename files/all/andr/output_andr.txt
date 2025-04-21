@@ -1,0 +1,10 @@
+Dist 2.10595 ROS 32 Res LEU 
+ 
+Dist 2.09019 ROS 187 Res THR 
+ 
+Dist 1.93475 ROS 77 Res MET 
+ 
+Dist 1.72 ROS 33 Res ASN 
+ 
+Dist 1.67688 ROS 108 Res MET 
+ 

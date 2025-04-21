@@ -1,0 +1,10 @@
+Dist 2.49758 ROS 92 Res HIS 
+ 
+Dist 2.39706 ROS 94 Res HIS 
+ 
+Dist 2.35194 ROS 196 Res THR 
+ 
+Dist 1.98958 ROS 196 Res THR 
+ 
+Dist 1.77012 ROS 196 Res THR 
+ 

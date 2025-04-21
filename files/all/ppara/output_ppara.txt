@@ -1,0 +1,10 @@
+Dist 2.2113 ROS 215 Res VAL 
+ 
+Dist 2.20792 ROS 134 Res LEU 
+ 
+Dist 1.98672 ROS 70 Res GLN 
+ 
+Dist 1.77597 ROS 211 Res HIS 
+ 
+Dist 1.46331 ROS 235 Res TYR 
+ 

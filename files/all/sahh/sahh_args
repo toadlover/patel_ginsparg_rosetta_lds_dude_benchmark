@@ -1,0 +1,12 @@
+#optional flag to output generated params file as a pdb (to confirm that the params file was converted correctly)
+-write_param_to_pdb true
+#optional flag to fully write a custom name of the ligand into the params file (helps make sure fill name isn't lost in  pipeline)
+-ligand_full_name ''' + d + "_lig" + '''
+#optional flag to custom override the 1 and 3 letter codes for the ligand in the params file
+#-ligand_1_letter_code N
+#-ligand_3_letter_code New
+#indicates if ligand  is an  amino  acid  or not (will almost never be used)
+#-mol2_amino_acid ALA
+#MOST IMPORTANT FLAG! Source mol2 file with path
+-mol2_file crystal_ligand.mol2
+-params_custom_file_name sahh_lig.params

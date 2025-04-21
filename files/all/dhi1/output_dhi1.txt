@@ -1,0 +1,10 @@
+Dist 2.31261 ROS 187 Res LEU 
+ 
+Dist 2.22725 ROS 112 Res TYR 
+ 
+Dist 2.19284 ROS 232 Res MET 
+ 
+Dist 2.08596 ROS 277 Res VAL 
+ 
+Dist 1.90516 ROS 269 Res ALA 
+ 

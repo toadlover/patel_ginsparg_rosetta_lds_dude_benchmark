@@ -1,0 +1,10 @@
+Dist 1.93991 ROS 31 Res VAL 
+ 
+Dist 1.85235 ROS 150 Res ILE 
+ 
+Dist 1.82892 ROS 49 Res ILE 
+ 
+Dist 1.71773 ROS 146 Res ILE 
+ 
+Dist 1.69721 ROS 25 Res ASP 
+ 

@@ -1,0 +1,2 @@
+grik1.pdb 
+grik1-lig.pdb

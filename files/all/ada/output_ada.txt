@@ -1,0 +1,10 @@
+Dist 2.20777 ROS 57 Res PHE 
+ 
+Dist 2.19581 ROS 149 Res CYS 
+ 
+Dist 2.00878 ROS 181 Res ASP 
+ 
+Dist 1.99922 ROS 102 Res LEU 
+ 
+Dist 1.75804 ROS 15 Res ASP 
+ 

@@ -1,0 +1,10 @@
+Dist 2.33108 ROS 34 Res PHE 
+ 
+Dist 2.31456 ROS 30 Res GLU 
+ 
+Dist 2.17777 ROS 60 Res ILE 
+ 
+Dist 2.10906 ROS 7 Res ILE 
+ 
+Dist 1.92161 ROS 31 Res PHE 
+ 

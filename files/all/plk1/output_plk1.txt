@@ -1,0 +1,10 @@
+Dist 2.40575 ROS 96 Res CYS 
+ 
+Dist 2.34351 ROS 23 Res LEU 
+ 
+Dist 2.05133 ROS 46 Res LYS 
+ 
+Dist 1.99002 ROS 96 Res CYS 
+ 
+Dist 1.94854 ROS 94 Res GLU 
+ 

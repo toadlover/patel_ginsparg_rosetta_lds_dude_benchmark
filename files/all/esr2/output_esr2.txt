@@ -1,0 +1,10 @@
+Dist 1.94365 ROS 29 Res MET 
+ 
+Dist 1.93175 ROS 37 Res ASP 
+ 
+Dist 1.83324 ROS 90 Res PHE 
+ 
+Dist 1.78756 ROS 80 Res ARG 
+ 
+Dist 1.49011 ROS 33 Res THR 
+ 

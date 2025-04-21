@@ -1,0 +1,10 @@
+Dist 2.13492 ROS 67 Res PHE 
+ 
+Dist 2.00152 ROS 168 Res ASN 
+ 
+Dist 1.96055 ROS 114 Res TRP 
+ 
+Dist 1.68226 ROS 329 Res VAL 
+ 
+Dist 1.60687 ROS 312 Res TRP 
+ 

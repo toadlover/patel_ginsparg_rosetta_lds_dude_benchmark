@@ -1,0 +1,10 @@
+Dist 1.97736 ROS 132 Res HIS 
+ 
+Dist 1.92903 ROS 286 Res GLY 
+ 
+Dist 1.92412 ROS 140 Res GLY 
+ 
+Dist 1.75466 ROS 132 Res HIS 
+ 
+Dist 1.10767 ROS 131 Res HIS 
+ 

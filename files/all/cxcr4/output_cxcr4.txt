@@ -1,0 +1,10 @@
+Dist 2.16525 ROS 70 Res ASP 
+ 
+Dist 2.11819 ROS 75 Res TRP 
+ 
+Dist 2.10799 ROS 71 Res ALA 
+ 
+Dist 2.03108 ROS 70 Res ASP 
+ 
+Dist 1.9392 ROS 261 Res GLU 
+ 

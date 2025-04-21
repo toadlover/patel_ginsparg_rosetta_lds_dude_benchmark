@@ -1,0 +1,10 @@
+Dist 2.00324 ROS 134 Res GLU 
+ 
+Dist 1.86645 ROS 87 Res ALA 
+ 
+Dist 1.77868 ROS 134 Res GLU 
+ 
+Dist 1.6855 ROS 91 Res GLU 
+ 
+Dist 1.5717 ROS 149 Res PHE 
+ 

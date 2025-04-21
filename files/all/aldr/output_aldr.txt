@@ -1,0 +1,10 @@
+Dist 2.24274 ROS 47 Res TYR 
+ 
+Dist 2.21574 ROS 108 Res THR 
+ 
+Dist 2.1136 ROS 279 Res CYS 
+ 
+Dist 1.92097 ROS 106 Res TRP 
+ 
+Dist 1.84656 ROS 105 Res HIS 
+ 

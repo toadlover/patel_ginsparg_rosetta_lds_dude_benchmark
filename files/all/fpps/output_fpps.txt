@@ -1,0 +1,10 @@
+Dist 2.52605 ROS 204 Res LYS 
+ 
+Dist 2.42198 ROS 70 Res ARG 
+ 
+Dist 2.23691 ROS 153 Res THR 
+ 
+Dist 2.18532 ROS 152 Res LYS 
+ 
+Dist 1.80512 ROS 70 Res ARG 
+ 

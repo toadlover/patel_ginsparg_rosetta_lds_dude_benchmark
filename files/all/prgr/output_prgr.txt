@@ -1,0 +1,10 @@
+Dist 2.26137 ROS 173 Res TYR 
+ 
+Dist 2.23517 ROS 27 Res LEU 
+ 
+Dist 2.15819 ROS 170 Res LEU 
+ 
+Dist 2.08823 ROS 173 Res TYR 
+ 
+Dist 2.03321 ROS 24 Res LEU 
+ 

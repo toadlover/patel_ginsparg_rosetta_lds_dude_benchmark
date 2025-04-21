@@ -1,0 +1,2 @@
+ptn1.pdb 
+ptn1-lig.pdb

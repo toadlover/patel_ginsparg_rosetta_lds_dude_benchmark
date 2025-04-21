@@ -1,0 +1,10 @@
+Dist 1.65393 ROS 363 Res LEU 
+ 
+Dist 1.60182 ROS 208 Res SER 
+ 
+Dist 1.42858 ROS 348 Res SER 
+ 
+Dist 1.37404 ROS 359 Res ALA 
+ 
+Dist 1.22089 ROS 28 Res HIS 
+ 

@@ -1,0 +1,2 @@
+ampc.pdb 
+ampc-lig.pdb

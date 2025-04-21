@@ -1,0 +1,10 @@
+Dist 1.88618 ROS 91 Res SER 
+ 
+Dist 1.8345 ROS 304 Res ARG 
+ 
+Dist 1.65981 ROS 177 Res PHE 
+ 
+Dist 1.48965 ROS 301 Res ILE 
+ 
+Dist 1.30604 ROS 302 Res ALA 
+ 

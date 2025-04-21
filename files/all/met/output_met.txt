@@ -1,0 +1,10 @@
+Dist 2.1823 ROS 58 Res LYS 
+ 
+Dist 2.15627 ROS 72 Res GLU 
+ 
+Dist 2.13017 ROS 163 Res ASP 
+ 
+Dist 2.08609 ROS 99 Res PRO 
+ 
+Dist 1.53116 ROS 76 Res MET 
+ 

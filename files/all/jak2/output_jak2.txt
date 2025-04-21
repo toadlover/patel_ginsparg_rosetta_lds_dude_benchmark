@@ -1,0 +1,10 @@
+Dist 2.29819 ROS 148 Res ASP 
+ 
+Dist 2.29742 ROS 70 Res VAL 
+ 
+Dist 2.24107 ROS 90 Res SER 
+ 
+Dist 2.11461 ROS 84 Res GLU 
+ 
+Dist 2.02884 ROS 86 Res LEU 
+ 

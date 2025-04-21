@@ -1,0 +1,10 @@
+Dist 2.10373 ROS 57 Res LYS 
+ 
+Dist 2.10208 ROS 53 Res LEU 
+ 
+Dist 2.09904 ROS 60 Res GLU 
+ 
+Dist 1.87369 ROS 54 Res THR 
+ 
+Dist 1.58865 ROS 70 Res TYR 
+ 

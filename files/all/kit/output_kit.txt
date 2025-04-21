@@ -1,0 +1,10 @@
+Dist 2.47977 ROS 116 Res THR 
+ 
+Dist 2.4633 ROS 197 Res PHE 
+ 
+Dist 2.39187 ROS 49 Res VAL 
+ 
+Dist 2.21871 ROS 100 Res VAL 
+ 
+Dist 2.18756 ROS 41 Res LEU 
+ 

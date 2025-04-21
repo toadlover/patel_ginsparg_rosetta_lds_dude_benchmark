@@ -1,0 +1,2 @@
+fnta.pdb 
+fnta-lig.pdb

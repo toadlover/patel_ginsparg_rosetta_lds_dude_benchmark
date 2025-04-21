@@ -1,0 +1,10 @@
+Dist 1.97377 ROS 78 Res PRO 
+ 
+Dist 1.90245 ROS 56 Res TYR 
+ 
+Dist 1.74209 ROS 131 Res SER 
+ 
+Dist 1.70841 ROS 80 Res THR 
+ 
+Dist 1.53245 ROS 80 Res THR 
+ 

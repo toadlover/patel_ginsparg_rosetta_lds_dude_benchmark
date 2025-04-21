@@ -1,0 +1,10 @@
+Dist 1.84948 ROS 25 Res ALA 
+ 
+Dist 1.83643 ROS 184 Res PHE 
+ 
+Dist 1.8347 ROS 80 Res ALA 
+ 
+Dist 1.82992 ROS 95 Res VAL 
+ 
+Dist 1.53854 ROS 63 Res ILE 
+ 

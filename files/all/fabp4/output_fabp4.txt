@@ -1,0 +1,10 @@
+Dist 2.07881 ROS 104 Res ILE 
+ 
+Dist 2.05423 ROS 38 Res PRO 
+ 
+Dist 1.96467 ROS 62 Res ILE 
+ 
+Dist 1.88366 ROS 126 Res ARG 
+ 
+Dist 1.77905 ROS 36 Res ALA 
+ 

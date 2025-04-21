@@ -1,0 +1,10 @@
+Dist 1.97569 ROS 121 Res PRO 
+ 
+Dist 1.97302 ROS 31 Res VAL 
+ 
+Dist 1.97174 ROS 132 Res PRO 
+ 
+Dist 1.95079 ROS 123 Res PHE 
+ 
+Dist 1.94103 ROS 31 Res VAL 
+ 

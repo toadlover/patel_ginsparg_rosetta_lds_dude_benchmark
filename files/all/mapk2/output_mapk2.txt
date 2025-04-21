@@ -1,0 +1,10 @@
+Dist 2.11734 ROS 24 Res LEU 
+ 
+Dist 2.01734 ROS 144 Res GLU 
+ 
+Dist 1.99772 ROS 47 Res LYS 
+ 
+Dist 1.90787 ROS 24 Res LEU 
+ 
+Dist 1.90233 ROS 25 Res GLY 
+ 

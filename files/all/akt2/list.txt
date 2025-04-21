@@ -1,0 +1,2 @@
+akt2.pdb 
+akt2-lig.pdb

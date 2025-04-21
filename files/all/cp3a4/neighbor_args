@@ -1,0 +1,2 @@
+-in:file:l list.txt
+-params_directory_path test_params/

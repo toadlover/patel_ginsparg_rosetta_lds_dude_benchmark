@@ -1,0 +1,10 @@
+Dist 2.05221 ROS 89 Res ARG 
+ 
+Dist 1.90067 ROS 99 Res LEU 
+ 
+Dist 1.78052 ROS 100 Res ASN 
+ 
+Dist 1.74885 ROS 194 Res HIS 
+ 
+Dist 1.72493 ROS 210 Res PHE 
+ 

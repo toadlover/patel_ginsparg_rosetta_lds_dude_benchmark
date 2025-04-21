@@ -1,0 +1,10 @@
+Dist 2.17669 ROS 162 Res ASP 
+ 
+Dist 2.07798 ROS 51 Res LYS 
+ 
+Dist 2.0409 ROS 102 Res MET 
+ 
+Dist 1.90871 ROS 149 Res ASN 
+ 
+Dist 1.72791 ROS 36 Res VAL 
+ 

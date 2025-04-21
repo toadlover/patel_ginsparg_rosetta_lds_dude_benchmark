@@ -1,0 +1,10 @@
+Dist 2.20839 ROS 314 Res PRO 
+ 
+Dist 2.19335 ROS 323 Res TYR 
+ 
+Dist 2.12934 ROS 210 Res TYR 
+ 
+Dist 2.11834 ROS 252 Res TRP 
+ 
+Dist 1.81416 ROS 318 Res TYR 
+ 

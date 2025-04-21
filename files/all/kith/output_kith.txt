@@ -1,0 +1,10 @@
+Dist 2.25177 ROS 100 Res LEU 
+ 
+Dist 2.22368 ROS 158 Res GLY 
+ 
+Dist 1.89139 ROS 104 Res PHE 
+ 
+Dist 1.89115 ROS 156 Res LYS 
+ 
+Dist 1.6482 ROS 154 Res ILE 
+ 

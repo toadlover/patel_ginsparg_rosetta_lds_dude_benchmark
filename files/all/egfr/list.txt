@@ -1,0 +1,2 @@
+egfr.pdb 
+egfr-lig.pdb

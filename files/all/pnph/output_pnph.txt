@@ -1,0 +1,10 @@
+Dist 2.08234 ROS 207 Res ASN 
+ 
+Dist 1.97588 ROS 92 Res ALA 
+ 
+Dist 1.89325 ROS 165 Res GLU 
+ 
+Dist 1.8242 ROS 207 Res ASN 
+ 
+Dist 1.66429 ROS 66 Res TYR 
+ 
