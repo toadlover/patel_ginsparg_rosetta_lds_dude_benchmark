@@ -1,0 +1,30 @@
+
+cp3a4_ResPos_177_ResID_PHE_Trio12_+_motif_5QBC_D74.pdb_PHE280_D74_Packing_score_-1.335030_Hbond_score_0.000000_delta_-7.367491.pdb_lig
+26.872776131616927
+
+cp3a4_ResPos_177_ResID_PHE_Trio15_+_motif_5J6S_6GA.pdb_PHE450_6GA_Packing_score_-1.800204_Hbond_score_0.000000_delta_-3.980764.pdb_lig
+27.506374363408927
+
+cp3a4_ResPos_177_ResID_PHE_Trio15_+_motif_2WH8_II2.pdb_PHE238_II2_Packing_score_-1.636527_Hbond_score_0.000000_delta_-4.193421.pdb_lig
+25.416425833700533
+
+cp3a4_ResPos_177_ResID_PHE_Trio17_+_motif_3NRR_D16.pdb_PHE14_D16_Packing_score_-1.119287_Hbond_score_0.000000_delta_-2.155911.pdb_lig
+24.552486879743967
+
+cp3a4_ResPos_177_ResID_PHE_Trio17_+_motif_4Y45_F91.pdb_PHE280_F91_Packing_score_-1.845364_Hbond_score_0.000000_delta_-7.150505.pdb_lig
+26.999033157503995
+
+cp3a4_ResPos_177_ResID_PHE_Trio18_+_motif_5DR7_5HJ.pdb_PHE280_5HJ_Packing_score_-1.623980_Hbond_score_0.000000_delta_-5.901385.pdb_lig
+27.309991227387826
+
+cp3a4_ResPos_177_ResID_PHE_Trio63_+_motif_5DQ1_5HL.pdb_PHE280_5HL_Packing_score_-1.631402_Hbond_score_0.000000_delta_-6.489715.pdb_lig
+26.98951196520604
+
+cp3a4_ResPos_177_ResID_PHE_Trio63_+_motif_5J6S_6GA.pdb_PHE450_6GA_Packing_score_-1.800204_Hbond_score_0.000000_delta_-5.917423.pdb_lig
+27.01875009026139
+
+cp3a4_ResPos_177_ResID_PHE_Trio68_+_motif_7D9H_HEM.pdb_PHE50_HEM_Packing_score_-4.129238_Hbond_score_0.000000_delta_-11.774518.pdb_lig
+24.481757250655022
+
+BEST RMSD: 24.481757250655022
+BEST LIG: cp3a4_ResPos_177_ResID_PHE_Trio68_+_motif_7D9H_HEM.pdb_PHE50_HEM_Packing_score_-4.129238_Hbond_score_0.000000_delta_-11.774518.pdb_lig

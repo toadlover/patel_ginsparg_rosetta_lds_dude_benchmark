@@ -1,0 +1,6 @@
+
+cp3a4_ResPos_173_ResID_LEU_Trio26_+_motif_2NZA_HEM.pdb_LEU242_HEM_Packing_score_-1.267947_Hbond_score_0.000000_delta_-4.442143.pdb_lig
+23.19986257157572
+
+BEST RMSD: 23.19986257157572
+BEST LIG: cp3a4_ResPos_173_ResID_LEU_Trio26_+_motif_2NZA_HEM.pdb_LEU242_HEM_Packing_score_-1.267947_Hbond_score_0.000000_delta_-4.442143.pdb_lig

@@ -1,0 +1,9 @@
+
+glcm_ResPos_312_ResID_TRP_Trio1_+_motif_5NDF_EDO.pdb_TRP331_EDO_Packing_score_-1.485247_Hbond_score_0.000000_delta_-11.964219.pdb_lig
+3.8884974696440993
+
+glcm_ResPos_312_ResID_TRP_Trio28_+_motif_7N7G_EDO.pdb_TRP82_EDO_Packing_score_-1.188190_Hbond_score_0.000000_delta_-9.862768.pdb_lig
+4.150268941371665
+
+BEST RMSD: 3.8884974696440993
+BEST LIG: glcm_ResPos_312_ResID_TRP_Trio1_+_motif_5NDF_EDO.pdb_TRP331_EDO_Packing_score_-1.485247_Hbond_score_0.000000_delta_-11.964219.pdb_lig

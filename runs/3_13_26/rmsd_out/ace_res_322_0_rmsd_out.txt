@@ -1,0 +1,6 @@
+
+ace_ResPos_322_ResID_GLU_Trio61_+_motif_1CZJ_HEM.pdb_GLU52_HEM_Packing_score_-1.093825_Hbond_score_0.000000_delta_-9.314336.pdb_lig
+14.894157266938866
+
+BEST RMSD: 14.894157266938866
+BEST LIG: ace_ResPos_322_ResID_GLU_Trio61_+_motif_1CZJ_HEM.pdb_GLU52_HEM_Packing_score_-1.093825_Hbond_score_0.000000_delta_-9.314336.pdb_lig

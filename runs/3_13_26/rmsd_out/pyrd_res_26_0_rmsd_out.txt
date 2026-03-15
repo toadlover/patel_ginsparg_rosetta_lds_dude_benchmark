@@ -1,0 +1,12 @@
+
+pyrd_ResPos_26_ResID_ALA_Trio49_+_motif_6IGZ_CLA.pdb_ALA189_CLA_Packing_score_-1.153443_Hbond_score_0.000000_delta_-25.992963.pdb_lig
+0.18184486672863634
+
+pyrd_ResPos_26_ResID_ALA_Trio49_+_motif_5ZGH_CLA.pdb_ALA187_CLA_Packing_score_-1.069626_Hbond_score_0.000000_delta_-25.775166.pdb_lig
+0.2766672021413819
+
+pyrd_ResPos_26_ResID_ALA_Trio66_+_motif_6K61_BCR.pdb_ALA67_BCR_Packing_score_-1.114353_Hbond_score_0.000000_delta_-25.440133.pdb_lig
+0.3255723165954566
+
+BEST RMSD: 0.18184486672863634
+BEST LIG: pyrd_ResPos_26_ResID_ALA_Trio49_+_motif_6IGZ_CLA.pdb_ALA189_CLA_Packing_score_-1.153443_Hbond_score_0.000000_delta_-25.992963.pdb_lig

@@ -1,0 +1,15 @@
+
+lkha4_ResPos_95_ResID_GLN_Trio1_+_motif_2PGZ_COC.pdb_GLN57_COC_Packing_score_-2.137878_Hbond_score_0.000000_delta_-17.247607.pdb_lig
+8.392552500774771
+
+lkha4_ResPos_95_ResID_GLN_Trio3_+_motif_6FLG_DQK.pdb_GLN136_DQK_Packing_score_-1.732869_Hbond_score_0.000000_delta_-17.875540.pdb_lig
+8.414462797702125
+
+lkha4_ResPos_95_ResID_GLN_Trio3_+_motif_1OKX_CNT.pdb_GLN200_CNT_Packing_score_-2.572658_Hbond_score_0.000000_delta_-18.398860.pdb_lig
+8.407700360254646
+
+lkha4_ResPos_95_ResID_GLN_Trio14_+_motif_1OKX_CNT.pdb_GLN200_CNT_Packing_score_-2.878875_Hbond_score_0.000000_delta_-16.924503.pdb_lig
+2.4702185962063115
+
+BEST RMSD: 2.4702185962063115
+BEST LIG: lkha4_ResPos_95_ResID_GLN_Trio14_+_motif_1OKX_CNT.pdb_GLN200_CNT_Packing_score_-2.878875_Hbond_score_0.000000_delta_-16.924503.pdb_lig

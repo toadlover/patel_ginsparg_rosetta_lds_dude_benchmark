@@ -1,0 +1,33 @@
+
+cdk2_ResPos_29_ResID_ALA_Trio26_+_motif_3VAP_0FY.pdb_ALA160_0FY_Packing_score_-1.070001_Hbond_score_0.000000_delta_-15.941652.pdb_lig
+2.0195756980118373
+
+cdk2_ResPos_29_ResID_ALA_Trio28_+_motif_6W4C_SL7.pdb_ALA81_SL7_Packing_score_-1.694105_Hbond_score_0.000000_delta_-13.037458.pdb_lig
+0.9516062736237085
+
+cdk2_ResPos_29_ResID_ALA_Trio29_+_motif_3PSB_SM6.pdb_ALA481_SM6_Packing_score_-1.381503_Hbond_score_0.000000_delta_-12.336757.pdb_lig
+2.631990146891385
+
+cdk2_ResPos_29_ResID_ALA_Trio50_+_motif_4DYM_IYZ.pdb_ALA233_IYZ_Packing_score_-1.351091_Hbond_score_0.000000_delta_-16.075682.pdb_lig
+2.024133699470797
+
+cdk2_ResPos_29_ResID_ALA_Trio51_+_motif_2HK5_1BM.pdb_ALA271_1BM_Packing_score_-1.501151_Hbond_score_0.000000_delta_-12.232109.pdb_lig
+2.71701671568898
+
+cdk2_ResPos_29_ResID_ALA_Trio51_+_motif_7SUI_L80.pdb_ALA36_L80_Packing_score_-1.029027_Hbond_score_0.000000_delta_-12.759790.pdb_lig
+2.6434310028193786
+
+cdk2_ResPos_29_ResID_ALA_Trio54_+_motif_7AW1_S4T.pdb_ALA617_S4T_Packing_score_-1.553264_Hbond_score_0.000000_delta_-13.922602.pdb_lig
+0.7018518599628651
+
+cdk2_ResPos_29_ResID_ALA_Trio63_+_motif_4HJO_AQ4.pdb_ALA719_AQ4_Packing_score_-1.829405_Hbond_score_0.000000_delta_-12.090227.pdb_lig
+2.5486755253137527
+
+cdk2_ResPos_29_ResID_ALA_Trio66_+_motif_3F3V_1BU.pdb_ALA293_1BU_Packing_score_-1.363817_Hbond_score_0.000000_delta_-11.484457.pdb_lig
+2.447789792173067
+
+cdk2_ResPos_29_ResID_ALA_Trio68_+_motif_4X2J_3WN.pdb_ALA230_3WN_Packing_score_-1.803218_Hbond_score_0.000000_delta_-13.640289.pdb_lig
+1.179063031959417
+
+BEST RMSD: 0.7018518599628651
+BEST LIG: cdk2_ResPos_29_ResID_ALA_Trio54_+_motif_7AW1_S4T.pdb_ALA617_S4T_Packing_score_-1.553264_Hbond_score_0.000000_delta_-13.922602.pdb_lig

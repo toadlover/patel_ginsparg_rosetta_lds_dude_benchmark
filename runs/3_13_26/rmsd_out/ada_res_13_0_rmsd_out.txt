@@ -1,0 +1,6 @@
+
+ada_ResPos_13_ResID_HIS_Trio28_+_motif_7F5M_LBZ.pdb_HIS60_LBZ_Packing_score_-3.175406_Hbond_score_0.000000_delta_-13.456316.pdb_lig
+5.776240003958746
+
+BEST RMSD: 5.776240003958746
+BEST LIG: ada_ResPos_13_ResID_HIS_Trio28_+_motif_7F5M_LBZ.pdb_HIS60_LBZ_Packing_score_-3.175406_Hbond_score_0.000000_delta_-13.456316.pdb_lig

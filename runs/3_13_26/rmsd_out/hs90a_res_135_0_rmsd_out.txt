@@ -1,0 +1,21 @@
+
+hs90a_ResPos_135_ResID_VAL_Trio6_+_motif_5PBA_53B.pdb_VAL1898_53B_Packing_score_-1.055327_Hbond_score_0.000000_delta_-12.317537.pdb_lig
+5.473278504782037
+
+hs90a_ResPos_135_ResID_VAL_Trio20_+_motif_5L8C_908.pdb_VAL840_908_Packing_score_-2.760048_Hbond_score_0.000000_delta_-13.269438.pdb_lig
+5.797243886694624
+
+hs90a_ResPos_135_ResID_VAL_Trio3_+_motif_7ERE_JBR.pdb_VAL128_JBR_Packing_score_-1.092071_Hbond_score_0.000000_delta_-12.048592.pdb_lig
+5.914428413172777
+
+hs90a_ResPos_135_ResID_VAL_Trio20_+_motif_5WPX_7V9.pdb_VAL44_7V9_Packing_score_-1.951990_Hbond_score_0.000000_delta_-12.413993.pdb_lig
+5.68926367259979
+
+hs90a_ResPos_135_ResID_VAL_Trio41_+_motif_7ANC_NAP.pdb_VAL65_NAP_Packing_score_-3.821416_Hbond_score_0.000000_delta_-3.909094.pdb_lig
+19.84611703377217
+
+hs90a_ResPos_135_ResID_VAL_Trio66_+_motif_7S9H_7PP.pdb_VAL150_7PP_Packing_score_-1.725816_Hbond_score_0.000000_delta_-14.619246.pdb_lig
+9.553441412296502
+
+BEST RMSD: 5.473278504782037
+BEST LIG: hs90a_ResPos_135_ResID_VAL_Trio6_+_motif_5PBA_53B.pdb_VAL1898_53B_Packing_score_-1.055327_Hbond_score_0.000000_delta_-12.317537.pdb_lig

@@ -1,0 +1,6 @@
+
+mcr_ResPos_70_ResID_MET_Trio4_+_motif_7L78_CHD.pdb_MET46_CHD_Packing_score_-2.381860_Hbond_score_0.000000_delta_-5.811507.pdb_lig
+7.047914762537925
+
+BEST RMSD: 7.047914762537925
+BEST LIG: mcr_ResPos_70_ResID_MET_Trio4_+_motif_7L78_CHD.pdb_MET46_CHD_Packing_score_-2.381860_Hbond_score_0.000000_delta_-5.811507.pdb_lig

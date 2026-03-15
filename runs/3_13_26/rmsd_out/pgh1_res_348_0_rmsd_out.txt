@@ -1,0 +1,6 @@
+
+pgh1_ResPos_348_ResID_SER_Trio82_+_motif_5H8K_GOL.pdb_SER23_GOL_Packing_score_-0.438093_Hbond_score_-0.614789_delta_-6.248868.pdb_lig
+18.936073579282482
+
+BEST RMSD: 18.936073579282482
+BEST LIG: pgh1_ResPos_348_ResID_SER_Trio82_+_motif_5H8K_GOL.pdb_SER23_GOL_Packing_score_-0.438093_Hbond_score_-0.614789_delta_-6.248868.pdb_lig

@@ -1,0 +1,15 @@
+
+braf_ResPos_67_ResID_LEU_Trio9_+_motif_3PLZ_470.pdb_LEU424_470_Packing_score_-1.490355_Hbond_score_0.000000_delta_-19.191210.pdb_lig
+2.1453525767508297
+
+braf_ResPos_67_ResID_LEU_Trio23_+_motif_6IJJ_CLA.pdb_LEU157_CLA_Packing_score_-1.058957_Hbond_score_0.000000_delta_-4.184201.pdb_lig
+7.68799389818771
+
+braf_ResPos_67_ResID_LEU_Trio70_+_motif_7A55_QZ2.pdb_LEU294_QZ2_Packing_score_-1.802657_Hbond_score_0.000000_delta_-19.086142.pdb_lig
+1.8130821823623995
+
+braf_ResPos_67_ResID_LEU_Trio77_+_motif_6B6H_CMP.pdb_LEU124_CMP_Packing_score_-2.667996_Hbond_score_0.000000_delta_-17.436675.pdb_lig
+5.579184467413547
+
+BEST RMSD: 1.8130821823623995
+BEST LIG: braf_ResPos_67_ResID_LEU_Trio70_+_motif_7A55_QZ2.pdb_LEU294_QZ2_Packing_score_-1.802657_Hbond_score_0.000000_delta_-19.086142.pdb_lig

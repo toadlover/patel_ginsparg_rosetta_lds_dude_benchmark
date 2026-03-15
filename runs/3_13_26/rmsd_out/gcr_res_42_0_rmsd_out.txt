@@ -1,0 +1,6 @@
+
+gcr_ResPos_42_ResID_GLN_Trio50_+_motif_6ZI7_HEM.pdb_GLN252_HEM_Packing_score_-1.565078_Hbond_score_0.000000_delta_-29.213068.pdb_lig
+0.3047598325822409
+
+BEST RMSD: 0.3047598325822409
+BEST LIG: gcr_ResPos_42_ResID_GLN_Trio50_+_motif_6ZI7_HEM.pdb_GLN252_HEM_Packing_score_-1.565078_Hbond_score_0.000000_delta_-29.213068.pdb_lig
