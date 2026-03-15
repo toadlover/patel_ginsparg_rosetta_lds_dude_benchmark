@@ -1,9 +1,0 @@
-
-pyrd_+_0.pdb_lig
-8.944073727997317
-
-pyrd_+_1.pdb_lig
-10.121974655467477
-
-BEST RMSD: 8.944073727997317
-BEST LIG: pyrd_+_0.pdb_lig

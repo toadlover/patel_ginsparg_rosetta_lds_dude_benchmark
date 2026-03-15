@@ -1,9 +1,0 @@
-
-plk1_+_0.pdb_lig
-11.110295308575289
-
-plk1_+_1.pdb_lig
-6.389007265902114
-
-BEST RMSD: 6.389007265902114
-BEST LIG: plk1_+_1.pdb_lig

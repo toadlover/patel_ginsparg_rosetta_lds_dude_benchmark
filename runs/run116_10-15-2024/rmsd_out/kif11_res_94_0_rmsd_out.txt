@@ -1,6 +1,0 @@
-
-kif11_+_0.pdb_lig
-5.620265695218374
-
-BEST RMSD: 5.620265695218374
-BEST LIG: kif11_+_0.pdb_lig

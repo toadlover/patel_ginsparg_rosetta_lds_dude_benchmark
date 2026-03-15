@@ -1,6 +1,0 @@
-
-adrb1_+_0.pdb_lig
-0.3945620839554126
-
-BEST RMSD: 0.3945620839554126
-BEST LIG: adrb1_+_0.pdb_lig

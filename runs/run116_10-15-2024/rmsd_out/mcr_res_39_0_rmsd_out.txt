@@ -1,6 +1,0 @@
-
-mcr_+_0.pdb_lig
-0.22089468426936282
-
-BEST RMSD: 0.22089468426936282
-BEST LIG: mcr_+_0.pdb_lig

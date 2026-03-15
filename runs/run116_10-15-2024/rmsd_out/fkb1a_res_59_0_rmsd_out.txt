@@ -1,6 +1,0 @@
-
-fkb1a_+_0.pdb_lig
-7.4654945164402875
-
-BEST RMSD: 7.4654945164402875
-BEST LIG: fkb1a_+_0.pdb_lig

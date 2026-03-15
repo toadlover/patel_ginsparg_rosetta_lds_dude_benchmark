@@ -1,6 +1,0 @@
-
-mmp13_+_0.pdb_lig
-8.766919411303249
-
-BEST RMSD: 8.766919411303249
-BEST LIG: mmp13_+_0.pdb_lig

@@ -1,6 +1,0 @@
-
-casp3_+_0.pdb_lig
-4.298312996868377
-
-BEST RMSD: 4.298312996868377
-BEST LIG: casp3_+_0.pdb_lig

@@ -1,6 +1,0 @@
-
-pgh2_+_0.pdb_lig
-5.1544212873699315
-
-BEST RMSD: 5.1544212873699315
-BEST LIG: pgh2_+_0.pdb_lig

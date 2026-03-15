@@ -1,9 +1,0 @@
-
-reni_+_0.pdb_lig
-0.1997434983079025
-
-reni_+_1.pdb_lig
-1.9691975345892954
-
-BEST RMSD: 0.1997434983079025
-BEST LIG: reni_+_0.pdb_lig

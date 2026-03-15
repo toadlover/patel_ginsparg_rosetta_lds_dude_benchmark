@@ -1,9 +1,0 @@
-
-rock1_+_1.pdb_lig
-7.532438246971857
-
-rock1_+_0.pdb_lig
-8.488908492196682
-
-BEST RMSD: 7.532438246971857
-BEST LIG: rock1_+_1.pdb_lig

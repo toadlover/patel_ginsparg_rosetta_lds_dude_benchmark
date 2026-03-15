@@ -1,6 +1,0 @@
-
-pa2ga_+_0.pdb_lig
-8.404050412350779
-
-BEST RMSD: 8.404050412350779
-BEST LIG: pa2ga_+_0.pdb_lig

@@ -1,6 +1,0 @@
-
-abl1_+_0.pdb_lig
-0.17397007273349238
-
-BEST RMSD: 0.17397007273349238
-BEST LIG: abl1_+_0.pdb_lig

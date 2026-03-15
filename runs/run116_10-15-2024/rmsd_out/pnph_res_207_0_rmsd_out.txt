@@ -1,9 +1,0 @@
-
-pnph_+_0.pdb_lig
-0.8531887864143306
-
-pnph_+_1.pdb_lig
-6.092232574093188
-
-BEST RMSD: 0.8531887864143306
-BEST LIG: pnph_+_0.pdb_lig

@@ -1,6 +1,0 @@
-
-lkha4_+_0.pdb_lig
-2.1930118955247475
-
-BEST RMSD: 2.1930118955247475
-BEST LIG: lkha4_+_0.pdb_lig

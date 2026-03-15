@@ -1,6 +1,0 @@
-
-dyr_+_0.pdb_lig
-0.2784857117818913
-
-BEST RMSD: 0.2784857117818913
-BEST LIG: dyr_+_0.pdb_lig

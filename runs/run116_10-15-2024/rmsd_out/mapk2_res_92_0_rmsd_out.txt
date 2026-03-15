@@ -1,6 +1,0 @@
-
-mapk2_+_0.pdb_lig
-7.066136482767897
-
-BEST RMSD: 7.066136482767897
-BEST LIG: mapk2_+_0.pdb_lig

@@ -1,6 +1,0 @@
-
-aldr_+_0.pdb_lig
-0.22090253741069293
-
-BEST RMSD: 0.22090253741069293
-BEST LIG: aldr_+_0.pdb_lig

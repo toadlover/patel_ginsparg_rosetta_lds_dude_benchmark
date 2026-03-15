@@ -1,6 +1,0 @@
-
-esr1_+_0.pdb_lig
-0.43672597330314095
-
-BEST RMSD: 0.43672597330314095
-BEST LIG: esr1_+_0.pdb_lig

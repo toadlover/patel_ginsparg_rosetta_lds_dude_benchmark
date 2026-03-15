@@ -1,6 +1,0 @@
-
-def_+_0.pdb_lig
-1.2312059129162771
-
-BEST RMSD: 1.2312059129162771
-BEST LIG: def_+_0.pdb_lig

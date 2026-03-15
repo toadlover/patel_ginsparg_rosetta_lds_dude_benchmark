@@ -1,6 +1,0 @@
-
-rxra_+_0.pdb_lig
-0.42642403582975125
-
-BEST RMSD: 0.42642403582975125
-BEST LIG: rxra_+_0.pdb_lig

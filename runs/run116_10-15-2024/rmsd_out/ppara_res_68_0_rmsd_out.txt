@@ -1,6 +1,0 @@
-
-ppara_+_0.pdb_lig
-0.1268107633324941
-
-BEST RMSD: 0.1268107633324941
-BEST LIG: ppara_+_0.pdb_lig

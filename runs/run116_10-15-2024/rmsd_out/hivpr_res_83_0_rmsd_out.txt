@@ -1,6 +1,0 @@
-
-hivpr_+_0.pdb_lig
-0.18374717518983494
-
-BEST RMSD: 0.18374717518983494
-BEST LIG: hivpr_+_0.pdb_lig
